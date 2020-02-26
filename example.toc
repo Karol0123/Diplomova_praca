@@ -49,14 +49,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.4.5}Cena}{12}{subsubsection.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Z\'{a}ver}{13}{section*.35}
+\contentsline {section}{\numberline {2}N\IeC {\'a}vrh a implement\IeC {\'a}cia aplik\IeC {\'a}cie}{13}{section.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{I}{section*.36}
+\contentsline {subsection}{\numberline {2.1}\IeC {\v S}pecifik\IeC {\'a}cia po\IeC {\v z}iadaviek}{14}{subsection.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Pr\'{i}lohy}{I}{section*.37}
+\contentsline {subsubsection}{\numberline {2.1.1}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} po\IeC {\v z}iadavky}{14}{subsubsection.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.39}
+\contentsline {section}{Z\'{a}ver}{16}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Algoritmus}{III}{section.42}
+\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{I}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}V\IeC {\'y}pis sublime}{IV}{section.45}
+\contentsline {section}{Pr\'{i}lohy}{I}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Algoritmus}{III}{section.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}V\IeC {\'y}pis sublime}{IV}{section.49}
