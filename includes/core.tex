@@ -162,3 +162,57 @@
 
 \indent Enterprise balík stojí 20,83\$ mesačne pri ročnom predplatnom. Balík zahŕňa funkcionalitu Business balíka plus dvojfaktorová autentifikácia, šifrovanie súborov, vlastná kontrola zabezpečenia, vylepšené SLA. 
 
+\section{Návrh a implementácia aplikácie}
+\indent Témou diplomovej práce je implemetovať co-working aplikáciu s využitím webového frameworku Ionic/Angular s neskorším exportom na desktopovú aplikáciu pomocou Electronu na strane frontendu a s použitím Node.js a CouchDB na strane servera. V tejto kapitole sa budeme zaoberať návrhom celej aplikácie s využitím daných technológii na jednotlivých komponentoch. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.60]{img/diagram.png}
+    \caption{Návrh komunikácie medzi komponentami}
+    \label{fig:diagram}
+\end{figure}
+
+\indent Po prieskume aktuálnych technológii sme sa rozhodli využiť Node.js ako náš server, ktorý bude komunikovať s našou NoSql databázou CouchDB, do ktorej bude ukladať zadané dáta a zároveň posielať žiadané dáta na frontend implementovaný pomocou typescriptovo založeného frameworku Ionic. Ionic sa avšak ako bolo spomenuté v kapitole .... využíva na tvorbu webových alebo mobilných aplikácii. Preto finálnu webovú aplikáciu exportujeme nakoniec pomocou Electronu na desktopovú aplikáciu pre platformu Windows/Linux/MacOS.
+
+\subsection{Špecifikácia požiadaviek}
+\indent Prvým krokom pri tvorbe návrhu je špecifikovanie vlastností a celkového správania aplikácie. Definuje sa tu funkcionalita, ktorú chceme aby naša aplikácia mala, správanie aplikácie v určitých situáciách a jej kľúčové parametre, ktoré musí podľa požiadaviek spĺňať.
+\subsubsection{Používateľské požiadavky} 
+\indent Používateľské požiadavky sa stanovili na základe prehľadu co-working aplikácii, ktoré už existujú. Za základ sa zobrali hlavné funkcionality Slacku a k nim sa pridali buď doplnky Slacku alebo funkcie iných aplikácii. Softvér bude mať 2 používateľské rozhrania kedy jedno bude slúžiť ako administrátorské určené pre vedúcich tímov a klasické prostredie určené pre členov tímu. Administrátorské konto bude mať možnosť sa medzi týmito dvoma prostrediami prepínať. Administrátorské prostredie bude umožňovať vytváranie tímov, pozívanie a pridávanie členov tímu a manažovanie taskov. Používateľské prostredie bude umožňovať vytváranie miestností na stránke tímu, vytváranie stretnutí, zahajovanie hlasovaní, pridávanie príspevkov do miestností, komentovanie príspevkov, komunikáciu medzi členmi tímu, pridanie kontaktu, akceptovanie alebo zamietnutie pozvánky do tímu, správu svojich taskov.
+
+\textbf{Funkcionálne požiadavky:}
+
+\underline{\textit{Administrátor:}}
+\indent\begin{itemize}
+    \item Prihlásenie a odhlásenie
+    \item Vytvorenie tímu
+    \item Pridanie používateľa do tímu
+    \item Vytvorenie tasku
+    \item Pridanie používateľa do tasku
+    \item Nastavenie stavu tasku
+    \item Prepnutie sa medzi rozhraniami aministrátor a používateľ
+\end{itemize}
+
+
+\underline{\textit{Používateľ:}}
+\indent\begin{itemize}
+    \item Prihlásenie a odhlásenie
+    \item Akceptovanie pozvánky do tímu
+    \item Pridanie miestnosti v tíme a nastavenie či bude verejná alebo súkromná
+    \item Pridanie ľudí do miestnosti ak je súkromná
+    \item Pridanie udalosti v tíme
+    \item Spravovanie svojich taskov
+    \item Zahájenie hlasovania
+    \item Pridanie kontaktu do svojho zoznamu kontaktov
+    \item Nápisanie správy inému používateľovi
+    \item komentovanie príspevkov v miestnosti
+    \item Prezeranie svojho kalendára\newline
+\end{itemize}
+
+
+\textbf{Nefunkcionálne požiadavky:}
+\indent\begin{itemize}
+    \item Používateľsky prijateľné prostredie
+    \item Obsluha viacerých používateľov
+    \item Používateľské rozhranie implementované prostredníctvom desktopovej aplikácie
+    \item Dizajn inšpirovaný aplikáciou Slack
+\end{itemize}
