@@ -162,7 +162,7 @@
 
 \indent Enterprise balík stojí 20,83\$ mesačne pri ročnom predplatnom. Balík zahŕňa funkcionalitu Business balíka plus dvojfaktorová autentifikácia, šifrovanie súborov, vlastná kontrola zabezpečenia, vylepšené SLA. 
 
-\section{Návrh a implementácia aplikácie}
+\section{Návrh aplikácie}
 \indent Témou diplomovej práce je implemetovať co-working aplikáciu s využitím webového frameworku Ionic/Angular s neskorším exportom na desktopovú aplikáciu pomocou Electronu na strane frontendu a s použitím Node.js a CouchDB na strane servera. V tejto kapitole sa budeme zaoberať návrhom celej aplikácie s využitím daných technológii na jednotlivých komponentoch. 
 
 \begin{figure}[H]
@@ -177,7 +177,7 @@
 \subsection{Špecifikácia požiadaviek}
 \indent Prvým krokom pri tvorbe návrhu je špecifikovanie vlastností a celkového správania aplikácie. Definuje sa tu funkcionalita, ktorú chceme aby naša aplikácia mala, správanie aplikácie v určitých situáciách a jej kľúčové parametre, ktoré musí podľa požiadaviek spĺňať.
 \subsubsection{Používateľské požiadavky} 
-\indent Používateľské požiadavky sa stanovili na základe prehľadu co-working aplikácii, ktoré už existujú. Za základ sa zobrali hlavné funkcionality Slacku a k nim sa pridali buď doplnky Slacku alebo funkcie iných aplikácii. Softvér bude mať 2 používateľské rozhrania kedy jedno bude slúžiť ako administrátorské určené pre vedúcich tímov a klasické prostredie určené pre členov tímu. Administrátorské konto bude mať možnosť sa medzi týmito dvoma prostrediami prepínať. Administrátorské prostredie bude umožňovať vytváranie tímov, pozívanie a pridávanie členov tímu a manažovanie taskov. Používateľské prostredie bude umožňovať vytváranie miestností na stránke tímu, vytváranie stretnutí, zahajovanie hlasovaní, pridávanie príspevkov do miestností, komentovanie príspevkov, komunikáciu medzi členmi tímu, pridanie kontaktu, akceptovanie alebo zamietnutie pozvánky do tímu, správu svojich taskov.
+\indent Používateľské požiadavky sa stanovili na základe prehľadu co-working aplikácii, ktoré už existujú. Za základ sa zobrali hlavné funkcionality Slacku a k nim sa pridali buď doplnky Slacku alebo funkcie iných aplikácii. Softvér bude mať 2 používateľské rozhrania kedy jedno bude slúžiť ako administrátorské určené pre vedúcich tímov a klasické prostredie určené pre členov tímu. Administrátorské konto bude mať možnosť sa medzi týmito dvoma prostrediami prepínať. Administrátorské prostredie bude umožňovať vytváranie tímov, pozívanie a pridávanie členov tímu a manažovanie taskov. Prostredie člena tímu bude umožňovať vytváranie miestností na stránke tímu, vytváranie stretnutí, zahajovanie hlasovaní, pridávanie príspevkov do miestností, komentovanie príspevkov, komunikáciu medzi členmi tímu, pridanie kontaktu, akceptovanie alebo zamietnutie pozvánky do tímu, správu svojich taskov.
 
 \textbf{Funkcionálne požiadavky:}
 
@@ -193,7 +193,7 @@
 \end{itemize}
 
 
-\underline{\textit{Používateľ:}}
+\underline{\textit{Člen tímu:}}
 \indent\begin{itemize}
     \item Prihlásenie a odhlásenie
     \item Akceptovanie pozvánky do tímu
@@ -216,3 +216,18 @@
     \item Používateľské rozhranie implementované prostredníctvom desktopovej aplikácie
     \item Dizajn inšpirovaný aplikáciou Slack
 \end{itemize}
+
+\subsection{Diagramy}
+\indent Po zadefinovaní požiadaviek môžeme pristúpiť k ďalšej časti, z ktorej návrh aplikácie pozostáva a to k diagramom. Podľa týchto diagramov sa potom pri implementácii budeme riadiť nakoľko tie nám presne ukazujú ako sa bude systém správať pri používaní a ako majú jednotlivé komponenti a časti aplikácie medzi sebou komunikovať. Základným diagramom, ktorý si vytvoríme ako prvý bude diagram prípadov použitia, ktorý nám buďe ukazovať ako jednotlivý herci - typy používateľov môžu používať aplikáciu. Ďalej existujú diagramy tried, ktoré pomáhajú vývojárovi vizualozovať si jednotlivé triedy, ktoré sa tvoria pri objektovo oriantovaných jazykoch. V našom prípade ale tento diagram vytvárať nebudme nakoľko nami používaný JavaScript ani TypeScript nie sú klasické objektovo oriantované jazyky. Diagramy, ktoré ale budeme určite vytvárať sú sekvenčné. Tie nám vizualizujú interakciu medzi komponentami alebo časťami kódu v aplikácii.
+
+\subsubsection{Diagramy prípadov použitia}
+\indent Diagramy prípadov použitia sa používajú na popísanie správania systému z hľadiska jeho používania. Ukazujú aký rôzny používatelia môžu systém používať a aké činnosti môžu v tomto systéme vykonávať.
+
+\indent Obrázok ..... nám ukazuje základné možnosti akéhokoľvek používateľa nášho systému. Tento používateľ sa najskôr musi registrovať do systému. Potom sa môže prihlásiť. Po prihlásení má na výber pod akým typom používateľa sa chce aktuálne prihlásiť - či pod administrátorom alebo ako člen tímu. 
+
+\indent Druhý diagram - Obrázok ..... nám ilustruje prípady použitia ak používateľ vybral možnosť prihlásiť sa ako administrátor prípadne ak sa člen tímu prepol do admnistrátorského rozhrania. Administrátor teraz môže buť spravovať svoje tími alebo vytvoriť nový tím.
+
+\indent Posledný diagram prípadov použitia - Obrázok .... nám ilustruje ako môže používateľ používať systém ak si vybral možnosť prihlásiť sa ako člen tímu alebo sa prepol z admnistrátorského rozhrania do rozhrania člena tímu. Tu má používateľ na výber viacero možností čo môže v aplikácii vykonať.
+
+\subsubsection{Sekvenčné diagramy}
+\indent Nasledujúce diagramy budú asi najpoužívanejšie pri implemtácii aplikácie nakoľko sekvenčné diagramy nám ukazujú interakcie medzi komponentami v systéme.
