@@ -204,7 +204,7 @@
     \item Zahájenie hlasovania
     \item Pridanie kontaktu do svojho zoznamu kontaktov
     \item Nápisanie správy inému používateľovi
-    \item komentovanie príspevkov v miestnosti
+    \item Komentovanie príspevkov v miestnosti
     \item Prezeranie svojho kalendára\newline
 \end{itemize}
 
@@ -223,11 +223,32 @@
 \subsubsection{Diagramy prípadov použitia}
 \indent Diagramy prípadov použitia sa používajú na popísanie správania systému z hľadiska jeho používania. Ukazujú aký rôzny používatelia môžu systém používať a aké činnosti môžu v tomto systéme vykonávať.
 
-\indent Obrázok ..... nám ukazuje základné možnosti akéhokoľvek používateľa nášho systému. Tento používateľ sa najskôr musi registrovať do systému. Potom sa môže prihlásiť. Po prihlásení má na výber pod akým typom používateľa sa chce aktuálne prihlásiť - či pod administrátorom alebo ako člen tímu. 
+\indent Obrázok~\ref{fig:use_case_pozivatel} nám ukazuje základné možnosti akéhokoľvek používateľa nášho systému. Tento používateľ sa najskôr musi registrovať do systému. Potom sa môže prihlásiť. Po prihlásení má na výber pod akým typom používateľa sa chce aktuálne prihlásiť - či pod administrátorom alebo ako člen tímu. 
 
-\indent Druhý diagram - Obrázok ..... nám ilustruje prípady použitia ak používateľ vybral možnosť prihlásiť sa ako administrátor prípadne ak sa člen tímu prepol do admnistrátorského rozhrania. Administrátor teraz môže buť spravovať svoje tími alebo vytvoriť nový tím.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/DP_use_case_pouzivatel.png}
+    \caption{Use case diagram pre používateľské prostredie}
+    \label{fig:use_case_pozivatel}
+\end{figure}
 
-\indent Posledný diagram prípadov použitia - Obrázok .... nám ilustruje ako môže používateľ používať systém ak si vybral možnosť prihlásiť sa ako člen tímu alebo sa prepol z admnistrátorského rozhrania do rozhrania člena tímu. Tu má používateľ na výber viacero možností čo môže v aplikácii vykonať.
+\indent Druhý diagram - Obr.~\ref{fig:use_case_administrator} nám ilustruje prípady použitia ak používateľ vybral možnosť prihlásiť sa ako administrátor prípadne ak sa člen tímu prepol do admnistrátorského rozhrania. Administrátor teraz môže buť spravovať svoje tími alebo vytvoriť nový tím.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/DP_use_case_administrator.png}
+    \caption{Use case diagram pre administrátorské prostredie}
+    \label{fig:use_case_administrator}
+\end{figure}
+
+\indent Posledný diagram prípadov použitia - Obr.~\ref{fig:use_case_clen_timu} nám ilustruje ako môže používateľ používať systém ak si vybral možnosť prihlásiť sa ako člen tímu alebo sa prepol z admnistrátorského rozhrania do rozhrania člena tímu. Tu má používateľ na výber viacero možností čo môže v aplikácii vykonať.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/DP_use_case_clen_timu.png}
+    \caption{Use case diagram prostredia člena tímu}
+    \label{fig:use_case_clen_timu}
+\end{figure}
 
 \subsubsection{Sekvenčné diagramy}
 \indent Nasledujúce diagramy budú asi najpoužívanejšie pri implemtácii aplikácie nakoľko sekvenčné diagramy nám ukazujú interakcie medzi komponentami v systéme.
