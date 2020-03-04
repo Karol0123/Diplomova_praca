@@ -61,14 +61,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.2}Sekven\IeC {\v c}n\IeC {\'e} diagramy}{18}{subsubsection.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Z\'{a}ver}{19}{section*.45}
+\contentsline {subsection}{\numberline {2.3}Datab\IeC {\'a}zov\IeC {\'y} model CouchDB}{18}{subsection.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{I}{section*.46}
+\contentsline {section}{Z\'{a}ver}{22}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Pr\'{i}lohy}{I}{section*.47}
+\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{I}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.49}
+\contentsline {section}{Pr\'{i}lohy}{I}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Algoritmus}{III}{section.52}
+\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C}V\IeC {\'y}pis sublime}{IV}{section.55}
+\contentsline {section}{\numberline {B}Algoritmus}{III}{section.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}V\IeC {\'y}pis sublime}{IV}{section.56}

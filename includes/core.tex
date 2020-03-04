@@ -252,3 +252,90 @@
 
 \subsubsection{Sekvenčné diagramy}
 \indent Nasledujúce diagramy budú asi najpoužívanejšie pri implemtácii aplikácie nakoľko sekvenčné diagramy nám ukazujú interakcie medzi komponentami v systéme.
+
+\subsection{Databázový model CouchDB}
+\indent Po analýze viacrých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Model potrebných objektov môžeme vydieť na naledujúcom obrázku- Obr. 
+
+WorkVersion
+
+\textbf{User:}
+\indent\begin{itemize}
+    \item základné údaje meno priezvisko heslo mail
+    \item kontakty - pole id userov z DB
+    \item workspace - pole id miestnosti z DB
+    \item kalendar - pole id udalosti z DB
+\end{itemize}
+
+\textbf{Udalost:}
+\indent\begin{itemize}
+    \item nazov
+    \item tím - id timu v ktorom udalost je
+    \item zaciatok
+    \item koniec
+    \item ucastnici - pole id userov z DB
+\end{itemize}
+
+\textbf{Tím:}
+\indent\begin{itemize}
+    \item nazov
+    \item admin - id usera z DB
+    \item clenovia - pole id userov z DB 
+    \item miestnosti - pole id miestnosti z DB
+    \item udalosti - pole id udalosti z DB 
+    \item tasky - pole id taskov patriacich timu
+\end{itemize}
+
+\textbf{Miestnost:}
+\indent\begin{itemize}
+    \item nazov
+    \item typ - true=sukromna, false=verejna
+    \item clenovia - pole id userov z DB - ak verejna automaticky prida vsetkych clenov timu
+    \item prispevok - pole id prispevkov z DB
+    \item hlasovania - id z DB aktualneho hlasovania
+\end{itemize}
+
+\textbf{Prispevok:}
+\indent\begin{itemize}
+    \item text
+    \item autor - id usera z DB
+    \item cas pridania
+    \item komentare - pole id komentarov z DB
+\end{itemize}
+
+\textbf{Komentar:}
+\indent\begin{itemize}
+    \item text
+    \item autor - id usera z DB
+    \item cas pridania
+\end{itemize}
+
+\textbf{Sprava:}
+\indent\begin{itemize}
+    \item text
+    \item autor - id usera z DB
+    \item komu - id usera z DB
+    \item cas odoslania
+\end{itemize}
+
+\textbf{Hlasovanie:}
+\indent\begin{itemize}
+    \item text
+    \item autor - id usera z DB
+    \item tim
+    \item miestnost
+    \item prva moznost
+    \item druha moznost
+    \item pocet za prvu
+    \item pocet za druhu
+\end{itemize}
+
+\textbf{Task:}
+\indent\begin{itemize}
+    \item text
+    \item tim
+    \item prideleni useri - pole id userov z DB
+    \item stav tasku
+    \item poznamky - pole id komentarov z DB
+\end{itemize}
+
+\indent Obrazky ... - ... \textbf{Doplni sa ked bude DB hotová s pár dátami} sú záznamy jednotlivých objektov z CouchDB kde môžeme vidieť aj jednotlivé typy záznamov. 

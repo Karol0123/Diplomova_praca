@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  3 MAR 2020 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  4 MAR 2020 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1512,7 +1512,7 @@ No file example.acr.
 
 
 ] (./includes/core.tex [2]
-<img/obr1.png, id=263, 447.17062pt x 374.90062pt>
+<img/obr1.png, id=268, 447.17062pt x 374.90062pt>
 File: img/obr1.png Graphic file (type png)
 <use img/obr1.png>
 Package pdftex.def Info: img/obr1.png  used on input line 18.
@@ -1522,13 +1522,13 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 37.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [4]
-<img/obr-fb-workplace.jpg, id=277, 1806.75pt x 1028.84375pt>
+<img/obr-fb-workplace.jpg, id=282, 1806.75pt x 1028.84375pt>
 File: img/obr-fb-workplace.jpg Graphic file (type jpg)
 <use img/obr-fb-workplace.jpg>
 Package pdftex.def Info: img/obr-fb-workplace.jpg  used on input line 61.
 (pdftex.def)             Requested size: 451.6864pt x 257.21031pt.
  [5 <./img/obr-fb-workplace.jpg>] [6]
-<img/obr-ms-teams.jpg, id=286, 579.66562pt x 325.96782pt>
+<img/obr-ms-teams.jpg, id=291, 579.66562pt x 325.96782pt>
 File: img/obr-ms-teams.jpg Graphic file (type jpg)
 <use img/obr-ms-teams.jpg>
 Package pdftex.def Info: img/obr-ms-teams.jpg  used on input line 96.
@@ -1539,24 +1539,24 @@ Overfull \hbox (2.52646pt too wide) in paragraph at lines 105--106
  []
 
 [8]
-<img/obr4.png, id=297, 1445.4pt x 1084.05pt>
+<img/obr4.png, id=302, 1445.4pt x 1084.05pt>
 File: img/obr4.png Graphic file (type png)
 <use img/obr4.png>
 Package pdftex.def Info: img/obr4.png  used on input line 124.
 (pdftex.def)             Requested size: 433.62335pt x 325.21751pt.
  [9] [10 <./img/obr4.png>]
-<img/obr-trello.jpg, id=308, 652.4375pt x 367.3725pt>
+<img/obr-trello.jpg, id=313, 652.4375pt x 367.3725pt>
 File: img/obr-trello.jpg Graphic file (type jpg)
 <use img/obr-trello.jpg>
 Package pdftex.def Info: img/obr-trello.jpg  used on input line 140.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
-<img/obr-trello-profil.jpg, id=309, 652.4375pt x 367.3725pt>
+<img/obr-trello-profil.jpg, id=314, 652.4375pt x 367.3725pt>
 File: img/obr-trello-profil.jpg Graphic file (type jpg)
 <use img/obr-trello-profil.jpg>
 Package pdftex.def Info: img/obr-trello-profil.jpg  used on input line 151.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
  [11 <./img/obr-trello.jpg>] [12 <./img/obr-trello-profil.jpg>]
-<img/diagram.png, id=318, 624.3325pt x 614.295pt>
+<img/diagram.png, id=323, 624.3325pt x 614.295pt>
 File: img/diagram.png Graphic file (type png)
 <use img/diagram.png>
 Package pdftex.def Info: img/diagram.png  used on input line 170.
@@ -1567,23 +1567,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
  []
 
 [15]
-<img/DP_use_case_pouzivatel.png, id=335, 425.03793pt x 381.67593pt>
+<img/DP_use_case_pouzivatel.png, id=340, 425.03793pt x 381.67593pt>
 File: img/DP_use_case_pouzivatel.png Graphic file (type png)
 <use img/DP_use_case_pouzivatel.png>
 Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 230.
 (pdftex.def)             Requested size: 212.51843pt x 190.8375pt.
-<img/DP_use_case_administrator.png, id=337, 494.14612pt x 584.93532pt>
+<img/DP_use_case_administrator.png, id=342, 494.14612pt x 584.93532pt>
 File: img/DP_use_case_administrator.png Graphic file (type png)
 <use img/DP_use_case_administrator.png>
 Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 239.
 (pdftex.def)             Requested size: 247.07245pt x 292.46693pt.
  [16 <./img/DP_use_case_pouzivatel.png>]
-<img/DP_use_case_clen_timu.png, id=343, 718.18312pt x 502.72818pt>
+<img/DP_use_case_clen_timu.png, id=348, 718.18312pt x 502.72818pt>
 File: img/DP_use_case_clen_timu.png Graphic file (type png)
 <use img/DP_use_case_clen_timu.png>
 Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 248.
 (pdftex.def)             Requested size: 359.09068pt x 251.36346pt.
- [17 <./img/DP_use_case_administrator.png>]) [18 <./img/DP_use_case_clen_timu.png>] (./includes/conclusion.tex) [19
+ [17 <./img/DP_use_case_administrator.png>] [18 <./img/DP_use_case_clen_timu.png>] [19]) [20] [21] (./includes/conclusion.tex) [22
 
 
 ]
@@ -1618,24 +1618,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: C54A7BDFABED12D0C5312742A8D19C25;4605.
+(rerunfilecheck)             Checksum: 2A5CF3BE50155F096B810CDC94ED5457;4794.
 Package logreq Info: Writing requests to 'example.run.xml'.
 \openout1 = `example.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28593 strings out of 492982
- 466588 string characters out of 6134896
+ 28598 strings out of 492982
+ 466637 string characters out of 6134896
  957152 words of memory out of 5000000
- 31587 multiletter control sequences out of 15000+600000
+ 31588 multiletter control sequences out of 15000+600000
  62407 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,7n,78p,2049b,1871s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on example.pdf (35 pages, 673290 bytes).
+Output written on example.pdf (38 pages, 677630 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

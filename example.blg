@@ -1,9 +1,9 @@
-[1] Config.pm:302> INFO - This is Biber 2.9
-[3] Config.pm:305> INFO - Logfile is 'example.blg'
-[78] biber:313> INFO - === Tue Mar  3, 2020, 15:43:08
-[122] Biber.pm:371> INFO - Reading 'example.bcf'
-[284] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[323] Utils.pm:169> WARN - The file 'example.bcf' does not contain any citations!
-[340] bbl.pm:617> INFO - Writing 'example.bbl' with encoding 'UTF-8'
-[341] bbl.pm:720> INFO - Output to example.bbl
-[341] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'example.blg'
+[68] biber:313> INFO - === Wed Mar  4, 2020, 15:20:42
+[142] Biber.pm:371> INFO - Reading 'example.bcf'
+[501] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[546] Utils.pm:169> WARN - The file 'example.bcf' does not contain any citations!
+[619] bbl.pm:617> INFO - Writing 'example.bbl' with encoding 'UTF-8'
+[620] bbl.pm:720> INFO - Output to example.bbl
+[624] Biber.pm:110> INFO - WARNINGS: 1
