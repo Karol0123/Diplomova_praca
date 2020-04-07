@@ -1,9 +1,14 @@
-[1] Config.pm:302> INFO - This is Biber 2.9
-[2] Config.pm:305> INFO - Logfile is 'example.blg'
-[77] biber:313> INFO - === Mon Apr  6, 2020, 18:09:01
-[132] Biber.pm:371> INFO - Reading 'example.bcf'
-[338] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[344] Utils.pm:169> WARN - The file 'example.bcf' does not contain any citations!
-[366] bbl.pm:617> INFO - Writing 'example.bbl' with encoding 'UTF-8'
-[368] bbl.pm:720> INFO - Output to example.bbl
-[370] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:302> INFO - This is Biber 2.9
+[1] Config.pm:305> INFO - Logfile is 'example.blg'
+[133] biber:313> INFO - === Tue Apr  7, 2020, 15:56:21
+[196] Biber.pm:371> INFO - Reading 'example.bcf'
+[466] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[567] Biber.pm:3981> INFO - Processing section 0
+[626] Biber.pm:4154> INFO - Looking for bibtex format file 'includes/bibliography.bib' for section 0
+[630] bibtex.pm:1468> INFO - LaTeX decoding ...
+[649] bibtex.pm:1294> INFO - Found BibTeX data source 'includes/bibliography.bib'
+[792] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[792] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[792] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sk-SK'
+[798] bbl.pm:617> INFO - Writing 'example.bbl' with encoding 'UTF-8'
+[802] bbl.pm:720> INFO - Output to example.bbl

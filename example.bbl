@@ -16,5 +16,66 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{mobileappdomain}{article}{}
+      \name{author}{1}{}{%
+        {{hash=714f7e2cfecb80d1d23e1be53517a623}{%
+           family={KOSTOVA\bibnamedelima S.},
+           familyi={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={VRANIĆ\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York: ACM}%
+      }
+      \strng{namehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{fullhash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{bibnamehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{authorbibnamehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{authornamehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{authorfullhash}{714f7e2cfecb80d1d23e1be53517a623}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{isbn}{978-1-4503-5513-1}
+      \field{journaltitle}{Proceeding Programming'18 Companion Conference Companion of the 2nd International Conference on Art, Science, and Engineering of Programming, Nice, France}
+      \field{month}{9}
+      \field{title}{Applying aspect-oriented change realization in the mobile application domain}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mobileappsupport}{book}{}
+      \name{author}{1}{}{%
+        {{hash=847ea2cbeefd03cdb01f8770dfd3f55b}{%
+           family={TRÚCHLY\bibnamedelima P.},
+           familyi={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={PETRÍK\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Danvers: IEEE, 2014}%
+      }
+      \strng{namehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{fullhash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{bibnamehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{authorbibnamehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{authornamehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{authorfullhash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4799-7738-3}
+      \field{note}{Uverejnené v ICETA 2014}
+      \field{title}{Mobile application supporting an engage in sport and social activities}
+      \field{pages}{s. 477\bibrangedash 482.}
+      \range{pages}{-1}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

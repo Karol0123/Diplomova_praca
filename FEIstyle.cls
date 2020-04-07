@@ -97,7 +97,7 @@
 \usepackage{algorithmic}
 \usepackage[acronym,nopostdot,nogroupskip,nonumberlist]{glossaries}
 \usepackage[backend=biber,style=iso-numeric,autolang=other,bibencoding=utf8,seconds=true]{biblatex}
-\addbibresource{includes/bibliograph.bib}
+\addbibresource{includes/bibliography.bib}
 
 % \usepackage{showframe} % debugging overflows
 
@@ -717,6 +717,7 @@ na z\'{a}klade poznatkov z\'{i}skan\'{y}ch po\v{c}as \v{s}t\'{u}dia a inform\'{a
    \renewcommand\finalnamedelim{\addspace\bibstring{and}\space}
     % below you can set padding in bibliography
     \setlength{\bibhang}{0pt}
+    \nocite{*}
     \printbibliography
 
 }

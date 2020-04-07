@@ -7,76 +7,88 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Co-working}{2}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Hist\IeC {\'o}ria co-workingu}{2}{subsection.4}
+\contentsline {subsection}{\numberline {1.1}Hist\IeC {\'o}ria co-workingu}{3}{subsection.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Co-working aplik\IeC {\'a}cie}{3}{section.5}
+\contentsline {section}{\numberline {2}Co-working aplik\IeC {\'a}cie}{4}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Slack}{3}{subsection.6}
+\contentsline {subsection}{\numberline {2.1}Slack}{4}{subsection.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Hist\IeC {\'o}ria}{3}{subsubsection.7}
+\contentsline {subsubsection}{\numberline {2.1.1}Hist\IeC {\'o}ria}{4}{subsubsection.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{3}{subsubsection.8}
+\contentsline {subsubsection}{\numberline {2.1.2}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{4}{subsubsection.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Doplnky}{4}{subsubsection.14}
+\contentsline {subsubsection}{\numberline {2.1.3}Doplnky}{5}{subsubsection.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4}V\IeC {\'y}ber najzn\IeC {\'a}mej\IeC {\v s}\IeC {\'\i }ch importov}{5}{subsubsection.15}
+\contentsline {subsubsection}{\numberline {2.1.4}V\IeC {\'y}ber najzn\IeC {\'a}mej\IeC {\v s}\IeC {\'\i }ch importov}{6}{subsubsection.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.5}Cena}{5}{subsubsection.16}
+\contentsline {subsubsection}{\numberline {2.1.5}Cena}{6}{subsubsection.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Facebook Workplace}{6}{subsection.17}
+\contentsline {subsection}{\numberline {2.2}Facebook Workplace}{7}{subsection.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Hist\IeC {\'o}ria}{6}{subsubsection.19}
+\contentsline {subsubsection}{\numberline {2.2.1}Hist\IeC {\'o}ria}{7}{subsubsection.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{7}{subsubsection.20}
+\contentsline {subsubsection}{\numberline {2.2.2}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{8}{subsubsection.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Cena}{7}{subsubsection.21}
+\contentsline {subsubsection}{\numberline {2.2.3}Cena}{8}{subsubsection.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Microsoft Teams}{7}{subsection.22}
+\contentsline {subsection}{\numberline {2.3}Microsoft Teams}{8}{subsection.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Hist\IeC {\'o}ria}{8}{subsubsection.23}
+\contentsline {subsubsection}{\numberline {2.3.1}Hist\IeC {\'o}ria}{9}{subsubsection.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{9}{subsubsection.25}
+\contentsline {subsubsection}{\numberline {2.3.2}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{10}{subsubsection.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}Doplnky}{9}{subsubsection.26}
+\contentsline {subsubsection}{\numberline {2.3.3}Doplnky}{10}{subsubsection.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.4}Cena}{9}{subsubsection.27}
+\contentsline {subsubsection}{\numberline {2.3.4}Cena}{10}{subsubsection.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Trello}{10}{subsection.28}
+\contentsline {subsection}{\numberline {2.4}Trello}{11}{subsection.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Kanbansk\IeC {\'a} n\IeC {\'a}stenka}{10}{subsubsection.29}
+\contentsline {subsubsection}{\numberline {2.4.1}Kanbansk\IeC {\'a} n\IeC {\'a}stenka}{11}{subsubsection.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Hist\IeC {\'o}ria}{11}{subsubsection.31}
+\contentsline {subsubsection}{\numberline {2.4.2}Hist\IeC {\'o}ria}{12}{subsubsection.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{11}{subsubsection.32}
+\contentsline {subsubsection}{\numberline {2.4.3}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{12}{subsubsection.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.4}Doplnky}{13}{subsubsection.35}
+\contentsline {subsubsection}{\numberline {2.4.4}Doplnky}{14}{subsubsection.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.5}Cena}{13}{subsubsection.36}
+\contentsline {subsubsection}{\numberline {2.4.5}Cena}{14}{subsubsection.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Nedostatky aplik\IeC {\'a}cii}{14}{subsection.37}
+\contentsline {subsection}{\numberline {2.5}Nedostatky aplik\IeC {\'a}cii}{15}{subsection.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Mo\IeC {\v z}n\IeC {\'e} technick\IeC {\'e} probl\IeC {\'e}my}{15}{section.38}
+\contentsline {section}{\numberline {3}Mo\IeC {\v z}n\IeC {\'e} technick\IeC {\'e} probl\IeC {\'e}my}{16}{section.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Pou\IeC {\v z}it\IeC {\'e} technol\IeC {\'o}gie}{16}{section.39}
+\contentsline {subsection}{\numberline {3.1}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie}{16}{subsection.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh aplik\IeC {\'a}cie}{17}{section.40}
+\contentsline {subsection}{\numberline {3.2}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} sk\IeC {\'u}senosti}{17}{subsection.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}\IeC {\v S}pecifik\IeC {\'a}cia po\IeC {\v z}iadaviek}{18}{subsection.42}
+\contentsline {subsection}{\numberline {3.3}V\IeC {\'y}kon}{17}{subsection.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} po\IeC {\v z}iadavky}{18}{subsubsection.43}
+\contentsline {subsection}{\numberline {3.4}Strata pripojenia na internet}{17}{subsection.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Diagramy}{19}{subsection.44}
+\contentsline {subsection}{\numberline {3.5}Bezpe\IeC {\v c}nos\IeC {\v t}}{18}{subsection.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Diagramy pr\IeC {\'\i }padov pou\IeC {\v z}itia}{20}{subsubsection.45}
+\contentsline {subsection}{\numberline {3.6}Zhrnutie}{18}{subsection.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}Sekven\IeC {\v c}n\IeC {\'e} diagramy}{22}{subsubsection.49}
+\contentsline {section}{\numberline {4}Pou\IeC {\v z}it\IeC {\'e} technol\IeC {\'o}gie}{19}{section.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Datab\IeC {\'a}zov\IeC {\'y} model CouchDB}{22}{subsection.50}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh aplik\IeC {\'a}cie}{20}{section.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Z\'{a}ver}{26}{section*.51}
+\contentsline {subsection}{\numberline {5.1}\IeC {\v S}pecifik\IeC {\'a}cia po\IeC {\v z}iadaviek}{21}{subsection.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{I}{section*.52}
+\contentsline {subsubsection}{\numberline {5.1.1}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} po\IeC {\v z}iadavky}{21}{subsubsection.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Pr\'{i}lohy}{I}{section*.53}
+\contentsline {subsection}{\numberline {5.2}Diagramy}{22}{subsection.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.55}
+\contentsline {subsubsection}{\numberline {5.2.1}Diagramy pr\IeC {\'\i }padov pou\IeC {\v z}itia}{23}{subsubsection.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2}Sekven\IeC {\v c}n\IeC {\'e} diagramy}{25}{subsubsection.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Datab\IeC {\'a}zov\IeC {\'y} model CouchDB}{25}{subsection.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Z\'{a}ver}{29}{section*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{30}{section*.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Pr\'{i}lohy}{I}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.62}
