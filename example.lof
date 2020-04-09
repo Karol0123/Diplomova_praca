@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {slovak}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Y-base \IeC {\v s}tudentk\IeC {\'y} co-working space na intern\IeC {\'a}te \IeC {\v S}D Mlados\IeC {\v t} Bratislava\relax }}{2}{figure.caption.4}
+\contentsline {figure}{\numberline {1}{\ignorespaces Y-base \IeC {\v s}tudentk\IeC {\'y} co-working space na intern\IeC {\'a}te STU \IeC {\v S}D Mlados\IeC {\v t} Bratislava\relax }}{2}{figure.caption.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2}{\ignorespaces Co-working centrum v San Franciscu\relax }}{3}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
@@ -17,14 +17,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {8}{\ignorespaces Str\IeC {\'a}nka profilu\relax }}{14}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces N\IeC {\'a}vrh komunik\IeC {\'a}cie medzi komponentami\relax }}{20}{figure.caption.49}
+\contentsline {figure}{\numberline {9}{\ignorespaces Jednoduch\IeC {\'y} program Hello World v Node.js\relax }}{19}{figure.caption.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Use case diagram pre pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} prostredie\relax }}{23}{figure.caption.54}
+\contentsline {figure}{\numberline {10}{\ignorespaces N\IeC {\'a}vrh komunik\IeC {\'a}cie medzi komponentami\relax }}{21}{figure.caption.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces Use case diagram pre administr\IeC {\'a}torsk\IeC {\'e} prostredie\relax }}{24}{figure.caption.55}
+\contentsline {figure}{\numberline {11}{\ignorespaces Use case diagram pre pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} prostredie\relax }}{24}{figure.caption.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces Use case diagram prostredia \IeC {\v c}lena t\IeC {\'\i }mu\relax }}{24}{figure.caption.56}
+\contentsline {figure}{\numberline {12}{\ignorespaces Use case diagram pre administr\IeC {\'a}torsk\IeC {\'e} prostredie\relax }}{25}{figure.caption.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram prihl\IeC {\'a}senia a registr\IeC {\'a}cie\relax }}{25}{figure.caption.58}
+\contentsline {figure}{\numberline {13}{\ignorespaces Use case diagram prostredia \IeC {\v c}lena t\IeC {\'\i }mu\relax }}{25}{figure.caption.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram komunik\IeC {\'a}cie komponentov v aplik\IeC {\'a}cii\relax }}{26}{figure.caption.59}
+\contentsline {figure}{\numberline {14}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram prihl\IeC {\'a}senia a registr\IeC {\'a}cie\relax }}{26}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram komunik\IeC {\'a}cie komponentov v aplik\IeC {\'a}cii\relax }}{27}{figure.caption.62}

@@ -4,7 +4,7 @@
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.40]{img/ybase.jpg}
-    \caption{Y-base študentký co-working space na internáte ŠD Mladosť Bratislava}
+    \caption{Y-base študentký co-working space na internáte STU ŠD Mladosť Bratislava}
     \label{fig:img-ybase}
 \end{figure}
 
@@ -190,7 +190,7 @@
 \indent Enterprise balík stojí 20,83\$ mesačne pri ročnom predplatnom. Balík zahŕňa funkcionalitu Business balíka plus dvojfaktorová autentifikácia, šifrovanie súborov, vlastná kontrola zabezpečenia, vylepšené SLA. 
 
 \subsection{Nedostatky aplikácii}
-\indent Pri každej aplikícii okrem Facebook Workplace sme mohli vidieť, že využívajú rôzne doplnky. Pre použitie týchto doplnkov avšak musí používateľ zväčša disponovať účtom založeným v danej platforme. Napríklad ak chce používateľ v Slacku využívať Google kalendár musí mať založený účet na platforme Google. Táto skutočnosť je častokrát medzi používateľmi považovaná za otravnú a častokrát má používateľ potom zbytočne vytvorené účty na veľkom množstve platform ,ktoré zvyknú používateľa aj spamovať na email. Preto do našej aplikácie chceme importovať služby, ktoré sú zväčša najžiadanejšie medzi službami ponúkanými doplnkami. 
+\indent Pri každej aplikícii okrem Facebook Workplace sme mohli vidieť, že využívajú rôzne doplnky. Pre použitie týchto doplnkov avšak musí používateľ zväčša disponovať účtom založeným v danej platforme. Napríklad ak chce používateľ v Slacku využívať Google kalendár musí mať založený účet na platforme Google. Táto skutočnosť je častokrát medzi používateľmi považovaná za otravnú a častokrát má používateľ potom zbytočne vytvorené účty na veľkom množstve platform, ktoré zvyknú používateľa aj spamovať na email. Preto do našej aplikácie chceme importovať služby, ktoré sú zväčša najžiadanejšie medzi službami ponúkanými doplnkami. 
 
 \indent Druhým veľkým nedostatkom, ktorý by sme chceli našou aplikáciou odtrániť je nutnosť platenia. Je samozrejmé, že pre veľké firmy nie je problém si radšej priplatiť za stabilnú a 100\% funkčnú aplikáciu, ktorá poskytuje veľké množstvo služieb aj za cenu pridania veľkého množstva doplnkov. Avšak pre študentov je odstránenie potreby platenia za aplikáciu veľkým prínosom. Jedná sa hlavne o ostránenie limitu používateľov bez poplatku za aplikáciu. Pri niektorých aplikáciach je avšak poplatok aj za určité služby v podobe dopnkov. Toto sa v našej aplikácii tak isto nachádzať nebude. Každý používateľ bude mať plný a rovnaký prístup k aplikácii. Za základ našej aplikácie sme si zvolili rovnakú funkcionalitu ako má Slack bez doplnkov čiže vytvrenie tímov a komunikácia v nich. K tomu pridáme funkcionalitu doplnkov ako je kalendár s udalosťami, možnosť hlasovaní v tíme a jednoduchú nástenku úloh v tíme podobnú ako má Trello. 
 
@@ -228,6 +228,26 @@
 \indent Tieto problémy sú asi najzásadnejšie a najväčšie, s ktorými sa stretneme pri vývoji aplikácie. Jendým menej zásadným problémom, ktorý ale ešte stojí za zmienku je problém možnosti rozšírenia aplikácie. Niektoré aplikácie sú implementované tak, že je skoro nemožné k nim po vydaní dorobiť nejaké rozšírenie alebo dodatok. Pri implementovaní našej aplikácie na to budeme myslieť a bude implementovaná tak aby sa k nej jednoducho dala dorobiť ďaľšia funkcionalita.
 
 \section{Použité technológie}
+\indent V nasledujúcej kapitole zhrnieme technológie, ktoré sme sa rozhodli použiť na implemtovanie našej aplikácie. Ku každej technológii popíšeme možnosti, ktoré plánujeme využiť nakoľko rozpísať všetky možnosti je pre nás zbytočné.
+
+\subsection{Node.js}
+\indent Node.js je na svojich stránkach popísaný ako JavaScript zameraný na udalosti pre tvorbu škálovateľných sieťových aplikácii. Na nasledovnom príklade jednoduchej aplikácie Hello World môžeme vidieť, že sa mnoho spojení dá zvládnuť súčasne - Obr.~\ref{fig:node_hello}. Po každom spojení sa spustí spätné volanie - callback, ale ak nie je potrebné vykonať žiadnu akciu program bude spať kým ho niekto nezavolá. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.60]{img/node_hello.png}
+    \caption{Jednoduchý program Hello World v Node.js}
+    \label{fig:node_hello}
+\end{figure}
+
+\indent Toto je v rozpore s dnešným bežnejším a modernejším prístupom založeným na vláknach operačného systému, ktoré bežia súčasne. Vytváranie vlákien pri sieťovej komunikácii je relatívne neefektívne a veľmi náročné na používanie. Mimo toho sú používatelia servera Node.js bez obáv takzvaného mŕtveho zablokovania procesu, pretože neexistujú žiadne zámky. Takmer žiadna akcia v Node.js priamo nevykonáva I/O, takže proces sa nikdy neblokuje. Preto sa odporúča na škálovateľné aplikácie používať Node.js.
+
+\subsubsection{História}
+\indent Node.js bol vytvorený Ryanom Dahlom v roku 2009 a bol podporovaný len pre platformy Linux a MacOS. Pre porovanie prvé prostredie pre JavaScript na strane servera LiveWire Pro Web bolo uvedené na trh v roku 1996. Údržba a ďaľší vývoj bol najskôr vedený len samotným Dahlom, ale neskôr bol sponzorovaný firmou Joyent. Dahl prezentoval Node.js 8. Novembra 2009 na konferencii European JSConf. Node sa vtedy skadal z JavaScriptovehé enginu V8 od spoločnosti Google, udalostnej slučky (event loop) a nízko-úrovňového I/O API.
+
+\indent V januári 2010 prišiel na trh NPM - správca balíkov pre Node.js. Tento správca umožňuje používateľom Node.js zdielanie a publikovanie zdrojové kódy doplnkových modulov. Zároveň uľahčuje ich sťahovanie, inštaláciu a aktualizáciu. Neskôr v lete 2011 Microsoft a Joyent spolupracovali na vytvorení podpori Node.js pre Windows, ktorú v tom roku aj vydali. 
+
+\indent V roku 2014 po nezhodách pri vývoji sa časť komunity odštiepila a vytvorila io.js. O rok neskôr vznikla, ale Node.js Foundation, ktorá zjednotila roztrieštenú komunitu a zjednotila Node.js v0.12 a io.js v3.3 do Node v4.0. Toto zjednotenie prinieslo novinky z ES6 z V8 a zároveň umožnila dlhodobo trvajúci vývoj platformy.
 
 \section{Návrh aplikácie}
 \indent Témou diplomovej práce je implemetovať co-working aplikáciu s využitím webového frameworku Ionic/Angular s neskorším exportom na desktopovú aplikáciu pomocou Electronu na strane frontendu a s použitím Node.js a CouchDB na strane servera. V tejto kapitole sa budeme zaoberať návrhom celej aplikácie s využitím daných technológii na jednotlivých komponentoch. 

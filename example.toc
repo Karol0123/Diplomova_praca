@@ -71,24 +71,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Pou\IeC {\v z}it\IeC {\'e} technol\IeC {\'o}gie}{19}{section.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}N\IeC {\'a}vrh aplik\IeC {\'a}cie}{20}{section.48}
+\contentsline {subsection}{\numberline {4.1}Node.js}{19}{subsection.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}\IeC {\v S}pecifik\IeC {\'a}cia po\IeC {\v z}iadaviek}{21}{subsection.50}
+\contentsline {subsubsection}{\numberline {4.1.1}Hist\IeC {\'o}ria}{19}{subsubsection.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} po\IeC {\v z}iadavky}{21}{subsubsection.51}
+\contentsline {section}{\numberline {5}N\IeC {\'a}vrh aplik\IeC {\'a}cie}{21}{section.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Diagramy}{22}{subsection.52}
+\contentsline {subsection}{\numberline {5.1}\IeC {\v S}pecifik\IeC {\'a}cia po\IeC {\v z}iadaviek}{22}{subsection.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Diagramy pr\IeC {\'\i }padov pou\IeC {\v z}itia}{23}{subsubsection.53}
+\contentsline {subsubsection}{\numberline {5.1.1}Pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} po\IeC {\v z}iadavky}{22}{subsubsection.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}Sekven\IeC {\v c}n\IeC {\'e} diagramy}{25}{subsubsection.57}
+\contentsline {subsection}{\numberline {5.2}Diagramy}{23}{subsection.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Datab\IeC {\'a}zov\IeC {\'y} model CouchDB}{26}{subsection.60}
+\contentsline {subsubsection}{\numberline {5.2.1}Diagramy pr\IeC {\'\i }padov pou\IeC {\v z}itia}{24}{subsubsection.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Z\'{a}ver}{30}{section*.61}
+\contentsline {subsubsection}{\numberline {5.2.2}Sekven\IeC {\v c}n\IeC {\'e} diagramy}{26}{subsubsection.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{31}{section*.62}
+\contentsline {subsection}{\numberline {5.3}Datab\IeC {\'a}zov\IeC {\'y} model CouchDB}{27}{subsection.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Pr\'{i}lohy}{I}{section*.63}
+\contentsline {section}{Z\'{a}ver}{31}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.65}
+\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{32}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Pr\'{i}lohy}{I}{section*.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.68}

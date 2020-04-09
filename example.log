@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  9 APR 2020 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  9 APR 2020 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1474,19 +1474,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ] (./includes/core.tex
-<img/ybase.jpg, id=304, 1084.05pt x 653.44125pt>
+<img/ybase.jpg, id=316, 1084.05pt x 653.44125pt>
 File: img/ybase.jpg Graphic file (type jpg)
 <use img/ybase.jpg>
 Package pdftex.def Info: img/ybase.jpg  used on input line 6.
 (pdftex.def)             Requested size: 433.61232pt x 261.37187pt.
  [2 <./img/ybase.jpg>]
-<img/coworking_space.jpg, id=309, 712.6625pt x 485.815pt>
+<img/coworking_space.jpg, id=321, 712.6625pt x 485.815pt>
 File: img/coworking_space.jpg Graphic file (type jpg)
 <use img/coworking_space.jpg>
 Package pdftex.def Info: img/coworking_space.jpg  used on input line 19.
 (pdftex.def)             Requested size: 356.33038pt x 242.9069pt.
  [3 <./img/coworking_space.jpg>] [4]
-<img/obr1.png, id=322, 447.17062pt x 374.90062pt>
+<img/obr1.png, id=334, 447.17062pt x 374.90062pt>
 File: img/obr1.png Graphic file (type png)
 <use img/obr1.png>
 Package pdftex.def Info: img/obr1.png  used on input line 45.
@@ -1496,13 +1496,13 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 64.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [6]
-<img/obr-fb-workplace.jpg, id=336, 1806.75pt x 1028.84375pt>
+<img/obr-fb-workplace.jpg, id=348, 1806.75pt x 1028.84375pt>
 File: img/obr-fb-workplace.jpg Graphic file (type jpg)
 <use img/obr-fb-workplace.jpg>
 Package pdftex.def Info: img/obr-fb-workplace.jpg  used on input line 88.
 (pdftex.def)             Requested size: 451.6864pt x 257.21031pt.
  [7 <./img/obr-fb-workplace.jpg>] [8]
-<img/obr-ms-teams.jpg, id=345, 579.66562pt x 325.96782pt>
+<img/obr-ms-teams.jpg, id=357, 579.66562pt x 325.96782pt>
 File: img/obr-ms-teams.jpg Graphic file (type jpg)
 <use img/obr-ms-teams.jpg>
 Package pdftex.def Info: img/obr-ms-teams.jpg  used on input line 123.
@@ -1513,73 +1513,79 @@ Overfull \hbox (2.52646pt too wide) in paragraph at lines 132--133
  []
 
 [10]
-<img/obr4.png, id=355, 1445.4pt x 1084.05pt>
+<img/obr4.png, id=367, 1445.4pt x 1084.05pt>
 File: img/obr4.png Graphic file (type png)
 <use img/obr4.png>
 Package pdftex.def Info: img/obr4.png  used on input line 151.
 (pdftex.def)             Requested size: 361.34912pt x 271.01184pt.
  [11]
-<img/obr-trello.jpg, id=361, 652.4375pt x 367.3725pt>
+<img/obr-trello.jpg, id=373, 652.4375pt x 367.3725pt>
 File: img/obr-trello.jpg Graphic file (type jpg)
 <use img/obr-trello.jpg>
 Package pdftex.def Info: img/obr-trello.jpg  used on input line 167.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
  [12 <./img/obr4.png>]
-<img/obr-trello-profil.jpg, id=367, 652.4375pt x 367.3725pt>
+<img/obr-trello-profil.jpg, id=379, 652.4375pt x 367.3725pt>
 File: img/obr-trello-profil.jpg Graphic file (type jpg)
 <use img/obr-trello-profil.jpg>
 Package pdftex.def Info: img/obr-trello-profil.jpg  used on input line 178.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
- [13 <./img/obr-trello.jpg>] [14 <./img/obr-trello-profil.jpg>] [15] [16] [17] [18] [19]
-<img/diagram.png, id=397, 624.3325pt x 614.295pt>
+ [13 <./img/obr-trello.jpg>] [14 <./img/obr-trello-profil.jpg>] [15] [16] [17] [18]
+<img/node_hello.png, id=406, 733.74126pt x 350.30875pt>
+File: img/node_hello.png Graphic file (type png)
+<use img/node_hello.png>
+Package pdftex.def Info: img/node_hello.png  used on input line 238.
+(pdftex.def)             Requested size: 440.24815pt x 210.18686pt.
+ [19 <./img/node_hello.png>] [20]
+<img/diagram.png, id=416, 624.3325pt x 614.295pt>
 File: img/diagram.png Graphic file (type png)
 <use img/diagram.png>
-Package pdftex.def Info: img/diagram.png  used on input line 237.
+Package pdftex.def Info: img/diagram.png  used on input line 257.
 (pdftex.def)             Requested size: 374.60239pt x 368.57983pt.
- [20 <./img/diagram.png>] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+ [21 <./img/diagram.png>] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
-[22]
-<img/DP_use_case_pouzivatel.png, id=413, 425.03793pt x 381.67593pt>
+[23]
+<img/DP_use_case_pouzivatel.png, id=433, 425.03793pt x 381.67593pt>
 File: img/DP_use_case_pouzivatel.png Graphic file (type png)
 <use img/DP_use_case_pouzivatel.png>
-Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 297.
+Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 317.
 (pdftex.def)             Requested size: 212.51843pt x 190.8375pt.
-<img/DP_use_case_administrator.png, id=415, 494.14612pt x 584.93532pt>
+<img/DP_use_case_administrator.png, id=435, 494.14612pt x 584.93532pt>
 File: img/DP_use_case_administrator.png Graphic file (type png)
 <use img/DP_use_case_administrator.png>
-Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 306.
+Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 326.
 (pdftex.def)             Requested size: 222.3637pt x 263.21846pt.
- [23 <./img/DP_use_case_pouzivatel.png>]
-<img/DP_use_case_clen_timu.png, id=422, 718.18312pt x 502.72818pt>
+ [24 <./img/DP_use_case_pouzivatel.png>]
+<img/DP_use_case_clen_timu.png, id=441, 718.18312pt x 502.72818pt>
 File: img/DP_use_case_clen_timu.png Graphic file (type png)
 <use img/DP_use_case_clen_timu.png>
-Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 315.
+Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 335.
 (pdftex.def)             Requested size: 323.17941pt x 226.22559pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
+Underfull \hbox (badness 10000) in paragraph at lines 341--346
 
  []
 
-[24 <./img/DP_use_case_administrator.png> <./img/DP_use_case_clen_timu.png>]
-<img/Seq_login_register.png, id=428, 866.33662pt x 523.9575pt>
+[25 <./img/DP_use_case_administrator.png> <./img/DP_use_case_clen_timu.png>]
+<img/Seq_login_register.png, id=447, 866.33662pt x 523.9575pt>
 File: img/Seq_login_register.png Graphic file (type png)
 <use img/Seq_login_register.png>
-Package pdftex.def Info: img/Seq_login_register.png  used on input line 329.
+Package pdftex.def Info: img/Seq_login_register.png  used on input line 349.
 (pdftex.def)             Requested size: 433.16725pt x 261.9781pt.
-<img/seq_tim.png, id=430, 866.33662pt x 442.65375pt>
+<img/seq_tim.png, id=449, 866.33662pt x 442.65375pt>
 File: img/seq_tim.png Graphic file (type png)
 <use img/seq_tim.png>
-Package pdftex.def Info: img/seq_tim.png  used on input line 341.
+Package pdftex.def Info: img/seq_tim.png  used on input line 361.
 (pdftex.def)             Requested size: 433.16725pt x 221.32632pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--344
+Underfull \hbox (badness 10000) in paragraph at lines 354--364
 
  []
 
-[25 <./img/Seq_login_register.png>] [26 <./img/seq_tim.png>] [27] [28]) [29] (./includes/conclusion.tex) [30
+[26 <./img/Seq_login_register.png>] [27 <./img/seq_tim.png>] [28] [29]) [30] (./includes/conclusion.tex) [31
 
 
 ]
@@ -1591,7 +1597,7 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[31
+[32
 
 
 ] (./example.pri)
@@ -1614,24 +1620,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: 634FA2640B3047D24A2EEC5317CB060A;6223.
+(rerunfilecheck)             Checksum: 355B27A4126115CA778A0F1B84AA43E5;6421.
 Package logreq Info: Writing requests to 'example.run.xml'.
 \openout1 = `example.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28911 strings out of 492982
- 471973 string characters out of 6134896
+ 28923 strings out of 492982
+ 472180 string characters out of 6134896
  960923 words of memory out of 5000000
- 31921 multiletter control sequences out of 15000+600000
+ 31928 multiletter control sequences out of 15000+600000
  59392 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,8n,78p,2106b,1871s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on example.pdf (42 pages, 962806 bytes).
+Output written on example.pdf (43 pages, 989068 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 111 named destinations out of 1000 (max. 500000)
- 431 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 538 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 452 words of extra memory for PDF output out of 10000 (max. 10000000)
 
