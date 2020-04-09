@@ -1,7 +1,19 @@
 \section{Co-working}
 \indent Co-working je v samotnej podstate model poskytovania obchodných služieb, ktorý zahŕňa jednotlivcov, ktorí pracujú nezávisle alebo spolupracujú v spoločných kancelárskych priestoroch. Toto zdielanie jedných priestorov umožňuje tejto skupine ľudí zdieľať hodnoty, skúsenosti, nápady a profitovať zo synergicekého efektu, ktorý prináša sústredenie talentovaných pracovníkov na jednom mieste. Tiež umožňuje spoznávanie nových ľudí, ktorí môžu byť v budúcnosti pre človeka dôležitý. Najčastejšími využívateľmi co-workingu sú napríklad obchodníci, umelci, programátori, konzultanti, dizajnéri, makléri, agenti, malé a začínajúce firmy.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.40]{img/ybase.jpg}
+    \caption{Y-base študentký co-working space na internáte ŠD Mladosť Bratislava}
+    \label{fig:img-ybase}
+\end{figure}
+
 \indent Pre účely co-workingu sa po celom svete začali budovať tzv. co-working centrá, ktorých počet každým rokom rastie. Vznik týchto centier je výsledkom hľadania stratégií, ako sa vyrovnať s rizikami a problémami nových, flexibilných štýlov práce. Veľa centier bolo založených internetovými podnikateľmi, ktorí chceli nájsť alternatívu k práci z kaviarní alebo k izolácii spôsobenej prácou z domu. Tieto centrá sú zväčša ihneď pripravené a vybavené potrebnými vecami k práci ako sú stoly, stoličky, tabuľe na písanie, kuchynka, internetové pripojenie, mítingové priestory prípadne aj sieťová tlačiareň. To znamená, že pre bežného používateľa nevyžaduje začatie práce v takomto centre žiadne počiatočné alebo investičné náklady. Jediným poplatkom je zaplatenie členstva v centre. 
+
+
+\subsection{História co-workingu}
+\indent Slovo coworking v zmysle popisu ľudí, ktorí pracujú v akomkoľvek prostredí prvý krát použila Bernie DeKoven v roku 1995. K prvému vzniku coworkingového priestoru respektíve centra prišlo ale až v roku 2006 v San Franciscu pod vedením Brada Neuberga. Toto centrum sa nazývalo \textit{San Francisco Coworking Space} a bolo otvorené len 2 dni v týždni. Kuriozitou je, že prvý mesiac ho nikto nevyužival lebo hoci termín coworking bol známy ale nikto ho nepočul pod významom ako coworking miesto alebo centrum. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.50]{img/coworking_space.jpg}
@@ -9,8 +21,6 @@
     \label{fig:img-co-space}
 \end{figure}
 
-\subsection{História co-workingu}
-\indent Slovo coworking v zmysle popisu ľudí, ktorí pracujú v akomkoľvek prostredí prvý krát použila Bernie DeKoven v roku 1995. K prvému vzniku coworkingového priestoru respektíve centra prišlo ale až v roku 2006 v San Franciscu pod vedením Brada Neuberga. Toto centrum sa nazývalo \textit{San Francisco Coworking Space} a bolo otvorené len 2 dni v týždni. Kuriozitou je, že prvý mesiac ho nikto nevyužival lebo hoci termín coworking bol známy ale nikto ho nepočul pod významom ako coworking miesto alebo centrum. 
 \indent Dnes sa vytváranie coworkingových centier pokladá za globáln fenomén, ktorý v niektorých mestách dosahuje ročný nárast až 24,2\%. Predpokladom je, že do roku 2022 bude celostvetovo vytvorených vyše 30500 centier alebo priestorov a viac ako 5,1 milióna členov. Coworking je nová cesta trvalo udržiavateľného spájanie pracovného a osobného života. Je to globálny pilier, ktorý bude formovať spôsob našej práce v budúcnosti. 
 
 \section{Co-working aplikácie}
@@ -293,7 +303,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.50]{img/DP_use_case_administrator.png}
+    \includegraphics[scale=0.45]{img/DP_use_case_administrator.png}
     \caption{Use case diagram pre administrátorské prostredie}
     \label{fig:use_case_administrator}
 \end{figure}
@@ -302,13 +312,38 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.50]{img/DP_use_case_clen_timu.png}
+    \includegraphics[scale=0.45]{img/DP_use_case_clen_timu.png}
     \caption{Use case diagram prostredia člena tímu}
     \label{fig:use_case_clen_timu}
 \end{figure}
 
 \subsubsection{Sekvenčné diagramy}
 \indent Nasledujúce diagramy budú asi najpoužívanejšie pri implemtácii aplikácie nakoľko sekvenčné diagramy nám ukazujú interakcie medzi komponentami v systéme.
+\newline
+\newline
+\textbf{Prihlásenie a registrácia} \newline
+\indent Na Obr.~\ref{fig:seq_login} môžeme vidieť komunikáciu jednotlivých komponentov pri prihlásení alebo registrácii do aplikácie. Na základe výberu používateľa či sa chce prihlásiť alebo registrovať sa mu zobrazí príslušná stránka. Pri prihláseni sa po vyplnení údajov, tieto údaje pošlú na server, ktorý v online databáze skontroluje daný email či používateľ extistuje. Ak existuje skontroluje aj heslo. Ak sú oba údaje správne, server vytvorí autorizačný token s určitou platnosťou a pošle ho kientovi. Na strane klienta sa potom vytvorí lokálna databáza, ktorá si hneď z online databázy stiahne všetky dáta a aplikáciu tu začína pracovať len s lokálnou databázou. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/Seq_login_register.png}
+    \caption{Sekvenčný diagram prihlásenia a registrácie}
+    \label{fig:seq_login}
+\end{figure}
+
+\indent Pri registrácii funguje systém podobne. Po vyplnení údajov sa údaje pošlú na server, ktorý overí či daný email sa auž nepoužíva. Ak sa nepoužíva tak sa do databázy uloží nový používateľ a na stranu klienta je odoslaná správa o úspešenej registrácii. 
+\newline
+\newline
+\textbf{Komunikácia komponentov v aplikácii po prihlásení} \newline
+\indent Diagram Obr.~\ref{fig:seq_com} nám znázorňuje ako budú jednotlivé komponenty v aplikácii medzi sebou komunikovať po prihlásení do aplikácie.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/seq_tim.png}
+    \caption{Sekvenčný diagram komunikácie komponentov v aplikácii}
+    \label{fig:seq_com}
+\end{figure}
+
+\indent Celá komunikácia je založená na http protokole. Na diagrame môžeme vidieť, že ak niektorý používateľ vytvorí tím, udalosť, úlohu alebo napíše správu tak je vytvorená žiadosť na pridanie do databázy. Pridanie do databázy je realizované tak, že najskôr sú dáta pridané do lokálnej databázy PouchDB a ak má zariadenie, na ktorom beží aplikácia prístup na internet sú teito dáta hneď zreplikované do online databázy. Ak prístup na internet nie je tak sú dáta zatial uložené len v lokálnej databáze do doby kým zariadenie nezíska prístup na internet. Ostatným používateľom je potom odoslaná infromácia, že na strane databázy prišlo k zmene a ich dáta, ktoré sa v klientovi zobrazujú sú aktualizované na základe nových dát v databáze.  
 
 \subsection{Databázový model CouchDB}
 \indent Po analýze viacrých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Model potrebných objektov môžeme vydieť na naledujúcom obrázku- Obr. 
