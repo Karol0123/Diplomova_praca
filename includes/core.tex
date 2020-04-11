@@ -165,7 +165,7 @@
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.65]{img/obr-trello.jpg}
-    \caption{Náhľad nástenky}
+    \caption{Náhľad nástenky v aplikácii Trello}
     \label{fig:nastenka}
 \end{figure}
 
@@ -176,7 +176,7 @@
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.65]{img/obr-trello-profil.jpg}
-    \caption{Stránka profilu}
+    \caption{Stránka profilu v aplikácii Trello}
     \label{fig:profil}
 \end{figure}
 
@@ -190,7 +190,7 @@
 \indent Enterprise balík stojí 20,83\$ mesačne pri ročnom predplatnom. Balík zahŕňa funkcionalitu Business balíka plus dvojfaktorová autentifikácia, šifrovanie súborov, vlastná kontrola zabezpečenia, vylepšené SLA. 
 
 \subsection{Nedostatky aplikácii}
-\indent Pri každej aplikícii okrem Facebook Workplace sme mohli vidieť, že využívajú rôzne doplnky. Pre použitie týchto doplnkov avšak musí používateľ zväčša disponovať účtom založeným v danej platforme. Napríklad ak chce používateľ v Slacku využívať Google kalendár musí mať založený účet na platforme Google. Táto skutočnosť je častokrát medzi používateľmi považovaná za otravnú a častokrát má používateľ potom zbytočne vytvorené účty na veľkom množstve platform, ktoré zvyknú používateľa aj spamovať na email. Preto do našej aplikácie chceme importovať služby, ktoré sú zväčša najžiadanejšie medzi službami ponúkanými doplnkami. 
+\indent Pri každej aplikácii okrem Facebook Workplace sme mohli vidieť, že využívajú rôzne doplnky. Pre použitie týchto doplnkov avšak musí používateľ zväčša disponovať účtom založeným v danej platforme. Napríklad ak chce používateľ v Slacku využívať Google kalendár musí mať založený účet na platforme Google. Táto skutočnosť je častokrát medzi používateľmi považovaná za otravnú a častokrát má používateľ potom zbytočne vytvorené účty na veľkom množstve platform, ktoré zvyknú používateľa aj spamovať na email. Preto do našej aplikácie chceme importovať služby, ktoré sú zväčša najžiadanejšie medzi službami ponúkanými doplnkami. 
 
 \indent Druhým veľkým nedostatkom, ktorý by sme chceli našou aplikáciou odtrániť je nutnosť platenia. Je samozrejmé, že pre veľké firmy nie je problém si radšej priplatiť za stabilnú a 100\% funkčnú aplikáciu, ktorá poskytuje veľké množstvo služieb aj za cenu pridania veľkého množstva doplnkov. Avšak pre študentov je odstránenie potreby platenia za aplikáciu veľkým prínosom. Jedná sa hlavne o ostránenie limitu používateľov bez poplatku za aplikáciu. Pri niektorých aplikáciach je avšak poplatok aj za určité služby v podobe dopnkov. Toto sa v našej aplikácii tak isto nachádzať nebude. Každý používateľ bude mať plný a rovnaký prístup k aplikácii. Za základ našej aplikácie sme si zvolili rovnakú funkcionalitu ako má Slack bez doplnkov čiže vytvrenie tímov a komunikácia v nich. K tomu pridáme funkcionalitu doplnkov ako je kalendár s udalosťami, možnosť hlasovaní v tíme a jednoduchú nástenku úloh v tíme podobnú ako má Trello. 
 
@@ -235,7 +235,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.60]{img/node_hello.png}
+    \includegraphics[scale=0.55]{img/node_hello.png}
     \caption{Jednoduchý program Hello World v Node.js}
     \label{fig:node_hello}
 \end{figure}
@@ -248,6 +248,77 @@
 \indent V januári 2010 prišiel na trh NPM - správca balíkov pre Node.js. Tento správca umožňuje používateľom Node.js zdielanie a publikovanie zdrojové kódy doplnkových modulov. Zároveň uľahčuje ich sťahovanie, inštaláciu a aktualizáciu. Neskôr v lete 2011 Microsoft a Joyent spolupracovali na vytvorení podpori Node.js pre Windows, ktorú v tom roku aj vydali. 
 
 \indent V roku 2014 po nezhodách pri vývoji sa časť komunity odštiepila a vytvorila io.js. O rok neskôr vznikla, ale Node.js Foundation, ktorá zjednotila roztrieštenú komunitu a zjednotila Node.js v0.12 a io.js v3.3 do Node v4.0. Toto zjednotenie prinieslo novinky z ES6 z V8 a zároveň umožnila dlhodobo trvajúci vývoj platformy.
+
+\subsubsection{Architektúra Node.js}
+\indent Každá platforma má svoju architektúru, tak isto aj Node.js. V tejto kapitole rozoberieme jej hlavné vlastnosti a časti. Nie všetky budeme potrebovať pri implementácii ale je dobré ich poznať.
+
+\indent Základnou vlastnosťou je, že Node.js má asynchrónne a udalostne riadené API. Toto zaručuje to, že nasledujúce volania nie sú blokované predchádzajúcim volaním. V praxi to znamená, že Node.js nikdy nečaká kým je z volania vrátená hodnota respektíve je volanie dokončené a ukončené. Server sa po zavolaní volania presunie na ďaľšie a vnútorný notifikačný mechanizmus udalosti dostane odpoveď z prechádzajúcich volaní vtedy keď sú dokončené a dostane sa tým aj k výsledku. 
+
+\indent Druhou veľkou výhodou je existencia udalostnej slučky. Vďaka tomu je jednovláknový a vysoko škálovateľný. Vyžšie spomínaný udalostný mechanizmus napomáha serveru vrátiť odpoveď bez blokovania. Tým sa server stáva vysoko škálovateľný v porovnaní s tradičnými riešeniami na strane servera, ktoré majú obmedzený počet vlákien a tým sa aj počet požiadaviek, ktoré sú spracované súčasne stáva obmedzený. 
+
+\indent Ďaľšou výhodou je, že aplikácie založené na platforme Node.js sú bez vyrovnávacej pamäte, číže údaje posielané na výstup sú zoskupované do malých blokov.
+
+\indent Na Obr.~\ref{fig:node_arch} môžeme vidieť základné rozdelenie architektúry platformy Node.js. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.30]{img/node_architecture.png}
+    \caption{Architektúra platformy Node.js}
+    \label{fig:node_arch}
+\end{figure}
+
+\indent Na vrchole sa nachádza Node.js API, ktoré je napísané v JavaScripte a je možné k nemu priamo pristupovať za účelom využitia v aplikáciach. Pod API sa nachádza trio Node.js Bindings, Node.js Standard Libraries a C/C++ AddOns. Node.js Standard Libraries sú funkcie súvisiace s knižnicami operačného systému a umožňujú využívanie napríklad časovačov, súborového systému alebo sieťových volaní http. Node.js Bindings je knižnica, ktorá umožňuje komunikáciu JavaScriptu s C/C++ a tým ich viaže dokopy. Poslednou časťou sú C/C++ AddOns čo sú dynamicky linkované doplnky viazané na C/C++ knižnice. Toto umožňuje vytvorenie akejkoľvek C/C++ knižnice a jej využitie v Node.js. 
+
+\indent Na spodku sa náchádzajú knižnice C/C++:
+\begin{itemize}
+    \item V8 JavaScript Engine - konvertuje JavaScript do strojového kódu daného operačného systému
+    \item LibUv - multiplatformová C knižnica zameriavajúca sa na asynchrónne I/O operácie
+    \item c-ares - C knižnica pre asynchrónne DNS požiadavky a odpovede
+    \item http-parser - C knižnica pre HTTP požiadavky a odpovede
+    \item open-ssl - kryptografické funkcie
+    \item zlib - C knižnica pre synchrónnu aj asynchrónnu kompresiu, dekompresiu a pre streamovanie dát 
+\end{itemize}
+
+\subsubsection{Event loop}
+\indent Event loop alebo udalostná slučka je to čo umožnuje Node.js vykonávať neblokujúce vstupno-výstupné operácie napriek tomu, že JavaScript je jednovláknový. Keďže väčšina moderných jadier má viacvláknové spracovanie tak môžu zvládnuť vykonávať viac operácii na pozadí. V Node.js to ale funguje tak, že keď je jedna z operácii dokončená, jadro povie Node.js, aby do fronty na vykonanie pridalo príslušné spätné volanie na výsledok vykonanej operácie. Na Obr.~\ref{fig:event_loop} môžeme vidieť zjednodušený diagram ako to funguje. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{img/evet_loop.jpg}
+    \caption{Zjednodušená verzia fungovania Node.js architektúri}
+    \label{fig:event_loop}
+\end{figure}
+
+\indent Keď sa Node.js spustí tak inicializuje slučku udalostí a spustí poskytnutý vstupný skript, ktorý môže uskutočňovať asynchrónne volania API. Následne sa začne spracovávať slučka udalostí. Tá postupne spracováva udalosti z fronty udalostí bez toho aby čakala na dokončenie daných udalostí. Keď je táto udalost hotová tak sa jej spätné volanie zaradi na spodok fronty udalostí a jej výsledok je teda znova spracvaný keď sa k nemu slučka dostane. Toto sa opakuje kým nie je fronta udalostí vyčerpaná alebo nie je dosiahnutý maximálny počet spätných volaní. 
+
+\subsubsection{Nevýhody Node.js}
+\indent Ako sme vyžšie popísali Node.js má veľké množstvo výhod, medzo ktoré hlavne patrí asynchrónne I/O, škalovateľnosť, veľká a aktívna komunita a veľke množstvo prídavných modulou. Avšak Node.js má aj určité nevýhody. Medzi hlavné patrí:
+\begin{itemize}
+    \item neefektívnosť pri náročných procesoch pre CPU - tvorba reportov, analýz, zložité výpočty... 
+    \item pri nepochopený práce s callbackmi môže viesť používanie Node.js k zle napísaným kódom
+    \item menej štandarných knižníc v porovnaní s klasickou Javou a .NET platformou
+\end{itemize}
+
+\indent Môžeme teda vidieť, že nie vždy je využitie Node.js možnosťou. Veľmi záleží akú aplikáciu vyvíjame. Ak pracujeme na aplikácii pre real-time komunikáciu s využitím websockeov, streaming alebo rýchlu prácu so súbormi tak je Node.js veľmi vhodný. 
+
+\subsection{Node Package Manager}
+\indent Node package manager, skrátene len NPM je správca prídavných balíkov vyvinutý pre Node.js. Oficiálna stránka \textit{https://www.npmjs.com} obsahuje tisícky voľných balíkov na stiahnutie a používanie. NPM program sa automaticky naištaluje pri inštalácii Node.js. NPM sa následne dá spúšťat z príkazového riadku. Tak isto je možné vytvorenie vlastného balíka a nahratie ho do centrálneho repozitára oficiálnej stránky NPM.
+
+\indent Balík v Node.js je zväčša adresár obsahujúci všetky súbory, ktoré pridavný modul potrebuje. Modul je JavaScriptová knižnica, ktorú programátor môže pridať do svojho projektu. Jedným zo súborov, ktoré sa nachádzajú v adresári musí byť metadátový súbor s názvom \textit{package.json}. V tomto súbore sú definové vlastnosti, meno a verzia balíka. Na Obr.~\ref{fig:package} môžeme vidieť ako takýto súbor vyzerá.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{img/package.png}
+    \caption{Jednoduchý \textit{package.json} súbor}
+    \label{fig:package}
+\end{figure}
+
+Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
+\begin{itemize}
+    \item manuálna inštalácia len pre projekt, na ktorom pracujeme - v termináli sa v priečinku projektu zavolá príkaz \textbf{npm instal \textit{názov\char`_modulu}}. Posledná verzia balíka sa nainštaluje pre projekt a uloží do adresára \textit{node\char`_modules}.
+    \item manuálna inštalácia globálne pre systém - v termináli sa zavolá príkaz \textbf{npm instal \textit{názov\char`_modulu} -g}. Táto možnosť sa ale neodporúča.
+    \item poslednou možnosťou je dopísanie do projektového suború \textit{package.json} do časti dependencies názov modulu a jeho verziu a v termináli zadať príkaz \textbf{npm install}.
+\end{itemize}
 
 \section{Návrh aplikácie}
 \indent Témou diplomovej práce je implemetovať co-working aplikáciu s využitím webového frameworku Ionic/Angular s neskorším exportom na desktopovú aplikáciu pomocou Electronu na strane frontendu a s použitím Node.js a CouchDB na strane servera. V tejto kapitole sa budeme zaoberať návrhom celej aplikácie s využitím daných technológii na jednotlivých komponentoch. 
@@ -352,8 +423,7 @@
 \end{figure}
 
 \indent Pri registrácii funguje systém podobne. Po vyplnení údajov sa údaje pošlú na server, ktorý overí či daný email sa auž nepoužíva. Ak sa nepoužíva tak sa do databázy uloží nový používateľ a na stranu klienta je odoslaná správa o úspešenej registrácii. 
-\newline
-\newline
+\newpage
 \textbf{Komunikácia komponentov v aplikácii po prihlásení} \newline
 \indent Diagram Obr.~\ref{fig:seq_com} nám znázorňuje ako budú jednotlivé komponenty v aplikácii medzi sebou komunikovať po prihlásení do aplikácie.
 \begin{figure}[H]

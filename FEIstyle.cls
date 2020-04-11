@@ -555,8 +555,8 @@ na z\'{a}klade poznatkov z\'{i}skan\'{y}ch po\v{c}as \v{s}t\'{u}dia a inform\'{a
 }
         
 \newcommand\FEIcontent{ 
-    \pagestyle{plain}
-    \addtocontents{toc}{\protect\thispagestyle{plain}}
+    \pagestyle{empty}
+    \addtocontents{toc}{\protect\thispagestyle{empty}}
     \tableofcontents
     \newpage
 }
@@ -645,6 +645,20 @@ na z\'{a}klade poznatkov z\'{i}skan\'{y}ch po\v{c}as \v{s}t\'{u}dia a inform\'{a
     \setlength\LTleft{8pt}
     \setlength\LTright{0pt}
     \setlength\glsdescwidth{\hsize}
+}
+
+\newcommand\FEIlistOfAbbreviationsAndSymbols[1]{	
+	\pagestyle{empty}
+	\IfEqCase*{\FEIenglish}{
+   		 {0}{\def\@zoznamZnc{Zoznam skratiek a zna\v{c}iek}}
+		 {1}{\def\@zoznamZnc{List of Abbreviations and Symbols}}
+		  }[]
+	\addtocontents{lof}{\protect\thispagestyle{empty}}
+	\addtocontents{lot}{\protect\thispagestyle{empty}}
+	\subsection*{\@zoznamZnc}
+	\vspace{5mm} \noindent
+	\input{#1}
+	\newpage
 }
         
 \newcommand\FEIlistOfGlossaries{  
