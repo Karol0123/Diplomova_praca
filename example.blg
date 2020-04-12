@@ -1,14 +1,14 @@
-[3] Config.pm:302> INFO - This is Biber 2.9
-[5] Config.pm:305> INFO - Logfile is 'example.blg'
-[108] biber:313> INFO - === Sat Apr 11, 2020, 17:38:23
-[172] Biber.pm:371> INFO - Reading 'example.bcf'
-[397] Biber.pm:854> INFO - Using all citekeys in bib section 0
-[448] Biber.pm:3981> INFO - Processing section 0
-[499] Biber.pm:4154> INFO - Looking for bibtex format file 'includes/bibliography.bib' for section 0
-[506] bibtex.pm:1468> INFO - LaTeX decoding ...
-[526] bibtex.pm:1294> INFO - Found BibTeX data source 'includes/bibliography.bib'
-[795] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[795] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[796] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sk-SK'
-[822] bbl.pm:617> INFO - Writing 'example.bbl' with encoding 'UTF-8'
-[826] bbl.pm:720> INFO - Output to example.bbl
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'example.blg'
+[99] biber:313> INFO - === Sun Apr 12, 2020, 14:42:00
+[153] Biber.pm:371> INFO - Reading 'example.bcf'
+[373] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[420] Biber.pm:3981> INFO - Processing section 0
+[453] Biber.pm:4154> INFO - Looking for bibtex format file 'includes/bibliography.bib' for section 0
+[458] bibtex.pm:1468> INFO - LaTeX decoding ...
+[474] bibtex.pm:1294> INFO - Found BibTeX data source 'includes/bibliography.bib'
+[562] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[564] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[565] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sk-SK'
+[570] bbl.pm:617> INFO - Writing 'example.bbl' with encoding 'UTF-8'
+[578] bbl.pm:720> INFO - Output to example.bbl

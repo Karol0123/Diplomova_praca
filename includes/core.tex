@@ -215,7 +215,7 @@
 \indent Na ostránenie tohto problému bude preto potrebné aplikáciu implemenovať bez zbytočných chýb v kóde a písať kód čo najednoduchšie. Tak isto bude potrebné aby sme nevyužívali príliš náročné doplnky. Pri tomto probléme bude tiež potrebné dbať na rýchlosť načítavania a ukladania do databázy. Po preštudovaní viac potencionálne využiteľných databáz sme sa rozhodli využiť databázu CouchDB s replikovaním na lokálnu databázu PouchDB. Toto využitie dvoch databáz rozoberieme pri probléme so stratou pripojenia na internet.
 
 \subsection{Strata pripojenia na internet}
-\indent Tento problém môže nastať ktorémukoľvek používateľovi. Ake sme už vyžšie spomenuly naša aplikácia bude vyexportovaná ako desktopová aplikácia čiže spustiť bez pripojenia na internej ju pôjde avšak tu nastáva problém už pri prihlásení. Na prihlásenie bude potrebné byť pripojený na internet nakoľko sa prihlasovacie údaje musia overiť s online databázou. Potom avšak bude možné stratiť pripojenie na internet nakoľko využijeme replikáciu databázy na lokálnu databázu PouchDB. Táto databáza preberie všetky dáta pri prihláseni z online databázy a budeme môcť ich zobrazovať. Tak isto hneď pri akomkoľvek zápise je do online databázy je táto lokálne hneď aktualizovaná ak je teda zariadenie pripojené na internet. Ak pripojenie stratí bude zobrazovať len tie dáta, ktoré boli v databáze do straty pripojenia. 
+\indent Tento problém môže nastať ktorémukoľvek používateľovi. Ake sme už vyššie spomenuly naša aplikácia bude vyexportovaná ako desktopová aplikácia čiže spustiť bez pripojenia na internej ju pôjde avšak tu nastáva problém už pri prihlásení. Na prihlásenie bude potrebné byť pripojený na internet nakoľko sa prihlasovacie údaje musia overiť s online databázou. Potom avšak bude možné stratiť pripojenie na internet nakoľko využijeme replikáciu databázy na lokálnu databázu PouchDB. Táto databáza preberie všetky dáta pri prihláseni z online databázy a budeme môcť ich zobrazovať. Tak isto hneď pri akomkoľvek zápise je do online databázy je táto lokálne hneď aktualizovaná ak je teda zariadenie pripojené na internet. Ak pripojenie stratí bude zobrazovať len tie dáta, ktoré boli v databáze do straty pripojenia. 
 
 \subsection{Bezpečnosť}
 \indent Bezpočnosť dát, ktoré používateľ zadá na stránke je samozrejmosťou každej stránky. Je samozrejmé, že v tomto bode je dosť obtiažne zabrániť všetkým potencionálnym hrozbám. Tu je možné aj zvážiť, ktoré dáta sú dôležitejšie a ktoré menej. Za ochranu dát v databáze samozrejme zodpovedá čiastočne už aj samotný softvér použitej databázy ale treba zabezpečiť aj zariadenie, na ktorom databáza beži a dáta keď sú vytiahnuté z databázy a pracuje sa s nimi.
@@ -254,7 +254,7 @@
 
 \indent Základnou vlastnosťou je, že Node.js má asynchrónne a udalostne riadené API. Toto zaručuje to, že nasledujúce volania nie sú blokované predchádzajúcim volaním. V praxi to znamená, že Node.js nikdy nečaká kým je z volania vrátená hodnota respektíve je volanie dokončené a ukončené. Server sa po zavolaní volania presunie na ďaľšie a vnútorný notifikačný mechanizmus udalosti dostane odpoveď z prechádzajúcich volaní vtedy keď sú dokončené a dostane sa tým aj k výsledku. 
 
-\indent Druhou veľkou výhodou je existencia udalostnej slučky. Vďaka tomu je jednovláknový a vysoko škálovateľný. Vyžšie spomínaný udalostný mechanizmus napomáha serveru vrátiť odpoveď bez blokovania. Tým sa server stáva vysoko škálovateľný v porovnaní s tradičnými riešeniami na strane servera, ktoré majú obmedzený počet vlákien a tým sa aj počet požiadaviek, ktoré sú spracované súčasne stáva obmedzený. 
+\indent Druhou veľkou výhodou je existencia udalostnej slučky. Vďaka tomu je jednovláknový a vysoko škálovateľný. Vyššie spomínaný udalostný mechanizmus napomáha serveru vrátiť odpoveď bez blokovania. Tým sa server stáva vysoko škálovateľný v porovnaní s tradičnými riešeniami na strane servera, ktoré majú obmedzený počet vlákien a tým sa aj počet požiadaviek, ktoré sú spracované súčasne stáva obmedzený. 
 
 \indent Ďaľšou výhodou je, že aplikácie založené na platforme Node.js sú bez vyrovnávacej pamäte, číže údaje posielané na výstup sú zoskupované do malých blokov.
 
@@ -292,7 +292,7 @@
 \indent Keď sa Node.js spustí tak inicializuje slučku udalostí a spustí poskytnutý vstupný skript, ktorý môže uskutočňovať asynchrónne volania API. Následne sa začne spracovávať slučka udalostí. Tá postupne spracováva udalosti z fronty udalostí bez toho aby čakala na dokončenie daných udalostí. Keď je táto udalost hotová tak sa jej spätné volanie zaradi na spodok fronty udalostí a jej výsledok je teda znova spracvaný keď sa k nemu slučka dostane. Toto sa opakuje kým nie je fronta udalostí vyčerpaná alebo nie je dosiahnutý maximálny počet spätných volaní. 
 
 \subsubsection{Nevýhody Node.js}
-\indent Ako sme vyžšie popísali Node.js má veľké množstvo výhod, medzo ktoré hlavne patrí asynchrónne I/O, škalovateľnosť, veľká a aktívna komunita a veľke množstvo prídavných modulou. Avšak Node.js má aj určité nevýhody. Medzi hlavné patrí:
+\indent Ako sme vyššie popísali Node.js má veľké množstvo výhod, medzo ktoré hlavne patrí asynchrónne I/O, škalovateľnosť, veľká a aktívna komunita a veľke množstvo prídavných modulou. Avšak Node.js má aj určité nevýhody. Medzi hlavné patrí:
 \begin{itemize}
     \item neefektívnosť pri náročných procesoch pre CPU - tvorba reportov, analýz, zložité výpočty... 
     \item pri nepochopený práce s callbackmi môže viesť používanie Node.js k zle napísaným kódom
@@ -319,6 +319,47 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item manuálna inštalácia globálne pre systém - v termináli sa zavolá príkaz \textbf{npm instal \textit{názov\char`_modulu} -g}. Táto možnosť sa ale neodporúča.
     \item poslednou možnosťou je dopísanie do projektového suború \textit{package.json} do časti dependencies názov modulu a jeho verziu a v termináli zadať príkaz \textbf{npm install}.
 \end{itemize}
+
+\subsection{Ionic framework}
+\indent Ionic je voľne dostupné, open-source prostredie na vytváranie hybridných aplikácii pre mobilné zariadenia vytvorené Maxom Lynchom a Adamom Bradleym zo spoločnosti Drifty Co. v roku 2013. Prvá verzia vydaná z roku 2013 bola založená na AngularJS a Apache Cordova, avšak najnovšia verzia bola prepracovaná ako skupina webových komponentov, čo umožňuje programátorom zvoliť pri tvorbe aplikácie ľubovolný framework ako je napríklad Angular, React alebo Vue.js. Je tiež ale možné zvoliť natívne Ionic componenty bez použitia akéhokoľvek iného frameworku. Ionic poskytuje nástroje a služby na tvorbu nie len mobilných aplikácii ale aj klasických aplikácii pre Windows, MacOS alebo progresívných webových aplikácii založených na moderných spôsoboch tvorby webových aplikácii pomocou CSS, HTML a Sass.
+
+\subsubsection{Služby a vlastnosti}
+\indent Ionic používa doplnok Cordovu alebo novší Capacitor na získanie prístupu k operačnému systému zariadenia, na ktorom aplikácia beži a tým aplikácia vie pristupovať k periferiám zariadenia ako je napríklad GPS modul, kamera alebo baterka. Tieto periféria potom môže aplikácia využívať pre svoju funkčnosť. \newline
+\textbf{Capacitor}\newline
+\indent Capacitor je open-source projekt, ktorý umožňuje spúšťanie moderných web aplikácii natívne na operačných systémoch Android alebo iOS, prípadne s využitím Electronu na systémoch Windows, MacOS. Tiež poskytuje výkonné a ľahko použiteľné rozhranie pre prístup k natívnim SDK a API na každej platforme. O Capacitore sa hovorí ako o výkonnom novom prehliadači webových aplikácii, ktorý odomkne celú natívnu funkčnosť každej platfromy prostredníctvom konzistených API medzi platformami. S použitím Capacitora nemusí vývojár spravovať viac rohraní API pre každú platformu ale môže namiesto toho vyvíjať aplikáciu ako celok bez nutnosti uvažovať na akej platforme bude aplikácia spustená. \newline
+\textbf{Cordova}\newline
+\indent Podobne ako Capacitor je Cordova open-source projekt umožňujúci spustenie web apliikácie na rôznych platformách. Avšak narozdiel od Capacitoru nie je Cordova prispôsobená na využitie Electronu pre export na desktopovú aplikáciu. Preto sa dnes už viacej využíva novší Capacitor.
+\newline
+\newline
+\indent Ionic využíva všetky do teraz dostupné webové komponenty s tým, že ich funkčnosť zrýchľuje a robí ju menej náročnú pre zariadenie, na ktorom aplikácia beží. Tak isto ako bolo už vyššie spomenuté umožňuje využitie ktorýchkoľvek moderných frameworkov a ich komponentov. Pre vývojárov je k dispozícii vlastné prostredie na tvorbu Ionic aplikácii Ionic studio (Obr.~\ref{fig:ionic_studio}) a taktiež je dostupné CLI pre prácu s projektami cez príkazový riadok. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.12]{img/ionic_studio.png}
+    \caption{Vývojové prostredie Ionic studio}
+    \label{fig:ionic_studio}
+\end{figure}
+
+\subsubsection{Inštalácia}
+\indent Pri inštalácii Ionic frameworku je potrebné si povedať, že Ionic je NPM modul čo zanemná, že na jeho inštaláciu je potrebné mať nainštalovaný Node.js. Tak isto je potrebné povedať, že pomocou Ionicu je možné vyvíjať aplikácie pre mobilné operačné systémy Android verzia 4.1+ a iOS 7+ pričom treba ešte spomenúť, že pri veľkom množstve existujúcich Android zariadení je možné, že na niektorých zariadeniach vyvíjaná aplikácia nemusí dobre fungovať. Vyvíjanie aplikácii pomocou Ionicu je možné na ktoromoľvek operačnom systéme - Windows, Linux, MacOS. 
+
+\indent Prvým krokom pri inštalácii je nainšalovanie Apache Cordova alebo Capacitor ak nerátame inštaláciu Node.js. Cordova aj Capacitor sú podobne ako Ionic NPM moduly takže ich inštalácia je jednoduchá. Po nainštalovaní Cordovi respektíve Capacitora sa môže nainštalovať samtný NPM modul Ionic. Následne je už možné vytvoriť projekt a začať pracovať na aplikácii. Pri vytváraní prijektu je ale ešte možné špecifikovať framework aký chceme na vývoj aplikácie použiť. Toto sa realizuje príkazom \textit{ionic start nazov\char`_aplikacie --type=angular --capacitor}. Tu si všimnime, že do prepínača type sa zadal angular čiže aplikácia bude vyvíjaný pomocou frameworku Angular a bude sa používať Capacitor. Keďže Ionic je NPM modul je samozrejmé, že do aplikácie je možné doinštalovať takmer akýkoľvek ďaľší NPM modul na rozšírenie funkčnosti aplikácie. Pri vývoji aplikácie je ešte ale potrebné pomocou doplnku Cordova alebo Capacitor špecifikovať na akej platfrome má aplikácia fungovať. Toto sa urobí príkazom \textit{ionic cordova/capacitor platform add ios/android} zadaným do príkazového riadku. Je možné pridať aj obidve platfromy. 
+
+\subsection{Electron}
+\indent Electron je populárny framework, ktorý umožnňuje vytváranie desktopových aplikácií pre MacOS, Linux alebo Windows pomocou známych webových technológií HTML, JavaScript a CSS vytvorený a udržiavaný firmou GitHub. Niektoré veľmi populárne desktopové aplikácie, ako sú Visual Studio Code a Slack, sú vytvorené pomocou frameworku Electron. Electron je založený na prehliadači Chromium pre interpretáciu používateľského rozhrania na Node.js pre prístup k súborovým systémom. Pretože spoločnosť Electron nám poskytuje webové rozhranie pre webové aplikácie, môžeme na vývoj aplikácií pre osobné počítače použiť akýkoľvek druh JavaScriptu prípadne TypeScriptu.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{img/electron_aps.png}
+    \caption{Firmy využívajúce vo svojich aplikáciách Electron}
+    \label{fig:electron_aps}
+\end{figure}
+
+\subsubsection{Architekúra}
+\indent Elektronové aplikácie sa skladajú z viacerých procesov. Existuje proces „prehliadača“ a niekoľko procesov „vykreslenia“. Proces prehliadača spúšťa aplikačnú logiku a potom môže spustiť viacero procesov vykresľovania, ktoré vykreslujú okná, ktoré sa zobrazujú na obrazovke používateľa na vykreslenie HTML a CSS. Procesy prehliadača aj vykreslenia sa môžu spustiť s integráciou Node.js, ak je povolená.
+\indent Väčšina rozhraní Electron API je napísaná v C ++ alebo Objective-C a potom je exponovaná priamo aplikačnému kódu prostredníctvom väzieb JS. Prvotné verzie Electronu boli náchylné na webové útoky pomocou cross-site skriptingu nakoľko je Elecron založený na engine Chromium, ktorý je nachylný na tento typ útoku. Avšak neskoršími aktualizáciami frameworku Electron bola táto zraniteľnosť odstránená a vývojár sa ňou nemusí osobite zaoberať. 
+
+
 
 \section{Návrh aplikácie}
 \indent Témou diplomovej práce je implemetovať co-working aplikáciu s využitím webového frameworku Ionic/Angular s neskorším exportom na desktopovú aplikáciu pomocou Electronu na strane frontendu a s použitím Node.js a CouchDB na strane servera. V tejto kapitole sa budeme zaoberať návrhom celej aplikácie s využitím daných technológii na jednotlivých komponentoch. 
