@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  12 APR 2020 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  13 APR 2020 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1479,19 +1479,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 
 
 ] (./includes/core.tex
-<img/ybase.jpg, id=377, 1084.05pt x 653.44125pt>
+<img/ybase.jpg, id=396, 1084.05pt x 653.44125pt>
 File: img/ybase.jpg Graphic file (type jpg)
 <use img/ybase.jpg>
 Package pdftex.def Info: img/ybase.jpg  used on input line 6.
 (pdftex.def)             Requested size: 433.61232pt x 261.37187pt.
  [2 <./img/ybase.jpg>]
-<img/coworking_space.jpg, id=382, 712.6625pt x 485.815pt>
+<img/coworking_space.jpg, id=401, 712.6625pt x 485.815pt>
 File: img/coworking_space.jpg Graphic file (type jpg)
 <use img/coworking_space.jpg>
 Package pdftex.def Info: img/coworking_space.jpg  used on input line 19.
 (pdftex.def)             Requested size: 356.33038pt x 242.9069pt.
  [3 <./img/coworking_space.jpg>] [4]
-<img/obr1.png, id=393, 447.17062pt x 374.90062pt>
+<img/obr1.png, id=412, 447.17062pt x 374.90062pt>
 File: img/obr1.png Graphic file (type png)
 <use img/obr1.png>
 Package pdftex.def Info: img/obr1.png  used on input line 45.
@@ -1501,13 +1501,13 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 64.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [6]
-<img/obr-fb-workplace.jpg, id=407, 1806.75pt x 1028.84375pt>
+<img/obr-fb-workplace.jpg, id=426, 1806.75pt x 1028.84375pt>
 File: img/obr-fb-workplace.jpg Graphic file (type jpg)
 <use img/obr-fb-workplace.jpg>
 Package pdftex.def Info: img/obr-fb-workplace.jpg  used on input line 88.
 (pdftex.def)             Requested size: 451.6864pt x 257.21031pt.
  [7 <./img/obr-fb-workplace.jpg>] [8]
-<img/obr-ms-teams.jpg, id=416, 579.66562pt x 325.96782pt>
+<img/obr-ms-teams.jpg, id=435, 579.66562pt x 325.96782pt>
 File: img/obr-ms-teams.jpg Graphic file (type jpg)
 <use img/obr-ms-teams.jpg>
 Package pdftex.def Info: img/obr-ms-teams.jpg  used on input line 123.
@@ -1518,43 +1518,43 @@ Overfull \hbox (2.52646pt too wide) in paragraph at lines 132--133
  []
 
 [10]
-<img/obr4.png, id=426, 1445.4pt x 1084.05pt>
+<img/obr4.png, id=445, 1445.4pt x 1084.05pt>
 File: img/obr4.png Graphic file (type png)
 <use img/obr4.png>
 Package pdftex.def Info: img/obr4.png  used on input line 151.
 (pdftex.def)             Requested size: 361.34912pt x 271.01184pt.
  [11]
-<img/obr-trello.jpg, id=432, 652.4375pt x 367.3725pt>
+<img/obr-trello.jpg, id=451, 652.4375pt x 367.3725pt>
 File: img/obr-trello.jpg Graphic file (type jpg)
 <use img/obr-trello.jpg>
 Package pdftex.def Info: img/obr-trello.jpg  used on input line 167.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
  [12 <./img/obr4.png>]
-<img/obr-trello-profil.jpg, id=438, 652.4375pt x 367.3725pt>
+<img/obr-trello-profil.jpg, id=458, 652.4375pt x 367.3725pt>
 File: img/obr-trello-profil.jpg Graphic file (type jpg)
 <use img/obr-trello-profil.jpg>
 Package pdftex.def Info: img/obr-trello-profil.jpg  used on input line 178.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
  [13 <./img/obr-trello.jpg>] [14 <./img/obr-trello-profil.jpg>] [15] [16] [17] [18]
-<img/node_hello.png, id=466, 733.74126pt x 350.30875pt>
+<img/node_hello.png, id=485, 733.74126pt x 350.30875pt>
 File: img/node_hello.png Graphic file (type png)
 <use img/node_hello.png>
 Package pdftex.def Info: img/node_hello.png  used on input line 238.
 (pdftex.def)             Requested size: 403.55894pt x 192.6704pt.
  [19 <./img/node_hello.png>]
-<img/node_architecture.png, id=473, 1355.0625pt x 501.875pt>
+<img/node_architecture.png, id=492, 1355.0625pt x 501.875pt>
 File: img/node_architecture.png Graphic file (type png)
 <use img/node_architecture.png>
 Package pdftex.def Info: img/node_architecture.png  used on input line 265.
 (pdftex.def)             Requested size: 406.5219pt x 150.56366pt.
  [20] [21 <./img/node_architecture.png>]
-<img/evet_loop.jpg, id=485, 803.0pt x 317.185pt>
+<img/evet_loop.jpg, id=504, 803.0pt x 317.185pt>
 File: img/evet_loop.jpg Graphic file (type jpg)
 <use img/evet_loop.jpg>
 Package pdftex.def Info: img/evet_loop.jpg  used on input line 287.
 (pdftex.def)             Requested size: 441.65137pt x 174.45227pt.
  [22 <./img/evet_loop.jpg>]
-<img/package.png, id=491, 552.0625pt x 250.9375pt>
+<img/package.png, id=510, 552.0625pt x 250.9375pt>
 File: img/package.png Graphic file (type png)
 <use img/package.png>
 Package pdftex.def Info: img/package.png  used on input line 311.
@@ -1565,63 +1565,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--335
  []
 
 [24]
-<img/ionic_studio.png, id=503, 3597.44pt x 2158.0625pt>
+<img/ionic_studio.png, id=522, 3597.44pt x 2158.0625pt>
 File: img/ionic_studio.png Graphic file (type png)
 <use img/ionic_studio.png>
 Package pdftex.def Info: img/ionic_studio.png  used on input line 338.
 (pdftex.def)             Requested size: 431.67418pt x 258.95633pt.
  [25 <./img/ionic_studio.png>]
-<img/electron_aps.png, id=509, 1003.75pt x 401.5pt>
+<img/electron_aps.png, id=528, 1003.75pt x 401.5pt>
 File: img/electron_aps.png Graphic file (type png)
 <use img/electron_aps.png>
 Package pdftex.def Info: img/electron_aps.png  used on input line 353.
 (pdftex.def)             Requested size: 451.68333pt x 180.67332pt.
- [26 <./img/electron_aps.png>] [27]
-<img/diagram.png, id=520, 624.3325pt x 614.295pt>
+ [26 <./img/electron_aps.png>]
+<img/coucdb.png, id=534, 1113.15875pt x 934.49126pt>
+File: img/coucdb.png Graphic file (type png)
+<use img/coucdb.png>
+Package pdftex.def Info: img/coucdb.png  used on input line 370.
+(pdftex.def)             Requested size: 333.95021pt x 280.34953pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--381
+
+ []
+
+[27 <./img/coucdb.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 382--387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--403
+
+ []
+
+[28]
+<img/pouchdb.png, id=544, 448.67625pt x 182.93344pt>
+File: img/pouchdb.png Graphic file (type png)
+<use img/pouchdb.png>
+Package pdftex.def Info: img/pouchdb.png  used on input line 411.
+(pdftex.def)             Requested size: 358.94148pt x 146.34694pt.
+ [29 <./img/pouchdb.png>]
+<img/diagram.png, id=549, 624.3325pt x 614.295pt>
 File: img/diagram.png Graphic file (type png)
 <use img/diagram.png>
-Package pdftex.def Info: img/diagram.png  used on input line 369.
+Package pdftex.def Info: img/diagram.png  used on input line 421.
 (pdftex.def)             Requested size: 374.60239pt x 368.57983pt.
- [28 <./img/diagram.png>] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+ [30 <./img/diagram.png>] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
-[30]
-<img/DP_use_case_pouzivatel.png, id=535, 425.03793pt x 381.67593pt>
+[32]
+<img/DP_use_case_pouzivatel.png, id=565, 425.03793pt x 381.67593pt>
 File: img/DP_use_case_pouzivatel.png Graphic file (type png)
 <use img/DP_use_case_pouzivatel.png>
-Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 429.
+Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 481.
 (pdftex.def)             Requested size: 212.51843pt x 190.8375pt.
-<img/DP_use_case_administrator.png, id=537, 494.14612pt x 584.93532pt>
+<img/DP_use_case_administrator.png, id=567, 494.14612pt x 584.93532pt>
 File: img/DP_use_case_administrator.png Graphic file (type png)
 <use img/DP_use_case_administrator.png>
-Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 438.
+Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 490.
 (pdftex.def)             Requested size: 222.3637pt x 263.21846pt.
- [31 <./img/DP_use_case_pouzivatel.png>]
-<img/DP_use_case_clen_timu.png, id=543, 718.18312pt x 502.72818pt>
+ [33 <./img/DP_use_case_pouzivatel.png>]
+<img/DP_use_case_clen_timu.png, id=574, 718.18312pt x 502.72818pt>
 File: img/DP_use_case_clen_timu.png Graphic file (type png)
 <use img/DP_use_case_clen_timu.png>
-Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 447.
+Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 499.
 (pdftex.def)             Requested size: 323.17941pt x 226.22559pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--458
+Underfull \hbox (badness 10000) in paragraph at lines 505--510
 
  []
 
-[32 <./img/DP_use_case_administrator.png> <./img/DP_use_case_clen_timu.png>]
-<img/Seq_login_register.png, id=549, 866.33662pt x 523.9575pt>
+[34 <./img/DP_use_case_administrator.png> <./img/DP_use_case_clen_timu.png>]
+<img/Seq_login_register.png, id=580, 866.33662pt x 523.9575pt>
 File: img/Seq_login_register.png Graphic file (type png)
 <use img/Seq_login_register.png>
-Package pdftex.def Info: img/Seq_login_register.png  used on input line 461.
+Package pdftex.def Info: img/Seq_login_register.png  used on input line 513.
 (pdftex.def)             Requested size: 433.16725pt x 261.9781pt.
- [33 <./img/Seq_login_register.png>]
-<img/seq_tim.png, id=557, 866.33662pt x 442.65375pt>
+ [35 <./img/Seq_login_register.png>]
+<img/seq_tim.png, id=586, 866.33662pt x 442.65375pt>
 File: img/seq_tim.png Graphic file (type png)
 <use img/seq_tim.png>
-Package pdftex.def Info: img/seq_tim.png  used on input line 472.
+Package pdftex.def Info: img/seq_tim.png  used on input line 524.
 (pdftex.def)             Requested size: 433.16725pt x 221.32632pt.
- [34 <./img/seq_tim.png>] [35] [36]) [37] (./includes/conclusion.tex) [38
+ [36 <./img/seq_tim.png>] [37] [38]) [39] (./includes/conclusion.tex) [40
 
 
 ]
@@ -1633,7 +1670,7 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[39
+[41
 
 
 ] (./example.pri)
@@ -1656,24 +1693,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: 1C2A1B8A751FFFEC34D2469DAD448F43;7657.
+(rerunfilecheck)             Checksum: C04E4B9B82C123303CBC0D8681648CD5;8069.
 Package logreq Info: Writing requests to 'example.run.xml'.
 \openout1 = `example.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28994 strings out of 492982
- 473531 string characters out of 6134896
+ 29016 strings out of 492982
+ 473872 string characters out of 6134896
  961084 words of memory out of 5000000
- 31968 multiletter control sequences out of 15000+600000
+ 31981 multiletter control sequences out of 15000+600000
  63663 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,8n,78p,2106b,1871s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on example.pdf (51 pages, 1544380 bytes).
+Output written on example.pdf (53 pages, 1686235 bytes).
 PDF statistics:
- 647 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 137 named destinations out of 1000 (max. 500000)
- 549 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 677 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
 

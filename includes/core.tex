@@ -360,6 +360,58 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \indent Väčšina rozhraní Electron API je napísaná v C ++ alebo Objective-C a potom je exponovaná priamo aplikačnému kódu prostredníctvom väzieb JS. Prvotné verzie Electronu boli náchylné na webové útoky pomocou cross-site skriptingu nakoľko je Elecron založený na engine Chromium, ktorý je nachylný na tento typ útoku. Avšak neskoršími aktualizáciami frameworku Electron bola táto zraniteľnosť odstránená a vývojár sa ňou nemusí osobite zaoberať. 
 
 
+\subsection{Apache CouchDB}
+\indent CouchDB vyvíjaná a udržiavaná firmou Apache je open-source NoSQL databáza, ktorá zhromažďuje a ukladá údaje do dokumetov vo formáte JSON. Na rodziel od relačných databáz používa CouchDB dátový model bez schém. Tento princíp zjednodušuje správu záznamov v rôznych zariadeniach, mobilných telefónoch a webových prehliadačoch.
+
+\indent CouchDB bola predstavená v roku 2005 a neskôr sa stala projektom firmy Apache Software Foundation v roku 2008. Ako open-source projekt je CouchDB podporovaná veľkou aktívnou komunitou vývojárov, ktorí neustále vylepšujú softvér so zameraním na jednoduché používanie webu.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.30]{img/coucdb.png}
+    \caption{JSON dokument v aplikácii na správu CouchDB}
+    \label{fig:couch_db}
+\end{figure}
+
+\subsubsection{Výhody použitia CouchDB}
+\indent CouchDB predstavuje celý rad výhod zameraných na používateľov a vývojárov. Motiváciu vývoja CouchDB možno definovať jedným slovom: relax. CouchDB prichádza s množstvom výhod navrhnutých na zníženie námahy pri prevádzkovaní pružného distribuovaného systému. Tu sú niektoré kľúčové vlastnosti CouchDB a ako sa líši od iných databáz NoSQL.
+\newline
+\newline
+\textbf{Škálovateľnosť} \newline
+\indent Architektonický návrh CouchDB ju robí mimoriadne prispôsobivou pri rozdeľovaní databáz a meraní údajov na viacerých uzloch. CouchDB podporuje horizontálne rozdelenie a replikáciu na vytvorenie ľahko spravovaného riešenia na vyrovnanie času potrebného na načítanie aj zápis počas zavádzania databázy.
+
+\indent CouchDB je vybavená veľmi odolným a spoľahlivým úložným enginom, ktorý bol vybudovaný od základov pre viackanálové databázové infraštruktúry. Ako NoSQL databáza je CouchDB veľmi prispôsobiteľná a otvára dvere vývoju predvídateľných aplikácií založených na výkone bez ohľadu na objem vašich údajov alebo počet používateľov.
+\newline
+\newline
+\textbf{Žiadne read-locks} \newline
+\indent Vo väčšine relačných databáz - kde sú údaje uložené v tabuľkách - ak niekedy potrebujete aktualizovať alebo upraviť tabuľku tak sa riadok zmenených údajov uzamkne pre ostatných používateľov, až kým sa nespracuje požiadavka na úpravu. Môže to spôsobiť problémy s prístupnosťou pre klientov a celkové prekážky vo vašich procesoch správy údajov.
+
+\indent CouchDB používa MVCC na simultánnu správu prístupu k databázam. To znamená, že bez ohľadu na aktuálne načítanie databázy môže CouchDB bežať na plnú rýchlosť a bez obmedzenia pre svojich používateľov. Pretože dokumenty v CouchDB sú verzované a pripojené v reálnom čase, v požiadavkách na čítanie databázy sa vždy zobrazia najnovšie aktualizované databázové snímky, bez ohľadu na to, kto k dokumentu pristupoval ako prvý.
+\newline
+\newline
+\textbf{CouchDB replikácia} \newline
+\indent Jednou z definujúcich funkcií CouchDB je obojsmerná replikácia, ktorá umožňuje synchronizáciu údajov na viacerých serveroch a zariadeniach prostredníctvom obojsmernej replikácie. Táto replikácia umožňuje podnikom maximalizovať dostupnosť systémov, skrátiť dobu obnovy dát, lokalizovať údaje najbližšie ku koncovým používateľom a zjednodušiť procesy zálohovania.
+
+\indent V CouchDB sa nerozlišuje, či sú dáta uložené na jednom serveri alebo na viacerých serveroch. CouchDB skôr identifikuje zmeny dokumentov, ku ktorým dôjde z akéhokoľvek zdroja, a zabezpečí, aby všetky kópie databázy zostali synchronizované s najaktuálnejšími informáciami. To umožňuje samostatnú správu a správu viacerých replík databázy a zároveň poskytuje presné informácie v reálnom čase vo viacerých počítačových prostrediach.
+\newline
+\newline
+\textbf{HTTP API} \newline
+\indent CouchDB používa RESTful API na prístup do databázy odkiaľkoľvek, s plnou flexibilitou operácií CRUD (vytváranie, čítanie, aktualizácia, mazanie). Tento jednoduchý a efektívny spôsob pripojenia k databáze robí CouchDB flexibilnou, rýchlou a výkonnou na použitie pri zachovaní vysokej dostupnosti.
+\newline
+\newline
+\textbf{Stavaná pre offline používanie} \newline
+\indent Keď škálujeme použiteľnosť a prístupnosť databázy, je nevyhnutné vytvárať aplikácie, ktoré fungujú rovnako offline, ako online. CouchDB umožňuje aplikáciám ukladať zozbierané údaje lokálne na mobilných zariadeniach a prehliadačoch a potom ich synchronizovať, keď sa vrátia online.
+
+\subsection{PouchDB}
+\indent PouchDB je open-source databáza JavaScript inšpirovaná Apache CouchDB, ktorá je navrhnutá tak, aby fungovala dobre v prehliadači. PouchDB bola vytvorená s cieľom pomôcť vývojárom webu vytvárať aplikácie, ktoré fungujú rovnako offline, ako online. Aplikáciám umožňuje ukladať údaje lokálne v režime offline, potom ich synchronizovať so servermi CouchDB alebo inými kompatibilnými servermi, keď je aplikácia späť online.
+
+\indent Architektúra PouchDB je rovnaká ako pri CouchDB. Dáta sú ukladané formátom JSON a celá práca s nimi je rovnaká ako pri CouchDB. Preto sa pri online-offline aplikáciách odporúča pri použití CouchDB používať aj PouchDB.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.80]{img/pouchdb.png}
+    \caption{Náhľad PouchDB v prehliadači Google Chrome}
+    \label{fig:pouch_db}
+\end{figure}
 
 \section{Návrh aplikácie}
 \indent Témou diplomovej práce je implemetovať co-working aplikáciu s využitím webového frameworku Ionic/Angular s neskorším exportom na desktopovú aplikáciu pomocou Electronu na strane frontendu a s použitím Node.js a CouchDB na strane servera. V tejto kapitole sa budeme zaoberať návrhom celej aplikácie s využitím daných technológii na jednotlivých komponentoch. 

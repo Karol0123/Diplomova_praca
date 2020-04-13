@@ -31,14 +31,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {14}{\ignorespaces Firmy vyu\IeC {\v z}\IeC {\'\i }vaj\IeC {\'u}ce vo svojich aplik\IeC {\'a}ci\IeC {\'a}ch Electron\relax }}{26}{figure.caption.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces N\IeC {\'a}vrh komunik\IeC {\'a}cie medzi komponentami\relax }}{28}{figure.caption.66}
+\contentsline {figure}{\numberline {15}{\ignorespaces JSON dokument v aplik\IeC {\'a}cii na spr\IeC {\'a}vu CouchDB\relax }}{27}{figure.caption.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Use case diagram pre pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} prostredie\relax }}{31}{figure.caption.71}
+\contentsline {figure}{\numberline {16}{\ignorespaces N\IeC {\'a}h\IeC {\v l}ad PouchDB v prehliada\IeC {\v c}i Google Chrome\relax }}{29}{figure.caption.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Use case diagram pre administr\IeC {\'a}torsk\IeC {\'e} prostredie\relax }}{32}{figure.caption.72}
+\contentsline {figure}{\numberline {17}{\ignorespaces N\IeC {\'a}vrh komunik\IeC {\'a}cie medzi komponentami\relax }}{30}{figure.caption.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces Use case diagram prostredia \IeC {\v c}lena t\IeC {\'\i }mu\relax }}{32}{figure.caption.73}
+\contentsline {figure}{\numberline {18}{\ignorespaces Use case diagram pre pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} prostredie\relax }}{33}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram prihl\IeC {\'a}senia a registr\IeC {\'a}cie\relax }}{33}{figure.caption.75}
+\contentsline {figure}{\numberline {19}{\ignorespaces Use case diagram pre administr\IeC {\'a}torsk\IeC {\'e} prostredie\relax }}{34}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram komunik\IeC {\'a}cie komponentov v aplik\IeC {\'a}cii\relax }}{34}{figure.caption.76}
+\contentsline {figure}{\numberline {20}{\ignorespaces Use case diagram prostredia \IeC {\v c}lena t\IeC {\'\i }mu\relax }}{34}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {21}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram prihl\IeC {\'a}senia a registr\IeC {\'a}cie\relax }}{35}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {22}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram komunik\IeC {\'a}cie komponentov v aplik\IeC {\'a}cii\relax }}{36}{figure.caption.81}
