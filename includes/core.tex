@@ -345,6 +345,59 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 
 \indent Prvým krokom pri inštalácii je nainšalovanie Apache Cordova alebo Capacitor ak nerátame inštaláciu Node.js. Cordova aj Capacitor sú podobne ako Ionic NPM moduly takže ich inštalácia je jednoduchá. Po nainštalovaní Cordovi respektíve Capacitora sa môže nainštalovať samtný NPM modul Ionic. Následne je už možné vytvoriť projekt a začať pracovať na aplikácii. Pri vytváraní prijektu je ale ešte možné špecifikovať framework aký chceme na vývoj aplikácie použiť. Toto sa realizuje príkazom \textit{ionic start nazov\char`_aplikacie --type=angular --capacitor}. Tu si všimnime, že do prepínača type sa zadal angular čiže aplikácia bude vyvíjaný pomocou frameworku Angular a bude sa používať Capacitor. Keďže Ionic je NPM modul je samozrejmé, že do aplikácie je možné doinštalovať takmer akýkoľvek ďaľší NPM modul na rozšírenie funkčnosti aplikácie. Pri vývoji aplikácie je ešte ale potrebné pomocou doplnku Cordova alebo Capacitor špecifikovať na akej platfrome má aplikácia fungovať. Toto sa urobí príkazom \textit{ionic cordova/capacitor platform add ios/android} zadaným do príkazového riadku. Je možné pridať aj obidve platfromy. 
 
+\subsection{Angular}
+\indent Angular je framework na vyvíjanie webových aplikácii vyvinutý a spravovaný spoločnosťou Google. Googlom je označovaný ako \textit{"Super framework založený na JavaScripte pre čokoľvek"}. Takto bola označovaná jeho prvá verzia AngularJS, ktorá bola založená na JavaScripte. Dnes je však používanejšia jeho druhá verzia Angular 2+, označovaná tiež ale ako Angular, čo označuje všetky verzie od verzie 2, ktoré sú narozdiel od prvej verzie založené už na TypeScripte. Hneď po svojom vydaní sa Angular stal jedným z najviac používaných frameworkov pre tvorbu web aplikácii na trhu. Tento úspech je založený hlavne na tom, že narozdiel iných frameworkov doby keď Angular vyšiel je Angular výlučne objektovo-orientovaný a jeho syntax je prekvapivo blizka Jave 8 aj keď je založený na TypeScripte. 
+
+\subsubsection{História}
+\indent Prvá verzia AngularJS bola vydaná ešte v roku 2010. Ako bolo vyšie spomenuté táto verzia bola založená na JavaScripte. Aj keď po vydaní novšej verzie Angular 2 väčšina vývojárov prešla na novšiu verziu, AngularJS je stále udržiavaný framework so stálou podporou nových aktualizácii a živou komunitou vývojárov. 
+
+\indent Na konci roka 2014 Google ohlásil, že pracuje na novej verzii frameworku Angular 2, ktorý bude kompletne prepísaný AngularJS do novo vyvýjaného jazyka ArtScript. Po ohlásení avšak Microsoft súhlasil s pridaním podpory pre nimi vyvíjaný TypeScript a tak bol Angular 2 založený ako TypeScriptový framework. Zaujímavosťou je, že hneď od vydania Angularu 2 bolo možné v ňom vývíjať aplikácie aj v JavaScripte nakoľko má Angular 2 podporu aj JavaScriptu. Oficiálne bol Angular 2 vydaní v 14. septembra 2016 aj keď ako beta verzia fungoval už od roku 2015. 
+
+\indent Na konci roka 2016 bol ohlásený Angular 4 ako nástupca Angularu 2. Označenie 3 bolo preskočené aby sa zabránilo nezrovanlostiam z dôvodu, že nové aktualizácie Angularu 2 boli označované ako v3.3.0. Angular 4 bol oficálne vydaný 23. marca 2017 a priniesol novinky ako HttpClient - vylepšené knižnica pre vytváranie HTTP požiadaviek, nový živnotný cyklus udalostí a iné menšie vylepšenia. 
+
+\indent Dnes je už vydaná verzia 9, pričom každá verzia (5,6,7,8) priniesla vždy hlavne podporu nových Material Dizajnov, podporu nových knižníc a podporu tvorby progresívnych web aplikácii. Google sa pri vydávaní nových aktualizácii zaručil, že každa nová verzia bude spätne kompatibilná a nové verzie chce vydávať dva krát ročne.
+
+\subsubsection{Architektúra}
+\indent Základ Angularu tvoria NgModuly. Tieto moduly poskytujú kompiláciu komponentov, čo sú druhá základná zložka architektúry Angularu. NgModuly zhlukujú súvisiace kódy je množín, ktoré majú spoločnú funkcionalitu. Skrátene sa dá povedať, že každá aplikácia je definovaná množinou NgModulov. Základom každej aplikácie je jeden koreňový NgModul, ktorý môže mať pod sebou ľubovolný počet ďaľších NgModulov. Tento koreňový modul umožňuje navigáciu v aplikácii a bootstraping. 
+
+\indent Ako bolo vyšie spomenuté druhým stavebným prvkom sú komponenty. Komponenty zodpovedajú za to čo sa zobrazuje na obrazovke používateľa. Rovanko ako pri NgModuloch aj komponenty musia mať jeden koreňový komponent, ktorý potom v sebe má usporiadané ďalšie komponenty. Komponenty v sebe používajú aj služby, ktoré poskytujú špecifické funkcie, ktoré nie vždy priamo súvisia so zobrazením. Poskytovatelia týchto služieb sú vkladaný do komponentov ako závislosti. Týmto sa stáva kód modulárnym, opakovateľne použiteľným a efektívnym. Komponenty aj služby do nich vkladané sú označované dekorátomi, ktoré určujú o aký typ komponentu, služby ide a poskytujú taktiež medadáta, ktoré hovoria o tom ako tieto komponenty a služby používať. Metadáta tiež spájajú komponenty so šablónami, ktoré definujú ako budú komponenty zobrazené na jednotlivých stránkach. Šablóna je kombinácia obyčajných kódov HTML so smernicami Angularu čo umožňuje Angularu úpravu tohto HTML kódu ešte pred jeho zobrazením v okne prehliadača. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{img/angular_architecture.png}
+    \caption{Princíp fungovania Angularu}
+    \label{fig:angular_architecture}
+\end{figure}
+
+\subsubsection{Výhody Angularu}
+\textbf{Komponentová architektúra, ktorá poskytuje vyššiu kvalitu kódu}
+
+\indent  Architektúra založená na komponentoch je jednou z vecí, ktorá robí rozdiel medzi AngularJS a jeho nástupcom. Angular komponenty možno považovať za malé časti používateľského rozhrania alebo ako časť aplikácie. Aj keď je každý komponent zapuzdrený so svojou funkčnosťou, v Angulare existuje prísna hierarchia komponentov. Napríklad v Angular 9 boli predstavené komponenty Mapy Google a YouTube Player.
+
+\indent Zatiaľ čo AngularJS bol postavený hlavne na architektúre Model-View-Controller (MVC), počnúc verziou 2 sa Angular považuje za komponentovo-založený, čo je veľmi podobné MVC, ale zaisťuje to vyššiu opätovnú použiteľnosť komponentov v celej aplikácii. To umožňuje vytváranie používateľských rozhraní s mnohými pohyblivými časťami a zároveň zrýchluje priebeh vývoja aplikácie.  
+\newline
+\newline
+\textbf{TypeScript: lepšie nástroje, čistejší kód a vyššia škálovateľnosť}
+
+\indent Angular je písaný pomocou TypeScript jazyka, ktorý je v podstate nadradený JavaScriptu. Plne sa skompiluje do JavaScriptu, ale pomáha pri zisťovaní a odstraňovaní bežných chýb pri písaní kódu. Aj keď malé projekty JavaScriptu takéto vylepšenie nevyžadujú, podnikové aplikácie vyzývajú vývojárov, aby vylepšili svoj kód a častejšie overovali jeho kvalitu.
+
+\indent V Angulari píšeme komponenty v TypeScript, šablóny v HTML a rozširujeme ich pomocou Angularu. Takto funguje väčšina JS frameworkov. Šablóny HTML sa potom skompilujú do pokynov jazyka JavaScript, takže TypeScript alebo JS sú naše hlavné nástroje na prácu v Angulari. Victor Savkin, bývalý vývojár tímu Google Angular, vysvetľuje, že prechod z jazyka JavaScript do jazyka TypeScript je opodstatnený nástrojmi pre veľké projekty v podnikovom meradle. TypeScript má lepšie služby navigácie, automatického dopĺňania a refaktoring.
+\newline
+\newline
+\textbf{RxJS: efektívne asynchrónne programovanie}
+
+\indent RxJS je knižnica bežne používaná v Angular na spracovanie asynchrónnych dátových volaní. Umožňuje nezávisle a paralelne spracovávať udalosti a čakať na vykonanie nejakej udalosti a ponechať webovú stránku nereagujúcu. V zásade to funguje ako montážna linka, kde sa vykonávanie rozdeľuje na jednotlivé a vymeniteľné kusy, a nie je viazaná na jednu osobu. Je samozrejmé, že už pred RxJS existovalo asynchrónne programovanie, ale táto knižnica uľahčila veľa vecí.
+\newline
+\newline
+\textbf{Dlhodobá podpora}
+
+\indent Niektorí softvéroví inžinieri považujú samotnú skutočnosť, že spoločnosť Google podporuje technológiu Angular, za hlavnú výhodu tejto technológie. Dobrým znamením je, že spoločnosť Google oznámila dlhodobú podporu pre túto technológiu. Inžinieri Igor Minar a Steven Fluin, stojaci za Angularom, potvrdili tento záväzok v hlavnom vystúpení NG-Conf 2017. V zásade to znamená, že spoločnosť Google plánuje držať sa Angularu a ďalej ho rozvíjať a snažiť sa udržať vedúce postavenie medzi front-end inžinierskymi nástrojmi.
+\newline
+\newline
+\textbf{Silná komunita}
+
+\indent Keďže je tu Angular už zopár rokov je jasné, že za ten čas vznikla veľká a živá komunita, ktorá denodenne prináša nové balíky, vylepšenia, návody, rady a iné užitočné veci pri práci s Angularom. Ak sa priemerný inžinier stratí alebo má problém pri vývoji aplikácie, vždy existuje nástroj, ktorý pomôže vyriešiť problém, ktorý sa objaví.
+
 \subsection{Electron}
 \indent Electron je populárny framework, ktorý umožnňuje vytváranie desktopových aplikácií pre MacOS, Linux alebo Windows pomocou známych webových technológií HTML, JavaScript a CSS vytvorený a udržiavaný firmou GitHub. Niektoré veľmi populárne desktopové aplikácie, ako sú Visual Studio Code a Slack, sú vytvorené pomocou frameworku Electron. Electron je založený na prehliadači Chromium pre interpretáciu používateľského rozhrania na Node.js pre prístup k súborovým systémom. Pretože spoločnosť Electron nám poskytuje webové rozhranie pre webové aplikácie, môžeme na vývoj aplikácií pre osobné počítače použiť akýkoľvek druh JavaScriptu prípadne TypeScriptu.
 
@@ -356,7 +409,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \end{figure}
 
 \subsubsection{Architekúra}
-\indent Elektronové aplikácie sa skladajú z viacerých procesov. Existuje proces „prehliadača“ a niekoľko procesov „vykreslenia“. Proces prehliadača spúšťa aplikačnú logiku a potom môže spustiť viacero procesov vykresľovania, ktoré vykreslujú okná, ktoré sa zobrazujú na obrazovke používateľa na vykreslenie HTML a CSS. Procesy prehliadača aj vykreslenia sa môžu spustiť s integráciou Node.js, ak je povolená.
+\indent Elektronové aplikácie sa skladajú z viacerých procesov. Existuje proces „prehliadača“ a niekoľko procesov „vykreslenia“. Proces prehliadača spúšťa aplikačnú logiku a potom môže spustiť viacero procesov vykresľovania, ktoré vykreslujú okná, ktoré sa zobrazujú na obrazovke používateľa použitím HTML a CSS. Procesy prehliadača aj vykreslenia sa môžu spustiť s integráciou Node.js, ak je povolená.
 \indent Väčšina rozhraní Electron API je napísaná v C ++ alebo Objective-C a potom je exponovaná priamo aplikačnému kódu prostredníctvom väzieb JS. Prvotné verzie Electronu boli náchylné na webové útoky pomocou cross-site skriptingu nakoľko je Elecron založený na engine Chromium, ktorý je nachylný na tento typ útoku. Avšak neskoršími aktualizáciami frameworku Electron bola táto zraniteľnosť odstránená a vývojár sa ňou nemusí osobite zaoberať. 
 
 
@@ -438,6 +491,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item Vytvorenie tímu
     \item Pridanie používateľa do tímu
     \item Vytvorenie tasku
+    \item Spravovanie tasku
     \item Pridanie používateľa do tasku
     \item Nastavenie stavu tasku
     \item Prepnutie sa medzi rozhraniami aministrátor a používateľ
@@ -447,12 +501,10 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \underline{\textit{Člen tímu:}}
 \indent\begin{itemize}
     \item Prihlásenie a odhlásenie
-    \item Akceptovanie pozvánky do tímu
-    \item Pridanie miestnosti v tíme a nastavenie či bude verejná alebo súkromná
-    \item Pridanie ľudí do miestnosti ak je súkromná
+    \item Pridanie miestnosti v tíme 
     \item Pridanie udalosti v tíme
     \item Spravovanie svojich taskov
-    \item Zahájenie hlasovania
+    \item Pridanie komentára k tasku
     \item Pridanie kontaktu do svojho zoznamu kontaktov
     \item Nápisanie správy inému používateľovi
     \item Komentovanie príspevkov v miestnosti
@@ -529,88 +581,67 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \indent Celá komunikácia je založená na http protokole. Na diagrame môžeme vidieť, že ak niektorý používateľ vytvorí tím, udalosť, úlohu alebo napíše správu tak je vytvorená žiadosť na pridanie do databázy. Pridanie do databázy je realizované tak, že najskôr sú dáta pridané do lokálnej databázy PouchDB a ak má zariadenie, na ktorom beží aplikácia prístup na internet sú teito dáta hneď zreplikované do online databázy. Ak prístup na internet nie je tak sú dáta zatial uložené len v lokálnej databáze do doby kým zariadenie nezíska prístup na internet. Ostatným používateľom je potom odoslaná infromácia, že na strane databázy prišlo k zmene a ich dáta, ktoré sa v klientovi zobrazujú sú aktualizované na základe nových dát v databáze.  
 
 \subsection{Databázový model CouchDB}
-\indent Po analýze viacrých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Model potrebných objektov môžeme vydieť na naledujúcom obrázku- Obr. 
+\indent Po analýze viacrých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Návrh jednotlivých objektov ako aj ich finálny výzor môžeme vidieť nižšie. 
 
-WorkVersion
-
-\textbf{User:}
+\textbf{Používateľ:}
 \indent\begin{itemize}
     \item základné údaje meno priezvisko heslo mail
-    \item kontakty - pole id userov z DB
-    \item workspace - pole id miestnosti z DB
-    \item kalendar - pole id udalosti z DB
+    \item popis používateľa
+    \item kontakty 
+    \item miestnosti
+    \item kalendár 
 \end{itemize}
 
-\textbf{Udalost:}
+\textbf{Udalosť:}
 \indent\begin{itemize}
-    \item nazov
-    \item tím - id timu v ktorom udalost je
-    \item zaciatok
+    \item názov
+    \item tím 
+    \item začiatok
     \item koniec
-    \item ucastnici - pole id userov z DB
+    \item popis 
 \end{itemize}
 
 \textbf{Tím:}
 \indent\begin{itemize}
-    \item nazov
-    \item admin - id usera z DB
-    \item clenovia - pole id userov z DB 
-    \item miestnosti - pole id miestnosti z DB
-    \item udalosti - pole id udalosti z DB 
-    \item tasky - pole id taskov patriacich timu
+    \item názov
+    \item admin 
+    \item členovia  
+    \item miestnosti 
+    \item udalosti 
+    \item úlohy 
 \end{itemize}
 
-\textbf{Miestnost:}
+\textbf{Miestnosť:}
 \indent\begin{itemize}
-    \item nazov
-    \item typ - true=sukromna, false=verejna
-    \item clenovia - pole id userov z DB - ak verejna automaticky prida vsetkych clenov timu
-    \item prispevok - pole id prispevkov z DB
-    \item hlasovania - id z DB aktualneho hlasovania
+    \item názov
+    \item členovia 
+    \item príspevky 
 \end{itemize}
 
-\textbf{Prispevok:}
+\textbf{Príspevok:}
 \indent\begin{itemize}
     \item text
-    \item autor - id usera z DB
-    \item cas pridania
-    \item komentare - pole id komentarov z DB
+    \item autor
+    \item čas pridania
 \end{itemize}
 
-\textbf{Komentar:}
+\textbf{Správa:}
 \indent\begin{itemize}
     \item text
-    \item autor - id usera z DB
-    \item cas pridania
+    \item autor 
+    \item komu
+    \item čas odoslania
 \end{itemize}
 
-\textbf{Sprava:}
+\textbf{Úloha:}
 \indent\begin{itemize}
-    \item text
-    \item autor - id usera z DB
-    \item komu - id usera z DB
-    \item cas odoslania
-\end{itemize}
-
-\textbf{Hlasovanie:}
-\indent\begin{itemize}
-    \item text
-    \item autor - id usera z DB
-    \item tim
-    \item miestnost
-    \item prva moznost
-    \item druha moznost
-    \item pocet za prvu
-    \item pocet za druhu
-\end{itemize}
-
-\textbf{Task:}
-\indent\begin{itemize}
+    \item názov
+    \item vedúci úlohy
     \item text
     \item tim
-    \item prideleni useri - pole id userov z DB
-    \item stav tasku
-    \item poznamky - pole id komentarov z DB
+    \item prideleni používatelia
+    \item stav úlohy
+    \item komentáre
 \end{itemize}
 
 \indent Obrazky ... - ... \textbf{Doplni sa ked bude DB hotová s pár dátami} sú záznamy jednotlivých objektov z CouchDB kde môžeme vidieť aj jednotlivé typy záznamov. 
