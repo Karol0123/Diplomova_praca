@@ -121,10 +121,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Datab\IeC {\'a}zov\IeC {\'y} model CouchDB}{40}{subsection.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Z\'{a}ver}{43}{section*.88}
+\contentsline {section}{\numberline {6}Implement\IeC {\'a}cia aplik\IeC {\'a}cie}{43}{section.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{44}{section*.89}
+\contentsline {subsection}{\numberline {6.1}Prihlasovanie a registr\IeC {\'a}cia}{43}{subsection.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Pr\'{i}lohy}{I}{section*.90}
+\contentsline {subsection}{\numberline {6.2}Str\IeC {\'a}nka prihl\IeC {\'a}sen\IeC {\'e}ho pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}a}{47}{subsection.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.92}
+\contentsline {section}{Z\'{a}ver}{49}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Zoznam pou\v {z}itej literat\'{u}ry}{50}{section*.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Pr\'{i}lohy}{I}{section*.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}\IeC {\v S}trukt\IeC {\'u}ra elektronick\IeC {\'e}ho nosi\IeC {\v c}a}{II}{section.103}

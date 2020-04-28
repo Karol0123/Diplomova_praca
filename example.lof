@@ -48,3 +48,19 @@
 \contentsline {figure}{\numberline {22}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram prihl\IeC {\'a}senia a registr\IeC {\'a}cie\relax }}{39}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {23}{\ignorespaces Sekven\IeC {\v c}n\IeC {\'y} diagram komunik\IeC {\'a}cie komponentov v aplik\IeC {\'a}cii\relax }}{40}{figure.caption.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {24}{\ignorespaces Funkcia register na strane back-endu\relax }}{44}{figure.caption.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {25}{\ignorespaces Funkcia login na strane back-endu\relax }}{45}{figure.caption.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {26}{\ignorespaces Vytvorenie jwt tokenu\relax }}{45}{figure.caption.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {27}{\ignorespaces Prihl\IeC {\'a}senia a registr\IeC {\'a}cia na strane front-endu\relax }}{46}{figure.caption.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {28}{\ignorespaces Overenie platbosti jwt tokenu\relax }}{46}{figure.caption.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {29}{\ignorespaces Na\IeC {\v c}\IeC {\'\i }tanie d\IeC {\'a}t prihl\IeC {\'a}sen\IeC {\'e}ho pou\IeC {\v z}\IeC {\'\i }vatela\relax }}{47}{figure.caption.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {30}{\ignorespaces Zobrazenie pou\IeC {\v z}\IeC {\'\i }vatelov\IeC {\'y}ch t\IeC {\'\i }mov\relax }}{48}{figure.caption.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {31}{\ignorespaces Pou\IeC {\v z}itie html elementu calendar\relax }}{48}{figure.caption.98}

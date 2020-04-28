@@ -476,7 +476,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \label{fig:diagram}
 \end{figure}
 
-\indent Po prieskume aktuálnych technológii sme sa rozhodli využiť Node.js ako náš server, ktorý bude komunikovať s našou NoSql databázou CouchDB, do ktorej bude ukladať zadané dáta a zároveň posielať žiadané dáta na frontend implementovaný pomocou typescriptovo založeného frameworku Ionic. Ionic sa avšak ako bolo spomenuté v kapitole .... využíva na tvorbu webových alebo mobilných aplikácii. Preto finálnu webovú aplikáciu exportujeme nakoniec pomocou Electronu na desktopovú aplikáciu pre platformu Windows/Linux/MacOS.
+\indent Po prieskume aktuálnych technológii sme sa rozhodli využiť Node.js ako náš server, ktorý bude komunikovať s našou NoSql databázou CouchDB, do ktorej bude ukladať zadané dáta a zároveň posielať žiadané dáta na frontend implementovaný pomocou typescriptovo založeného frameworku Ionic. Ionic sa avšak ako bolo spomenuté v kapitole 4.3 využíva na tvorbu webových alebo mobilných aplikácii. Preto finálnu webovú aplikáciu exportujeme nakoniec pomocou Electronu na desktopovú aplikáciu pre platformu Windows/Linux/MacOS.
 
 \subsection{Špecifikácia požiadaviek}
 \indent Prvým krokom pri tvorbe návrhu je špecifikovanie vlastností a celkového správania aplikácie. Definuje sa tu funkcionalita, ktorú chceme aby naša aplikácia mala, správanie aplikácie v určitých situáciách a jej kľúčové parametre, ktoré musí podľa požiadaviek spĺňať.
@@ -515,6 +515,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \textbf{Nefunkcionálne požiadavky:}
 \indent\begin{itemize}
     \item Používateľsky prijateľné prostredie
+    \item Fungovanie aj v offline režime
     \item Obsluha viacerých používateľov
     \item Používateľské rozhranie implementované prostredníctvom desktopovej aplikácie
     \item Dizajn inšpirovaný aplikáciou Slack
@@ -581,7 +582,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \indent Celá komunikácia je založená na http protokole. Na diagrame môžeme vidieť, že ak niektorý používateľ vytvorí tím, udalosť, úlohu alebo napíše správu tak je vytvorená žiadosť na pridanie do databázy. Pridanie do databázy je realizované tak, že najskôr sú dáta pridané do lokálnej databázy PouchDB a ak má zariadenie, na ktorom beží aplikácia prístup na internet sú teito dáta hneď zreplikované do online databázy. Ak prístup na internet nie je tak sú dáta zatial uložené len v lokálnej databáze do doby kým zariadenie nezíska prístup na internet. Ostatným používateľom je potom odoslaná infromácia, že na strane databázy prišlo k zmene a ich dáta, ktoré sa v klientovi zobrazujú sú aktualizované na základe nových dát v databáze.  
 
 \subsection{Databázový model CouchDB}
-\indent Po analýze viacrých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Návrh jednotlivých objektov ako aj ich finálny výzor môžeme vidieť nižšie. 
+\indent Po analýze viacrých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Návrh jednotlivých objektov môžeme vidieť nižšie. 
 
 \textbf{Používateľ:}
 \indent\begin{itemize}
@@ -623,6 +624,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item text
     \item autor
     \item čas pridania
+    \item miestnosť
 \end{itemize}
 
 \textbf{Správa:}
@@ -644,4 +646,90 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item komentáre
 \end{itemize}
 
-\indent Obrazky ... - ... \textbf{Doplni sa ked bude DB hotová s pár dátami} sú záznamy jednotlivých objektov z CouchDB kde môžeme vidieť aj jednotlivé typy záznamov. 
+\textbf{Komentár:}
+\indent\begin{itemize}
+    \item text
+    \item autor
+    \item čas pridania
+    \item úloha
+\end{itemize} 
+
+\section{Implementácia aplikácie}
+\indent Po vypracovaní kompletného návrhu sme začali s implemetáciou. Tá sa dála rozvrhnúť na viac fáz podla toho ako sme postupne implementovali aplikáciu. Začali sme s implementáciou prihlasovacieho a registračného systému. Po dokonční tejto časti sme prešli do implementácie zobrazenia aplikácie po prihlásení používatela. Tu sme implementovali časť aplikácie kde sú zobrazené informácie o aktuálne prihlásenom používatelovi, tímy, ktorých je členom, jeho kalendár, v ktorom sú zobrazené udalosti jeho tímov, stránka všetkých jeho úloh zo všetkých tímov a stránka jeho kontaktov. Po implementovaní tejto časti sme prešli na implemetáciu vytvárania a správy tímov. Následne sme implementovali jednotlivé funkcie, ktoré vie vykonávať či už admin tímu alebo člen tímu vo vybranom tíme. Sem patrí vytváranie a správa miestností, úloh a udalostí vo vybranom tíme. Predposlednou časťou, ktorou sme sa zaoberali bolo vytvorenie chatu medzi používateľmi, ktorých máme v kontaktoch. Poslednou časťou bolo vyladenie potencionálnych problémov a celkový dizajn aplikácie nakoľko do teraz sme implementovali hlavne funkcionálne časti aplikácie a dizajn sme nechávali na koniec. Všetky časti až na poslednú sa dajú ešte rozdeliť na implemetáciu back-end časti a front-end časti. Tieto dve časti sme vždy implementovali súčasne aby sme si vždy otestovali požadovanú funkčnosť. Finálnym krokom bol export aplikácie pomocou Elektronu na desktopovú aplikáciu. Nižšie si teraz prejdeme postupne všetky fázy implementácie a podrobne si rozoberieme ako sme jednotlivé časti implementovali.
+
+\subsection{Prihlasovanie a registrácia}
+\indent Medzi nefunkcionálnymi požiadavkami sme spomínali fungovanie aplikácie aj v offline režime. Táto časť aplikácie bola ale implemetovaná tak aby ako jedina vyžadovali pripojenie na internet. Je to samozrejmé z dôvodu, že na získanie dát z online databázy CouchDB a ich zreplikovanie do lokálnej databázy PouchDB vyžaduje pripojenie na internet. Popíšeme si najskôr ako sme implementovali back-end tejto časti a potom font-end.
+
+\indent Na implementáciu back-endu prihlásenia a registrácie sme využili Node.js server, ktorý sa prípája na online databázu. Na Obr. ~\ref{fig:register_back} môžeme vidieť implementáciu funkcie na registráciu používateľa. Po odoslaní vyžadovaných dát používatelom z registračnej stránky sa z requestu - req vytiahnu dáta email, meno a heslo. Prvé čo sa vo funkcii vykoná je overenie či boli zaslané všetky tri údaje. Ak nie server vráti status 400 so správou, že používatel nezadal všetky potrebné údaje. Ak boli zaslané všetky tri tak sa vytvorí selektor do databázy kde sa overuje zadaný email. Ak sa v databáze nachádza už nachádza vytvorený používateľ so zaslaným emailom tak server vráti opäť status 400 so správou, že používatel s týmto emailom už existuje. Rozhodli sme sa overovať len na základe emailu pretože sa môže stať, že dvaja používatelia majú rovnaké meno. Ak v databáze takýto používatel neexistuje tak sa najskôr zašifruje heslo pomocou prídavnej knižnice do node.js bcrypt. Násldne sa už len vytvoria potrebné dodatočné záznami, ktoré json dokument používatela potrebuje - polia tímov, udalostí, kontaktov, úloh a prázdny popis používatela a tento údaj sa pomocou prídavnej knižnice na prácu s CouchDB nano pridá do databázy pomocou funkcie insert.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{img/imp/register_back.png}
+    \caption{Funkcia register na strane back-endu}
+    \label{fig:register_back}
+\end{figure}
+
+\indent Na Obr. ~\ref{fig:login_back} je kód funkcie na prihlásenie. Podobne ako pri registračnej funkcii sa najskôr overí či používateľ zadal všetky potrebné údaje. Následne sa overí či zadaný používateľ je v databáze vytvrený. Ak je, tak sa z databázy vytiahne celý jeho json dokument a overí sa či bolo zadané správne heslo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.40]{img/imp/login_back.png}
+    \caption{Funkcia login na strane back-endu}
+    \label{fig:login_back}
+\end{figure}
+
+\indent Ak je všetko v poriadku vytvorí sa pomocou funkcie createToken jsonwebtoken. Kód tejto funkcie môžeme vidieť na Obr. ~\ref{fig:jwt}. Na vytvorenie tokena je potrebná dodatočná knižnica jsonwebtoken. V tokene je uložené meno a email prihláseného používateľa, takzvané "jwt tajomstvo"  čo je string podla ktorého sa token šifruje a dĺžka platnosti tokena - v našom prípade 24 hodín. Po vypršaní tokena sa automaticky používateľ odhlási a musí byť prihlásený na novo. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.42]{img/imp/jwt.png}
+    \caption{Vytvorenie jwt tokenu}
+    \label{fig:jwt}
+\end{figure}
+
+\indent Na strane front-endu sme ako základ implementovali tiež dve funkcie login a register, ktoré len z formulára vytiahnu zadané údaje a pošlú ich na adresu servera s volaním smerovania aké sme nstavili pre login a register. Na volanie adries servera sme použili dodatočné moduly pre Angular a Ionic HTTPClient a na prácu s jwt tokenom JwtHelperService. Funkcie login a register môžeme vidieť na Obr ~\ref{fig:login_front}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.40]{img/imp/login_front.png}
+    \caption{Prihlásenia a registrácia na strane front-endu}
+    \label{fig:login_front}
+\end{figure}
+
+\indent Na strane font-endu sme ale implementovali ešte niekoľko ďalších potrebných funkcii. Samozrejmá je funkcia na odhlásenia používateľa kde sa len zmazal jwt token. Tiež dôležitou funkciou bola funkcia na overenie platnosti tokena. Pri prihlásení sa token uložil do lokálnej pamäte. Pri každom načítaní, niektorej z ďalej vytvorených stránok sa volá funkcia checkToken (Obr. ~\ref{fig:checkjwt} ). Tu sa pomocou vyšie spomenujet knižnice na prácu s jwt tokenom overí platnosť tokena. Ak nie je platný nastavý sa autorizačný stav na false a používateľ pri otvorení novej stránky alebo obnovení aktuálnej bude automaticky odhlásený a presmerovaný na prihlasovaciu stránku. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/checkjwt.png}
+    \caption{Overenie platbosti jwt tokenu}
+    \label{fig:checkjwt}
+\end{figure}
+
+\subsection{Stránka prihláseného používateľa}
+\indent Po prihlásení sa používateľovi zobrazí stránka s postranným menu kde si vie zvoliť z 5 možností - profil, tímy, kalendár, úlohy a kontakty plus sa tu nachádza možnosť odhlásenia. Hneď po načítaní tejto stránky sa online databáza CouchDB zreplikuje do lokálnej databázy PouchDB. 
+
+\indent Táto časť bola jednoduchá. Prvým krokom bolo vytvorenie spojenia s lokálnou databázou. Spojenie sme nadviazali pomocou pridavného modulu pre Angular pouchdb. Po vytvorení spojenia sa načítajú dáta aktuálne prihláseného používateľa. Tieto údaje sú potom podľa výberu v menu distribuované pomocou nami vytvorenej service sharreddata medzi jednotlivými stránkami, ktoré ich zobrazujú. Service sharreddata pozostáva len z premených, do ktorých ukladáme dáta z DB a ich geterov a seterov. Toto načítanie dát z databázy a uloženie do sharreddata je na Obr. ~\ref{fig:loged_back}.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.38]{img/imp/loged_user_back.png}
+    \caption{Načítanie dát prihláseného používatela}
+    \label{fig:loged_back}
+\end{figure}
+
+\indent Zobrazenie dát na stránke sme následne realizovali podľa potreby. Na zobrazenie tímov, ktorých členom je prihlásený používateľ sme použili tabuľkové rozloženie a funkciu Angularu ngFor. Táto funkcia prechádza polom tímov a vykresluje dáta každého prvku v poli podla predlohy. Podobným princípom sme vytvorili aj zobrazenie kontaktov prihláseného používatela. Ukážka tohto zobrazenia je na Obr. ~\ref{fig:teams}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{img/imp/teams.png}
+    \caption{Zobrazenie používatelových tímov}
+    \label{fig:teams}
+\end{figure}
+
+\indent Na vykreslenie kalendára s udalosťami sme použili prídavný modul Ionicu ionic2-calendar. Tento modul nám umožnil použiť html element calendar (Obr. ~\ref{fig:calendar}), ktorý pekne vykresluje kalendár s možnosťou prepínania zobrazenia na zobrazenie jednotlivých dní alebo zobrazenie mesiaca prípadne týžňa. Tak isto sa veľmi jednoducho pracuje so zobrazením udalostí nakoľko stačí do elementu poslať pole udalostí, ktoré sú vo formáte json čo nám ulahčilo prácu nakoľko nebolo potrebné vytiahnuté dáta z databázy upravovať. Jediné údaje potrebné upraviť bol dátum a čas nakoľko tie sa do databázy ukladali ako string a element kalendár očakával dátový typ Date.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{img/imp/calendar_user.png}
+    \caption{Použitie html elementu calendar}
+    \label{fig:calendar}
+\end{figure}
