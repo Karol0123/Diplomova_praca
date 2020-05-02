@@ -329,8 +329,6 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \indent Capacitor je open-source projekt, ktorý umožňuje spúšťanie moderných web aplikácii natívne na operačných systémoch Android alebo iOS, prípadne s využitím Electronu na systémoch Windows, MacOS. Tiež poskytuje výkonné a ľahko použiteľné rozhranie pre prístup k natívnim SDK a API na každej platforme. O Capacitore sa hovorí ako o výkonnom novom prehliadači webových aplikácii, ktorý odomkne celú natívnu funkčnosť každej platfromy prostredníctvom konzistených API medzi platformami. S použitím Capacitora nemusí vývojár spravovať viac rohraní API pre každú platformu ale môže namiesto toho vyvíjať aplikáciu ako celok bez nutnosti uvažovať na akej platforme bude aplikácia spustená. \newline
 \textbf{Cordova}\newline
 \indent Podobne ako Capacitor je Cordova open-source projekt umožňujúci spustenie web apliikácie na rôznych platformách. Avšak narozdiel od Capacitoru nie je Cordova prispôsobená na využitie Electronu pre export na desktopovú aplikáciu. Preto sa dnes už viacej využíva novší Capacitor.
-\newline
-\newline
 \indent Ionic využíva všetky do teraz dostupné webové komponenty s tým, že ich funkčnosť zrýchľuje a robí ju menej náročnú pre zariadenie, na ktorom aplikácia beží. Tak isto ako bolo už vyššie spomenuté umožňuje využitie ktorýchkoľvek moderných frameworkov a ich komponentov. Pre vývojárov je k dispozícii vlastné prostredie na tvorbu Ionic aplikácii Ionic studio (Obr.~\ref{fig:ionic_studio}) a taktiež je dostupné CLI pre prácu s projektami cez príkazový riadok. 
 
 \begin{figure}[H]
@@ -369,31 +367,25 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \label{fig:angular_architecture}
 \end{figure}
 
+\newpage
+
 \subsubsection{Výhody Angularu}
-\textbf{Komponentová architektúra, ktorá poskytuje vyššiu kvalitu kódu}
+\noindent\textbf{Komponentová architektúra, ktorá poskytuje vyššiu kvalitu kódu}
 
 \indent  Architektúra založená na komponentoch je jednou z vecí, ktorá robí rozdiel medzi AngularJS a jeho nástupcom. Angular komponenty možno považovať za malé časti používateľského rozhrania alebo ako časť aplikácie. Aj keď je každý komponent zapuzdrený so svojou funkčnosťou, v Angulare existuje prísna hierarchia komponentov. Napríklad v Angular 9 boli predstavené komponenty Mapy Google a YouTube Player.
 
-\indent Zatiaľ čo AngularJS bol postavený hlavne na architektúre Model-View-Controller (MVC), počnúc verziou 2 sa Angular považuje za komponentovo-založený, čo je veľmi podobné MVC, ale zaisťuje to vyššiu opätovnú použiteľnosť komponentov v celej aplikácii. To umožňuje vytváranie používateľských rozhraní s mnohými pohyblivými časťami a zároveň zrýchluje priebeh vývoja aplikácie.  
-\newline
-\newline
+\indent Zatiaľ čo AngularJS bol postavený hlavne na architektúre Model-View-Controller (MVC), počnúc verziou 2 sa Angular považuje za komponentovo-založený, čo je veľmi podobné MVC, ale zaisťuje to vyššiu opätovnú použiteľnosť komponentov v celej aplikácii. To umožňuje vytváranie používateľských rozhraní s mnohými pohyblivými časťami a zároveň zrýchluje priebeh vývoja aplikácie. \newline
 \textbf{TypeScript: lepšie nástroje, čistejší kód a vyššia škálovateľnosť}
 
 \indent Angular je písaný pomocou TypeScript jazyka, ktorý je v podstate nadradený JavaScriptu. Plne sa skompiluje do JavaScriptu, ale pomáha pri zisťovaní a odstraňovaní bežných chýb pri písaní kódu. Aj keď malé projekty JavaScriptu takéto vylepšenie nevyžadujú, podnikové aplikácie vyzývajú vývojárov, aby vylepšili svoj kód a častejšie overovali jeho kvalitu.
 
-\indent V Angulari píšeme komponenty v TypeScript, šablóny v HTML a rozširujeme ich pomocou Angularu. Takto funguje väčšina JS frameworkov. Šablóny HTML sa potom skompilujú do pokynov jazyka JavaScript, takže TypeScript alebo JS sú naše hlavné nástroje na prácu v Angulari. Victor Savkin, bývalý vývojár tímu Google Angular, vysvetľuje, že prechod z jazyka JavaScript do jazyka TypeScript je opodstatnený nástrojmi pre veľké projekty v podnikovom meradle. TypeScript má lepšie služby navigácie, automatického dopĺňania a refaktoring.
-\newline
-\newline
+\indent V Angulari píšeme komponenty v TypeScript, šablóny v HTML a rozširujeme ich pomocou Angularu. Takto funguje väčšina JS frameworkov. Šablóny HTML sa potom skompilujú do pokynov jazyka JavaScript, takže TypeScript alebo JS sú naše hlavné nástroje na prácu v Angulari. Victor Savkin, bývalý vývojár tímu Google Angular, vysvetľuje, že prechod z jazyka JavaScript do jazyka TypeScript je opodstatnený nástrojmi pre veľké projekty v podnikovom meradle. TypeScript má lepšie služby navigácie, automatického dopĺňania a refaktoring.\newline
 \textbf{RxJS: efektívne asynchrónne programovanie}
 
-\indent RxJS je knižnica bežne používaná v Angular na spracovanie asynchrónnych dátových volaní. Umožňuje nezávisle a paralelne spracovávať udalosti a čakať na vykonanie nejakej udalosti a ponechať webovú stránku nereagujúcu. V zásade to funguje ako montážna linka, kde sa vykonávanie rozdeľuje na jednotlivé a vymeniteľné kusy, a nie je viazaná na jednu osobu. Je samozrejmé, že už pred RxJS existovalo asynchrónne programovanie, ale táto knižnica uľahčila veľa vecí.
-\newline
-\newline
+\indent RxJS je knižnica bežne používaná v Angular na spracovanie asynchrónnych dátových volaní. Umožňuje nezávisle a paralelne spracovávať udalosti a čakať na vykonanie nejakej udalosti a ponechať webovú stránku nereagujúcu. V zásade to funguje ako montážna linka, kde sa vykonávanie rozdeľuje na jednotlivé a vymeniteľné kusy, a nie je viazaná na jednu osobu. Je samozrejmé, že už pred RxJS existovalo asynchrónne programovanie, ale táto knižnica uľahčila veľa vecí.\newline
 \textbf{Dlhodobá podpora}
 
-\indent Niektorí softvéroví inžinieri považujú samotnú skutočnosť, že spoločnosť Google podporuje technológiu Angular, za hlavnú výhodu tejto technológie. Dobrým znamením je, že spoločnosť Google oznámila dlhodobú podporu pre túto technológiu. Inžinieri Igor Minar a Steven Fluin, stojaci za Angularom, potvrdili tento záväzok v hlavnom vystúpení NG-Conf 2017. V zásade to znamená, že spoločnosť Google plánuje držať sa Angularu a ďalej ho rozvíjať a snažiť sa udržať vedúce postavenie medzi front-end inžinierskymi nástrojmi.
-\newline
-\newline
+\indent Niektorí softvéroví inžinieri považujú samotnú skutočnosť, že spoločnosť Google podporuje technológiu Angular, za hlavnú výhodu tejto technológie. Dobrým znamením je, že spoločnosť Google oznámila dlhodobú podporu pre túto technológiu. Inžinieri Igor Minar a Steven Fluin, stojaci za Angularom, potvrdili tento záväzok v hlavnom vystúpení NG-Conf 2017. V zásade to znamená, že spoločnosť Google plánuje držať sa Angularu a ďalej ho rozvíjať a snažiť sa udržať vedúce postavenie medzi front-end inžinierskymi nástrojmi.\newline
 \textbf{Silná komunita}
 
 \indent Keďže je tu Angular už zopár rokov je jasné, že za ten čas vznikla veľká a živá komunita, ktorá denodenne prináša nové balíky, vylepšenia, návody, rady a iné užitočné veci pri práci s Angularom. Ak sa priemerný inžinier stratí alebo má problém pri vývoji aplikácie, vždy existuje nástroj, ktorý pomôže vyriešiť problém, ktorý sa objaví.
@@ -403,7 +395,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{img/electron_aps.png}
+    \includegraphics[scale=0.35]{img/electron_aps.png}
     \caption{Firmy využívajúce vo svojich aplikáciách Electron}
     \label{fig:electron_aps}
 \end{figure}
@@ -420,37 +412,27 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.30]{img/coucdb.png}
+    \includegraphics[scale=0.25]{img/coucdb.png}
     \caption{JSON dokument v aplikácii na správu CouchDB}
     \label{fig:couch_db}
 \end{figure}
 
 \subsubsection{Výhody použitia CouchDB}
-\indent CouchDB predstavuje celý rad výhod zameraných na používateľov a vývojárov. Motiváciu vývoja CouchDB možno definovať jedným slovom: relax. CouchDB prichádza s množstvom výhod navrhnutých na zníženie námahy pri prevádzkovaní pružného distribuovaného systému. Tu sú niektoré kľúčové vlastnosti CouchDB a ako sa líši od iných databáz NoSQL.
-\newline
-\newline
+\indent CouchDB predstavuje celý rad výhod zameraných na používateľov a vývojárov. Motiváciu vývoja CouchDB možno definovať jedným slovom: relax. CouchDB prichádza s množstvom výhod navrhnutých na zníženie námahy pri prevádzkovaní pružného distribuovaného systému. Tu sú niektoré kľúčové vlastnosti CouchDB a ako sa líši od iných databáz NoSQL.\newline
 \textbf{Škálovateľnosť} \newline
 \indent Architektonický návrh CouchDB ju robí mimoriadne prispôsobivou pri rozdeľovaní databáz a meraní údajov na viacerých uzloch. CouchDB podporuje horizontálne rozdelenie a replikáciu na vytvorenie ľahko spravovaného riešenia na vyrovnanie času potrebného na načítanie aj zápis počas zavádzania databázy.
 
-\indent CouchDB je vybavená veľmi odolným a spoľahlivým úložným enginom, ktorý bol vybudovaný od základov pre viackanálové databázové infraštruktúry. Ako NoSQL databáza je CouchDB veľmi prispôsobiteľná a otvára dvere vývoju predvídateľných aplikácií založených na výkone bez ohľadu na objem vašich údajov alebo počet používateľov.
-\newline
-\newline
+\indent CouchDB je vybavená veľmi odolným a spoľahlivým úložným enginom, ktorý bol vybudovaný od základov pre viackanálové databázové infraštruktúry. Ako NoSQL databáza je CouchDB veľmi prispôsobiteľná a otvára dvere vývoju predvídateľných aplikácií založených na výkone bez ohľadu na objem vašich údajov alebo počet používateľov.\newline
 \textbf{Žiadne read-locks} \newline
 \indent Vo väčšine relačných databáz - kde sú údaje uložené v tabuľkách - ak niekedy potrebujete aktualizovať alebo upraviť tabuľku tak sa riadok zmenených údajov uzamkne pre ostatných používateľov, až kým sa nespracuje požiadavka na úpravu. Môže to spôsobiť problémy s prístupnosťou pre klientov a celkové prekážky vo vašich procesoch správy údajov.
 
-\indent CouchDB používa MVCC na simultánnu správu prístupu k databázam. To znamená, že bez ohľadu na aktuálne načítanie databázy môže CouchDB bežať na plnú rýchlosť a bez obmedzenia pre svojich používateľov. Pretože dokumenty v CouchDB sú verzované a pripojené v reálnom čase, v požiadavkách na čítanie databázy sa vždy zobrazia najnovšie aktualizované databázové snímky, bez ohľadu na to, kto k dokumentu pristupoval ako prvý.
-\newline
-\newline
+\indent CouchDB používa MVCC na simultánnu správu prístupu k databázam. To znamená, že bez ohľadu na aktuálne načítanie databázy môže CouchDB bežať na plnú rýchlosť a bez obmedzenia pre svojich používateľov. Pretože dokumenty v CouchDB sú verzované a pripojené v reálnom čase, v požiadavkách na čítanie databázy sa vždy zobrazia najnovšie aktualizované databázové snímky, bez ohľadu na to, kto k dokumentu pristupoval ako prvý.\newline
 \textbf{CouchDB replikácia} \newline
 \indent Jednou z definujúcich funkcií CouchDB je obojsmerná replikácia, ktorá umožňuje synchronizáciu údajov na viacerých serveroch a zariadeniach prostredníctvom obojsmernej replikácie. Táto replikácia umožňuje podnikom maximalizovať dostupnosť systémov, skrátiť dobu obnovy dát, lokalizovať údaje najbližšie ku koncovým používateľom a zjednodušiť procesy zálohovania.
 
-\indent V CouchDB sa nerozlišuje, či sú dáta uložené na jednom serveri alebo na viacerých serveroch. CouchDB skôr identifikuje zmeny dokumentov, ku ktorým dôjde z akéhokoľvek zdroja, a zabezpečí, aby všetky kópie databázy zostali synchronizované s najaktuálnejšími informáciami. To umožňuje samostatnú správu a správu viacerých replík databázy a zároveň poskytuje presné informácie v reálnom čase vo viacerých počítačových prostrediach.
-\newline
-\newline
-\textbf{HTTP API} \newline
-\indent CouchDB používa RESTful API na prístup do databázy odkiaľkoľvek, s plnou flexibilitou operácií CRUD (vytváranie, čítanie, aktualizácia, mazanie). Tento jednoduchý a efektívny spôsob pripojenia k databáze robí CouchDB flexibilnou, rýchlou a výkonnou na použitie pri zachovaní vysokej dostupnosti.
-\newline
-\newline
+\indent V CouchDB sa nerozlišuje, či sú dáta uložené na jednom serveri alebo na viacerých serveroch. CouchDB skôr identifikuje zmeny dokumentov, ku ktorým dôjde z akéhokoľvek zdroja, a zabezpečí, aby všetky kópie databázy zostali synchronizované s najaktuálnejšími informáciami. To umožňuje samostatnú správu a správu viacerých replík databázy a zároveň poskytuje presné informácie v reálnom čase vo viacerých počítačových prostrediach.\newpage
+\noindent\textbf{HTTP API} \newline
+\indent CouchDB používa RESTful API na prístup do databázy odkiaľkoľvek, s plnou flexibilitou operácií CRUD (vytváranie, čítanie, aktualizácia, mazanie). Tento jednoduchý a efektívny spôsob pripojenia k databáze robí CouchDB flexibilnou, rýchlou a výkonnou na použitie pri zachovaní vysokej dostupnosti.\newline
 \textbf{Stavaná pre offline používanie} \newline
 \indent Keď škálujeme použiteľnosť a prístupnosť databázy, je nevyhnutné vytvárať aplikácie, ktoré fungujú rovnako offline, ako online. CouchDB umožňuje aplikáciám ukladať zozbierané údaje lokálne na mobilných zariadeniach a prehliadačoch a potom ich synchronizovať, keď sa vrátia online.
 
@@ -496,7 +478,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item Nastavenie stavu tasku
     \item Prepnutie sa medzi rozhraniami aministrátor a používateľ
 \end{itemize}
-
+\newpage
 
 \underline{\textit{Člen tímu:}}
 \indent\begin{itemize}
@@ -549,7 +531,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{img/DP_use_case_clen_timu.png}
+    \includegraphics[scale=0.20]{img/DP_use_case_clen_timu.png}
     \caption{Use case diagram prostredia člena tímu}
     \label{fig:use_case_clen_timu}
 \end{figure}
@@ -570,7 +552,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 
 \indent Pri registrácii funguje systém podobne. Po vyplnení údajov sa údaje pošlú na server, ktorý overí či daný email sa auž nepoužíva. Ak sa nepoužíva tak sa do databázy uloží nový používateľ a na stranu klienta je odoslaná správa o úspešenej registrácii. 
 \newpage
-\textbf{Komunikácia komponentov v aplikácii po prihlásení} \newline
+\noindent\textbf{Komunikácia komponentov v aplikácii po prihlásení} \newline
 \indent Diagram Obr.~\ref{fig:seq_com} nám znázorňuje ako budú jednotlivé komponenty v aplikácii medzi sebou komunikovať po prihlásení do aplikácie.
 \begin{figure}[H]
     \centering
@@ -582,7 +564,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \indent Celá komunikácia je založená na http protokole. Na diagrame môžeme vidieť, že ak niektorý používateľ vytvorí tím, udalosť, úlohu alebo napíše správu tak je vytvorená žiadosť na pridanie do databázy. Pridanie do databázy je realizované tak, že najskôr sú dáta pridané do lokálnej databázy PouchDB a ak má zariadenie, na ktorom beží aplikácia prístup na internet sú teito dáta hneď zreplikované do online databázy. Ak prístup na internet nie je tak sú dáta zatial uložené len v lokálnej databáze do doby kým zariadenie nezíska prístup na internet. Ostatným používateľom je potom odoslaná infromácia, že na strane databázy prišlo k zmene a ich dáta, ktoré sa v klientovi zobrazujú sú aktualizované na základe nových dát v databáze.  
 
 \subsection{Databázový model CouchDB}
-\indent Po analýze viacrých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Návrh jednotlivých objektov môžeme vidieť nižšie. 
+\indent Po analýze viacerých možností sme sa v našom zadaní rozhodli nepoužiť štandardnú SQL databázu. Toto má za následok to, že sa nedá modelovať databáza cez štandarné ERD diagramy. CouchDB je databáza založené nie na tabuľkách ale na JSON dokumentoch. Hoci si naša aplikácia bude vyžadovať viac špecifických objektov pre jednotlivé záznamy do databázy, tieto objekty nebudú zložité. Jedná sa prevažne o objekty zložené z viacerých jednoduchým dátových hodnôt typu string, integer, date. Tieto objekty bude potrebné vytvoriť ako na strane servera v JavaScripte tak aj na strane frontendu v TypeScripte. Návrh jednotlivých objektov môžeme vidieť nižšie spolu s ich neskoršou reprezentáciou v JSON dokumentoch na strane CouchDB. Rozdiely oproti návrhu a ich neskoršou reprezentáciou sú spôsobené potrebou zmeny pri implementácii aplikácie kvôli zjednodušeniu jej behu. 
 
 \textbf{Používateľ:}
 \indent\begin{itemize}
@@ -593,6 +575,13 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item kalendár 
 \end{itemize}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_user.png}
+    \caption{JSON dokument používateľa v Couchdb}
+    \label{fig:db_user}
+\end{figure}
+
 \textbf{Udalosť:}
 \indent\begin{itemize}
     \item názov
@@ -601,6 +590,13 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item koniec
     \item popis 
 \end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_event.png}
+    \caption{JSON dokument udalosti v Couchdb}
+    \label{fig:db_event}
+\end{figure}
 
 \textbf{Tím:}
 \indent\begin{itemize}
@@ -612,12 +608,26 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item úlohy 
 \end{itemize}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_team.png}
+    \caption{JSON dokument tímu v Couchdb}
+    \label{fig:db_team}
+\end{figure}
+
 \textbf{Miestnosť:}
 \indent\begin{itemize}
     \item názov
     \item členovia 
     \item príspevky 
 \end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_room.png}
+    \caption{JSON dokument miestnosti v Couchdb}
+    \label{fig:db_room}
+\end{figure}
 
 \textbf{Príspevok:}
 \indent\begin{itemize}
@@ -627,6 +637,13 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item miestnosť
 \end{itemize}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_feed.png}
+    \caption{JSON dokument príspevku v miestnosti v Couchdb}
+    \label{fig:db_feed}
+\end{figure}
+
 \textbf{Správa:}
 \indent\begin{itemize}
     \item text
@@ -634,6 +651,13 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item komu
     \item čas odoslania
 \end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_message.png}
+    \caption{JSON dokument správy v Couchdb}
+    \label{fig:db_message}
+\end{figure}
 
 \textbf{Úloha:}
 \indent\begin{itemize}
@@ -646,6 +670,13 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item komentáre
 \end{itemize}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_task.png}
+    \caption{JSON dokument úlohy v Couchdb}
+    \label{fig:db_task}
+\end{figure}
+
 \textbf{Komentár:}
 \indent\begin{itemize}
     \item text
@@ -654,8 +685,15 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \item úloha
 \end{itemize} 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.50]{img/imp/db_comment.png}
+    \caption{JSON dokument komentáru úlohy v Couchdb}
+    \label{fig:db_comment}
+\end{figure}
+
 \section{Implementácia aplikácie}
-\indent Po vypracovaní kompletného návrhu sme začali s implemetáciou. Tá sa dála rozvrhnúť na viac fáz podla toho ako sme postupne implementovali aplikáciu. Začali sme s implementáciou prihlasovacieho a registračného systému. Po dokonční tejto časti sme prešli do implementácie zobrazenia aplikácie po prihlásení používatela. Tu sme implementovali časť aplikácie kde sú zobrazené informácie o aktuálne prihlásenom používatelovi, tímy, ktorých je členom, jeho kalendár, v ktorom sú zobrazené udalosti jeho tímov, stránka všetkých jeho úloh zo všetkých tímov a stránka jeho kontaktov. Po implementovaní tejto časti sme prešli na implemetáciu vytvárania a správy tímov. Následne sme implementovali jednotlivé funkcie, ktoré vie vykonávať či už admin tímu alebo člen tímu vo vybranom tíme. Sem patrí vytváranie a správa miestností, úloh a udalostí vo vybranom tíme. Predposlednou časťou, ktorou sme sa zaoberali bolo vytvorenie chatu medzi používateľmi, ktorých máme v kontaktoch. Poslednou časťou bolo vyladenie potencionálnych problémov a celkový dizajn aplikácie nakoľko do teraz sme implementovali hlavne funkcionálne časti aplikácie a dizajn sme nechávali na koniec. Všetky časti až na poslednú sa dajú ešte rozdeliť na implemetáciu back-end časti a front-end časti. Tieto dve časti sme vždy implementovali súčasne aby sme si vždy otestovali požadovanú funkčnosť. Finálnym krokom bol export aplikácie pomocou Elektronu na desktopovú aplikáciu. Nižšie si teraz prejdeme postupne všetky fázy implementácie a podrobne si rozoberieme ako sme jednotlivé časti implementovali.
+\indent Po vypracovaní kompletného návrhu sme začali s implemetáciou. Tá sa dála rozvrhnúť na viac fáz podľa toho ako sme postupne implementovali aplikáciu. Začali sme s implementáciou prihlasovacieho a registračného systému. Po dokonční tejto časti sme prešli do implementácie zobrazenia aplikácie po prihlásení používatela. Tu sme implementovali časť aplikácie kde sú zobrazené informácie o aktuálne prihlásenom používatelovi, tímy, ktorých je členom, jeho kalendár, v ktorom sú zobrazené udalosti jeho tímov, stránka všetkých jeho úloh zo všetkých tímov a stránka jeho kontaktov. Po implementovaní tejto časti sme prešli na implemetáciu vytvárania a správy tímov. Následne sme implementovali jednotlivé funkcie, ktoré vie vykonávať či už admin tímu alebo člen tímu vo vybranom tíme. Sem patrí vytváranie a správa miestností, úloh a udalostí vo vybranom tíme. Predposlednou časťou, ktorou sme sa zaoberali bolo vytvorenie chatu medzi používateľmi, ktorých máme v kontaktoch. Poslednou časťou bolo vyladenie potencionálnych problémov a celkový dizajn aplikácie nakoľko do teraz sme implementovali hlavne funkcionálne časti aplikácie a dizajn sme nechávali na koniec. Všetky časti až na poslednú sa dajú ešte rozdeliť na implemetáciu back-end časti a front-end časti. Tieto dve časti sme vždy implementovali súčasne aby sme si vždy otestovali požadovanú funkčnosť. Finálnym krokom bol export aplikácie pomocou Elektronu na desktopovú aplikáciu. Nižšie si teraz prejdeme postupne všetky fázy implementácie a podrobne si rozoberieme ako sme jednotlivé časti implementovali.
 
 \subsection{Prihlasovanie a registrácia}
 \indent Medzi nefunkcionálnymi požiadavkami sme spomínali fungovanie aplikácie aj v offline režime. Táto časť aplikácie bola ale implemetovaná tak aby ako jedina vyžadovali pripojenie na internet. Je to samozrejmé z dôvodu, že na získanie dát z online databázy CouchDB a ich zreplikovanie do lokálnej databázy PouchDB vyžaduje pripojenie na internet. Popíšeme si najskôr ako sme implementovali back-end tejto časti a potom font-end.
@@ -705,9 +743,16 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
 \end{figure}
 
 \subsection{Stránka prihláseného používateľa}
-\indent Po prihlásení sa používateľovi zobrazí stránka s postranným menu kde si vie zvoliť z 5 možností - profil, tímy, kalendár, úlohy a kontakty plus sa tu nachádza možnosť odhlásenia. Hneď po načítaní tejto stránky sa online databáza CouchDB zreplikuje do lokálnej databázy PouchDB. 
+\indent Po prihlásení sa používateľovi zobrazí stránka s postranným menu kde si vie zvoliť z 5 možností - profil, tímy, kalendár, úlohy a kontakty plus sa tu nachádza možnosť odhlásenia. Hneď po načítaní tejto stránky sa online databáza CouchDB zreplikuje do lokálnej databázy PouchDB a nastaví sa takzvané počúvanie databázy na live zmeny čo umožní v reálnom čase meniť zobrazené dáta hneď po ich editácii, pridaní alebo zmazaní z databázy. Toto nastavenie sa realizuje pomocou vstavanej funkcie knižnice pouchdb changes() (Obr. ~\ref{fig:db_change}). 
 
-\indent Táto časť bola jednoduchá. Prvým krokom bolo vytvorenie spojenia s lokálnou databázou. Spojenie sme nadviazali pomocou pridavného modulu pre Angular pouchdb. Po vytvorení spojenia sa načítajú dáta aktuálne prihláseného používateľa. Tieto údaje sú potom podľa výberu v menu distribuované pomocou nami vytvorenej service sharreddata medzi jednotlivými stránkami, ktoré ich zobrazujú. Service sharreddata pozostáva len z premených, do ktorých ukladáme dáta z DB a ich geterov a seterov. Toto načítanie dát z databázy a uloženie do sharreddata je na Obr. ~\ref{fig:loged_back}.  
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{img/imp/db_change.png}
+    \caption{Nastavenie na live počúvanie zmien databázy}
+    \label{fig:db_change}
+\end{figure}
+
+\indent Táto časť bola jednoduchá. Prvým krokom bolo vytvorenie spojenia s lokálnou databázou. Spojenie sme nadviazali pomocou pridavného modulu pre Angular pouchdb. Po vytvorení spojenia sa načítajú dáta aktuálne prihláseného používateľa. Tieto údaje sú potom podľa výberu v menu distribuované pomocou nami vytvorenej service sharreddata medzi jednotlivými stránkami, ktoré ich zobrazujú. Service sharreddata pozostáva len z premených, do ktorých ukladáme dáta z DB a z ich getterov a setterov. Toto načítanie dát z databázy a uloženie do sharreddata je na Obr. ~\ref{fig:loged_back}.  
 
 \begin{figure}[H]
     \centering
@@ -716,7 +761,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \label{fig:loged_back}
 \end{figure}
 
-\indent Zobrazenie dát na stránke sme následne realizovali podľa potreby. Na zobrazenie tímov, ktorých členom je prihlásený používateľ sme použili tabuľkové rozloženie a funkciu Angularu ngFor. Táto funkcia prechádza polom tímov a vykresluje dáta každého prvku v poli podla predlohy. Podobným princípom sme vytvorili aj zobrazenie kontaktov prihláseného používatela. Ukážka tohto zobrazenia je na Obr. ~\ref{fig:teams}
+\indent Zobrazenie dát na stránke sme následne realizovali podľa potreby. Stránka profilu len zobrala dopredu vytiahnuté dáta z DB o používateľovi a zobrazila ich. Na zobrazenie tímov, ktorých členom je prihlásený používateľ sme použili tabuľkové rozloženie a funkciu Angularu ngFor. Táto funkcia prechádza polom tímov a vykresluje dáta každého prvku v poli podľa predlohy. Podobným princípom sme vytvorili aj zobrazenie kontaktov prihláseného používatela. Ukážka tohto zobrazenia je na Obr. ~\ref{fig:teams}
 
 \begin{figure}[H]
     \centering
@@ -725,7 +770,7 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \label{fig:teams}
 \end{figure}
 
-\indent Na vykreslenie kalendára s udalosťami sme použili prídavný modul Ionicu ionic2-calendar. Tento modul nám umožnil použiť html element calendar (Obr. ~\ref{fig:calendar}), ktorý pekne vykresluje kalendár s možnosťou prepínania zobrazenia na zobrazenie jednotlivých dní alebo zobrazenie mesiaca prípadne týžňa. Tak isto sa veľmi jednoducho pracuje so zobrazením udalostí nakoľko stačí do elementu poslať pole udalostí, ktoré sú vo formáte json čo nám ulahčilo prácu nakoľko nebolo potrebné vytiahnuté dáta z databázy upravovať. Jediné údaje potrebné upraviť bol dátum a čas nakoľko tie sa do databázy ukladali ako string a element kalendár očakával dátový typ Date.
+\indent Na vykreslenie kalendára s udalosťami sme použili prídavný modul Ionicu ionic2-calendar. Tento modul nám umožnil použiť html element calendar (Obr. ~\ref{fig:calendar}), ktorý pekne vykresluje kalendár s možnosťou prepínania zobrazenia na zobrazenie jednotlivých dní alebo zobrazenie mesiaca prípadne týžňa. Tak isto sa veľmi jednoducho pracuje so zobrazením udalostí nakoľko stačí do elementu poslať pole udalostí, ktoré sú vo formáte json čo nám ulahčilo prácu nakoľko nebolo potrebné vytiahnuté dáta z databázy upravovať. Jediné údaje potrebné upraviť bol dátum a čas nakoľko tie sa do databázy ukladali ako String a element kalendár očakával dátový typ Date.
 
 \begin{figure}[H]
     \centering
@@ -733,3 +778,33 @@ Inštalácia balíkov sa dá zrealizovať tromi spôsobmi:
     \caption{Použitie html elementu calendar}
     \label{fig:calendar}
 \end{figure}
+
+\subsection{Stránka vybreného tímu}
+\indent Keď používateľ na stránke po prihlásení otvoril stránku s jeho tímami má možnosť na niektorý z jeho tímov kliknúť. Po kliknutí sa mu otvorí stránka tímu, ktoré pozostávala z viacerých možností. Základom stránky je postranné menu kde má zobraznené vytvorené miestnosti v teame a vytvorené úlohy v teame. Taktiež tu má možnosť prezrieť si kalendár tímu a stránku s členmi tímu, kde si vie pozrieť ich emailové adresy, popis ich profilu a má možnosť si tu pridať členov do svojich kontaktov. Administrátor respektíve vedúci tímu má navyše možnosť pridávania členov do tímu a vytváranie prípadne odstránenie udalostí v tímovom kalendári. Vytváranie miestností a úloh je umožnené všetkým členom tímu. 
+
+\indent Implementáciu tejto časti sme začali implementovaním funkcie pre administrátora tímu na pridanie členov do tímu a následne ich zobrazenie na stránke členov. Pridávanie členov sme zrealizovali pomocou vyskakovacích alert okien kde administrátor zadá email používateľa, ktorého chce pridaď. Kód implementácie vyskakoavieho okna môžeme vidieť na Obr.  ~\ref{fig:add_user_alert}. Následne sa tento email použije na vyhladanie v databáze. Ak je používateľ s tímto emailom nájdený je pridaný do tímu a administrátor je o tom  informovaným vyskakovacím oknom. Ak sa tento email nenašiel po žiadnym používateľom opäť vyskočí informácia o tom, že daný používateľ neexistuje. Samotnú stránku členov tímu sme implementovali rovnako ako stránku kontaktov pri úvodnej stránke po prihlásení. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{img/imp/add_user_alert.png}
+    \caption{Implementácia vyskakovacieho okna na pridanie člena tímu}
+    \label{fig:add_user_alert}
+\end{figure}
+
+\indent Ďalšou časťou, ktorú sme implementovali bol kalendár a pridávanie udalostí. Kalendár sme implementovali rovnako ako pri kaledári používateľa. Jediným rozdielom bolo načítanie dát. Tu sme načítavali udalosti len tímu, v ktorom sa nachádzame. Pridávanie udalostí sme implementovali pomocou rozbalovacieho okna kde po kliknutí na tlačidlo pridanie udalosti sa nám rozbalí formulár, do ktorého treba zadať názov udalosti, jej popis, čas od kedy do kedy bude udalosť prebiehať prípadne vybrať možnosť udlosť na celý deň. V tomto prípade sa do času začiatku uloži vybraný deň a čas 7:00 ráno a do času konca sa uloži vybraný deň konca a čas 22:00. 
+
+\indent V implemetácii tímovej časti sme ďalej pokračovali vytvorením funkcionality miestností. Tu sme najkôr implementovali možnosť vytvorenia miestnosti. Toto sme realizovali podobne ako pridanie člena do tímu pomocou vyskakovacieho okna kde sa zadal názov miestnosti. Následne sa vytvorené miestnosť zobrazila v bočnom menu. Po kliknutí na názov miestnosti v menu sa otvorí stránka miestnosti, na ktorej sa zobrazia pridané príspevky a možsnoť pridať nový príspevok. Zobrazenie príspevkov sme realizovali pomocou vyžše spomínanej funkcie Angularu ngFor, ktorá pre každý príspevok vytiahnutý z databázi vytvorila zobrazila dáta príspevku podľa predlohy. Na spodku stránky sme implemtovali pridanie príspevku. To pozostáva z jednoduchého elementu textarea, ktorý sa po kliknutí naň jemne zväčší a používateľ môže napísať správu príspevku. Po stlačení tlačidla enter sa potom príspevok vytvorí pod menom prihláseného používateľa a čas pridania sa nastaví na aktuálny čas. Takto vytvorený príspevok sa pošle do databázy. Pomocou na začiatku spomínanej funkcie changes() sa hneď príspevok zobrazí všetkým online používateľom. 
+
+\indent Poslednou funkcionalitou, ktorú sme v tejto časti implemetovali bolo vytváranie, zobrazenie a správa úloh. V postrannom menu sme implementvali tlačidlo na pridanie úlohy. Toto sme tiež implementovali pomocou vyskakovacieho okna kde pouzžívateľ zadá názov a popis úlohy. Následne je úloha vytvorená a zobrazí sa v postrannom menu kde je možné ne ňu kliknúť. Po kliknutí sa zobrazí stránka úlohy kde sú zobrazené jej údaje, komentáre od používateľov a možnosť pridať komentár. Údaje o úlohe zahŕňajú status úlohy - zadaná, pracuje sa na nej a spravená. Tento status je možné meniť po kliknutí naň, dátum zadania úlohy, dátum dokončenia úlohy (kým status nie je nastavený na spravená zobrazuje sa tu nápis prebieha), meno vedúceho úlohy a mená členov tímu, ktorý na úlohe pracujú. Vedúci úlohy má možnosť pridania člena tímu na spolupodielanie sa na úlohe. Pridávanie komentárov sme implementovali rovnako ako pridávanie príspevkov v miestnosti. 
+
+\subsection{Chat}
+\indent Poslednou funkcionálnou časťou, ktorú sme implementovali bol chat medzi používateľmi, ktorý sa navzájom majú v kontaktoch. Používateľ po prihlásení ma v postrannom menu možnosť kliknúť na kontakty. Tu sa mu zobrazí stránka kontaktov, na ktoré má možnosť kliknúť. Následne sa zobrazí stránka chatu s používateľom, na ktorého bolo kliknuté. Samotný chat sa implemntoval podobne ako pridávanie príspevkov do miestností alebo komentárov k úlohám. 
+
+\subsection{Dizajn aplikácie a odstránenie problémov}
+\indent Dizajn aplikácie sme prispôsobovali tak aby pripomínal podobné aplikácie a aby bolo ľahké si zvyknúť na používanie aplikácie novým používateľom. Všetky možnosti využitia aplikácie sú spravené prehľadne a používatelia intuitívne vedia ako aplikáciu využivať. Jednotlivé stránky aplikácie a ich dizajn môžeme vidieť v prílohe ~\ref{att:A}. 
+
+
+\indent Po dokončení dizajnu sme začali s hľadaním a odstraňovaním problémov, ktoré sa mohli vyskytnúť. Jedným z častých problémov bolo repetetívne zobrazovanie niektorých príspevkov, komentárov alebo udalostí. Toto bolo zapríčinené nevyprázdnením pola daných dát pri zaznamenaní zmeny v databáze. Keď nastala zmena v databáze bolo nutné buď zmazať celé pole a jeho vytvorenie na novo alebo pridať do pola len nové dáta, ktoré boli do databázy pridané. Riešili sme to prvým spôsobom nakoľko nám prišiel efektívnejší ako vždy prehladávať pole a pridávať prípadne odstraňovať z neho dáta podla zmeny v databáze. Ďaľším problémom, ktorý sa objavil bolo miznutie postranného menu po zmenšení okna webového prehliadača alebo po exporte na desktopovú aplikáciu po zmenšovaní okna aplikácie. Z tohto dôvodu sme do každej stránke implementovali tlačidlo, ktoré sa zobrazí len v tedy ak sa okno zmenší tak, že postranné menu zmizne. Pomocou tohto tlačidla sa postranné menu zobrazí o úroveň vyžšie ako stránka, na ktorej sa nachádzame. Tým pádom je v tomto momente možné pracovať len s menu, ale po kliknutí mimo menu sa opäť vrátime na otvorenú stránku.
+
+\subsection{Export na desktopovú aplikáciu použitím Electronu}
+\indent Posledným krokom implementácie bolo vyexportovanie nami naprogramovanej webovej aplikácie na desktopovú aplikáciu. Keďže sme celú aplikáciu vyvýjali pod operačným systémom linux tak sme aj export aplikácie robili pre tento operačný systém. Samozrejme je možne aplikáciu vyexportovať aj pre iné opreračné systémy. Táto časť pozostávala najskôr s nainštalovaním knižnice Electronu do našej aplikácie použitím npm. Do príkazového riadku v našej aplikácii sme zadali príkaz npm install electron --save-dev čo nám nainšalovalo najnovšiu verziu Electronu do našej aplikácie. Následne sme už mohli pracovať s exportovaním. Najskôr sme ale upravili potrebné parametre aplikácie - názov, autor, verzia. Následne sme už mohli začať s exportovaním. Prvým krokom bolo vytvorenie zdrojvých súborov pre inštaláciu. Toto sme zrealizovali pomocou príkazu electron-packager . --platfrom=linux. Tu si môžeme všimnúť, že sme za platformu vybrali práve spomínaný linux. Tu by sa dalo zmeniť pre aký systém chcem aplikáciu exportovať. Po tomto príkaze sme vytvorili inštalačný súbor pre systém linux pomocou príkazu electron-installer-debian --src Co-lab-linux-x64/ --arch amd64 --config debian.json. Tiež si môžme všimnúť, že niektoré dodatočné parametre príkazu sa týkaju verzie pre aký linux chceme inštalačný súbor. Pri parametri src si treba dať pozor na správnu cestu k vytvoreným zdrojovým súborom, ktoré sme vytvorili pri predchádzajúcom príkaze electron-packager. Následne nám už Electron vytvoril inštalačný súbor, ktorý sme už len spustili a aplikácia asa nainštalovala pod systémom linux. Pri simultálnom používaní aplikácie cez web aj cez nainštalovanú aplikáciu sme otestovali či je správanie a funkcionalita aplikácie rovnaká. Po tomto teste sme mohli skonštatovať, že aplikácia funguje rovnako aj cez webový prehliadač aj ako desktopová aplikácia čo bol náš cieľ.
