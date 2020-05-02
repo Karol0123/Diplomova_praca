@@ -70,7 +70,7 @@
 
 % we should use ISO 690 & 690-2 http://www.fei.stuba.sk/sk/kniznica-fei/vzory-bibliografickych-odkazov-a-citovanie.html?page_id=1756 
 % package for biblatex https://github.com/michal-h21/biblatex-iso690
-\usepackage[backend=biber,style=iso-numeric,autolang=other,bibencoding=utf8,seconds=true]{biblatex}
+
 \usepackage[overload]{textcase}
 \usepackage{chngcntr}  
 \usepackage{tocloft}
@@ -96,7 +96,9 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage[acronym,nopostdot,nogroupskip,nonumberlist]{glossaries}
+\usepackage[backend=biber,style=iso-numeric,autolang=other,bibencoding=utf8,seconds=true]{biblatex}
 \addbibresource{includes/bibliography.bib}
+
 % \usepackage{showframe} % debugging overflows
 
 % \cftsetpnumwidth{1.8em} % set the dots width in loX (f,t,l,a...) https://tex.stackexchange.com/q/369283/106389
@@ -553,8 +555,8 @@ na z\'{a}klade poznatkov z\'{i}skan\'{y}ch po\v{c}as \v{s}t\'{u}dia a inform\'{a
 }
         
 \newcommand\FEIcontent{ 
-    \pagestyle{plain}
-    \addtocontents{toc}{\protect\thispagestyle{plain}}
+    \pagestyle{empty}
+    \addtocontents{toc}{\protect\thispagestyle{empty}}
     \tableofcontents
     \newpage
 }
@@ -644,6 +646,20 @@ na z\'{a}klade poznatkov z\'{i}skan\'{y}ch po\v{c}as \v{s}t\'{u}dia a inform\'{a
     \setlength\LTright{0pt}
     \setlength\glsdescwidth{\hsize}
 }
+
+\newcommand\FEIlistOfAbbreviationsAndSymbols[1]{	
+	\pagestyle{empty}
+	\IfEqCase*{\FEIenglish}{
+   		 {0}{\def\@zoznamZnc{Zoznam skratiek a zna\v{c}iek}}
+		 {1}{\def\@zoznamZnc{List of Abbreviations and Symbols}}
+		  }[]
+	\addtocontents{lof}{\protect\thispagestyle{empty}}
+	\addtocontents{lot}{\protect\thispagestyle{empty}}
+	\subsection*{\@zoznamZnc}
+	\vspace{5mm} \noindent
+	\input{#1}
+	\newpage
+}
         
 \newcommand\FEIlistOfGlossaries{  
     \pagestyle{plain}
@@ -701,21 +717,23 @@ na z\'{a}klade poznatkov z\'{i}skan\'{y}ch po\v{c}as \v{s}t\'{u}dia a inform\'{a
 }
 
 \newcommand\FEIbibliography{    
-    \newpage
-    \cleardoublepage
-    \phantomsection 
-    \IfEqCase*{\FEIenglish}{
-        {0}{\def\@zoznamBib{Zoznam pou\v{z}itej literat\'{u}ry}}
-        {1}{\def\@zoznamBib{Bibliography}}
-        }[]
-    \addcontentsline{toc}{section}{\@zoznamBib}
-    \renewcommand\refname{\@zoznamBib} 
-
-    \renewcommand\multinamedelim{\addcomma\space}
-    \renewcommand\finalnamedelim{\addspace\bibstring{and}\space}
+   \newpage
+   \cleardoublepage
+   \phantomsection
+   \IfEqCase*{\FEIenglish}{
+       {0}{\def\@zoznamBib{Zoznam pou\v{z}itej literat\'{u}ry}}
+       {1}{\def\@zoznamBib{Bibliography}}
+       }[]
+   \addcontentsline{toc}{section}{\@zoznamBib}
+   \renewcommand\refname{\@zoznamBib}
+ 
+   \renewcommand\multinamedelim{\addcomma\space}
+   \renewcommand\finalnamedelim{\addspace\bibstring{and}\space}
     % below you can set padding in bibliography
     \setlength{\bibhang}{0pt}
+    \nocite{*}
     \printbibliography
+
 }
 
 \newcounter{listOfAppendix}

@@ -1,0 +1,712 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{mobileappdomain}{article}{}
+      \name{author}{1}{}{%
+        {{hash=714f7e2cfecb80d1d23e1be53517a623}{%
+           family={KOSTOVA\bibnamedelima S.},
+           familyi={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={VRANIĆ\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York: ACM}%
+      }
+      \strng{namehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{fullhash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{bibnamehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{authorbibnamehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{authornamehash}{714f7e2cfecb80d1d23e1be53517a623}
+      \strng{authorfullhash}{714f7e2cfecb80d1d23e1be53517a623}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{isbn}{978-1-4503-5513-1}
+      \field{journaltitle}{Proceeding Programming'18 Companion Conference Companion of the 2nd International Conference on Art, Science, and Engineering of Programming, Nice, France}
+      \field{month}{9}
+      \field{title}{Applying aspect-oriented change realization in the mobile application domain}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mobileappsupport}{book}{}
+      \name{author}{1}{}{%
+        {{hash=847ea2cbeefd03cdb01f8770dfd3f55b}{%
+           family={TRÚCHLY\bibnamedelima P.},
+           familyi={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={PETRÍK\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Danvers: IEEE, 2014}%
+      }
+      \strng{namehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{fullhash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{bibnamehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{authorbibnamehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{authornamehash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \strng{authorfullhash}{847ea2cbeefd03cdb01f8770dfd3f55b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4799-7738-3}
+      \field{note}{Uverejnené v ICETA 2014}
+      \field{title}{Mobile application supporting an engage in sport and social activities}
+      \field{pages}{s. 477\bibrangedash 482.}
+      \range{pages}{-1}
+    \endentry
+    \entry{bakalarska_praca}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f5158f82abf4184ad07c22b4a3a14e95}{%
+           family={Krist},
+           familyi={K\bibinitperiod},
+           given={Karol},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {FEI STU}%
+      }
+      \strng{namehash}{f5158f82abf4184ad07c22b4a3a14e95}
+      \strng{fullhash}{f5158f82abf4184ad07c22b4a3a14e95}
+      \strng{bibnamehash}{f5158f82abf4184ad07c22b4a3a14e95}
+      \strng{authorbibnamehash}{f5158f82abf4184ad07c22b4a3a14e95}
+      \strng{authornamehash}{f5158f82abf4184ad07c22b4a3a14e95}
+      \strng{authorfullhash}{f5158f82abf4184ad07c22b4a3a14e95}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{isbn}{FEI-5382-79995}
+      \field{month}{6}
+      \field{title}{Bakalárska práca - Manažérsky web front-end pre mobilnú aplikáciu}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{co_working}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e807ed58e74d63b1ac12b70a800413bd}{%
+           family={Coworker},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e807ed58e74d63b1ac12b70a800413bd}
+      \strng{fullhash}{e807ed58e74d63b1ac12b70a800413bd}
+      \strng{bibnamehash}{e807ed58e74d63b1ac12b70a800413bd}
+      \strng{authorbibnamehash}{e807ed58e74d63b1ac12b70a800413bd}
+      \strng{authornamehash}{e807ed58e74d63b1ac12b70a800413bd}
+      \strng{authorfullhash}{e807ed58e74d63b1ac12b70a800413bd}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{4}
+      \field{note}{[online]. [cit: 2020-04-06]. Dostupné na internete: <https://www.coworker.com/mag/what-is-coworking>}
+      \field{title}{What Is Coworking?}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{co_working_2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d6ebb0634de22e70618460d3fc936297}{%
+           family={Rouse},
+           familyi={R\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{fullhash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{bibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorbibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authornamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorfullhash}{d6ebb0634de22e70618460d3fc936297}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-06]. Dostupné na internete: <https://whatis.techtarget.com/definition/coworking>}
+      \field{title}{What Is Coworking?}
+    \endentry
+    \entry{co_working_spaces}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3ee4380a6ee3d5efc885470ef6388e3a}{%
+           family={Foertsch},
+           familyi={F\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ee4380a6ee3d5efc885470ef6388e3a}
+      \strng{fullhash}{3ee4380a6ee3d5efc885470ef6388e3a}
+      \strng{bibnamehash}{3ee4380a6ee3d5efc885470ef6388e3a}
+      \strng{authorbibnamehash}{3ee4380a6ee3d5efc885470ef6388e3a}
+      \strng{authornamehash}{3ee4380a6ee3d5efc885470ef6388e3a}
+      \strng{authorfullhash}{3ee4380a6ee3d5efc885470ef6388e3a}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{11}
+      \field{note}{[online]. [cit: 2020-04-06]. Dostupné na internete: <http://www.deskmag.com/en/the-birth-of-coworking-spaces-global-survey-176>}
+      \field{title}{The birth of coworking spaces}
+      \field{year}{2011}
+      \field{dateera}{ce}
+    \endentry
+    \entry{co_working_3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a0f50d0ee8554abea96c1afd03ea0eee}{%
+           family={Campus},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0f50d0ee8554abea96c1afd03ea0eee}
+      \strng{fullhash}{a0f50d0ee8554abea96c1afd03ea0eee}
+      \strng{bibnamehash}{a0f50d0ee8554abea96c1afd03ea0eee}
+      \strng{authorbibnamehash}{a0f50d0ee8554abea96c1afd03ea0eee}
+      \strng{authornamehash}{a0f50d0ee8554abea96c1afd03ea0eee}
+      \strng{authorfullhash}{a0f50d0ee8554abea96c1afd03ea0eee}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{4}
+      \field{note}{[online]. [cit: 2020-04-06]. Dostupné na internete: <https://www.campus-cowork.com/sk/blog/70/co-je-to-coworking-alebo-9-vyjadreni-clenov-coworku.html>}
+      \field{title}{Čo je to coworking? Alebo 9 vyjadrení členov coworku}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{co_working_4}{book}{}
+      \name{author}{1}{}{%
+        {{hash=44806777810779be091855d0f2462f41}{%
+           family={Bisnow},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{44806777810779be091855d0f2462f41}
+      \strng{fullhash}{44806777810779be091855d0f2462f41}
+      \strng{bibnamehash}{44806777810779be091855d0f2462f41}
+      \strng{authorbibnamehash}{44806777810779be091855d0f2462f41}
+      \strng{authornamehash}{44806777810779be091855d0f2462f41}
+      \strng{authorfullhash}{44806777810779be091855d0f2462f41}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{11}
+      \field{note}{[online]. [cit: 2020-04-07]. Dostupné na internete: <https://www.bisnow.com/national/news/commercial-real-estate/Everything-You-Need-To-Know-About-Coworking-40306>}
+      \field{title}{Everything You Need To Know About Coworking}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{slack}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5e8d56bf6f09feaaabf63eeda6aec847}{%
+           family={Woodgate},
+           familyi={W\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e8d56bf6f09feaaabf63eeda6aec847}
+      \strng{fullhash}{5e8d56bf6f09feaaabf63eeda6aec847}
+      \strng{bibnamehash}{5e8d56bf6f09feaaabf63eeda6aec847}
+      \strng{authorbibnamehash}{5e8d56bf6f09feaaabf63eeda6aec847}
+      \strng{authornamehash}{5e8d56bf6f09feaaabf63eeda6aec847}
+      \strng{authorfullhash}{5e8d56bf6f09feaaabf63eeda6aec847}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{7}
+      \field{note}{[online]. [cit: 2019-12-24]. Dostupné na internete: <https://www.howtogeek.com/428046/what-is-slack-and-why-do-people-love-it/>}
+      \field{title}{What Is Slack, and Why Do People Love It?}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{facebook_workplace}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ade299a807a75b38ff0761229fd1fcaf}{%
+           family={Menon},
+           familyi={M\bibinitperiod},
+           given={Abhilash},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ade299a807a75b38ff0761229fd1fcaf}
+      \strng{fullhash}{ade299a807a75b38ff0761229fd1fcaf}
+      \strng{bibnamehash}{ade299a807a75b38ff0761229fd1fcaf}
+      \strng{authorbibnamehash}{ade299a807a75b38ff0761229fd1fcaf}
+      \strng{authornamehash}{ade299a807a75b38ff0761229fd1fcaf}
+      \strng{authorfullhash}{ade299a807a75b38ff0761229fd1fcaf}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2019-12-24]. Dostupné na internete: <https://hiverhq.com/blog/facebook-workplace/>}
+      \field{title}{Facebook Workplace: The GOOD and the BAD}
+    \endentry
+    \entry{ms_teams}{book}{}
+      \name{author}{1}{}{%
+        {{hash=92547b4627e4a60e91827f4beef6663e}{%
+           family={Nick\bibnamedelima Heath},
+           familyi={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Susan\bibnamedelima Harkins},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{92547b4627e4a60e91827f4beef6663e}
+      \strng{fullhash}{92547b4627e4a60e91827f4beef6663e}
+      \strng{bibnamehash}{92547b4627e4a60e91827f4beef6663e}
+      \strng{authorbibnamehash}{92547b4627e4a60e91827f4beef6663e}
+      \strng{authornamehash}{92547b4627e4a60e91827f4beef6663e}
+      \strng{authorfullhash}{92547b4627e4a60e91827f4beef6663e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{12}
+      \field{note}{[online]. [cit: 2019-12-24]. Dostupné na internete: <https://www.techrepublic.com/article/microsoft-teams-the-smart-persons-guide/>}
+      \field{title}{Microsoft Teams: A cheat sheet}
+      \field{year}{2016}
+      \field{dateera}{ce}
+    \endentry
+    \entry{kaban_board}{book}{}
+      \name{author}{1}{}{%
+        {{hash=32198f6839815879aa42207e827fdf2e}{%
+           family={Rehkopf},
+           familyi={R\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{32198f6839815879aa42207e827fdf2e}
+      \strng{fullhash}{32198f6839815879aa42207e827fdf2e}
+      \strng{bibnamehash}{32198f6839815879aa42207e827fdf2e}
+      \strng{authorbibnamehash}{32198f6839815879aa42207e827fdf2e}
+      \strng{authornamehash}{32198f6839815879aa42207e827fdf2e}
+      \strng{authorfullhash}{32198f6839815879aa42207e827fdf2e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-01-03]. Dostupné na internete: <https://www.atlassian.com/agile/kanban/boards/>}
+      \field{title}{What is a kanban board?}
+    \endentry
+    \entry{trello_use}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2219d5b88d8d373ac37a2811b27c2c61}{%
+           family={WIRED},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{fullhash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{bibnamehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{authorbibnamehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{authornamehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{authorfullhash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{5}
+      \field{note}{[online]. [cit: 2020-01-03]. Dostupné na internete: <https://www.wired.co.uk/article/how-to-use-trello/>}
+      \field{title}{How to use Trello like a pro}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{trello}{book}{}
+      \name{author}{1}{}{%
+        {{hash=825e621c6adc964931db613c1709d36b}{%
+           family={Drake},
+           familyi={D\bibinitperiod},
+           given={Nate},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{825e621c6adc964931db613c1709d36b}
+      \strng{fullhash}{825e621c6adc964931db613c1709d36b}
+      \strng{bibnamehash}{825e621c6adc964931db613c1709d36b}
+      \strng{authorbibnamehash}{825e621c6adc964931db613c1709d36b}
+      \strng{authornamehash}{825e621c6adc964931db613c1709d36b}
+      \strng{authorfullhash}{825e621c6adc964931db613c1709d36b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{12}
+      \field{note}{[online]. [cit: 2020-01-03]. Dostupné na internete: <https://www.techradar.com/reviews/trello/>}
+      \field{title}{Trello review}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{web_dev}{book}{}
+      \name{author}{1}{}{%
+        {{hash=71b602f49f6bb96a48c6e2b435fe8a99}{%
+           family={CodeCondo},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{71b602f49f6bb96a48c6e2b435fe8a99}
+      \strng{fullhash}{71b602f49f6bb96a48c6e2b435fe8a99}
+      \strng{bibnamehash}{71b602f49f6bb96a48c6e2b435fe8a99}
+      \strng{authorbibnamehash}{71b602f49f6bb96a48c6e2b435fe8a99}
+      \strng{authornamehash}{71b602f49f6bb96a48c6e2b435fe8a99}
+      \strng{authorfullhash}{71b602f49f6bb96a48c6e2b435fe8a99}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{2}
+      \field{note}{[online]. [cit: 2020-04-07]. Dostupné na internete: <https://codecondo.com/top-8-challenges-in-web-application-development-in-2018>}
+      \field{title}{Top 8 Challenges in Web Application Development in 2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{web_dev_2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f4f84fc784f6dc3f269a117bbde28a3a}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={Chantelle},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4f84fc784f6dc3f269a117bbde28a3a}
+      \strng{fullhash}{f4f84fc784f6dc3f269a117bbde28a3a}
+      \strng{bibnamehash}{f4f84fc784f6dc3f269a117bbde28a3a}
+      \strng{authorbibnamehash}{f4f84fc784f6dc3f269a117bbde28a3a}
+      \strng{authornamehash}{f4f84fc784f6dc3f269a117bbde28a3a}
+      \strng{authorfullhash}{f4f84fc784f6dc3f269a117bbde28a3a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{11}
+      \field{note}{[online]. [cit: 2020-04-07]. Dostupné na internete: <https://tillerdigital.com/blog/7-challenges-in-web-application-development>}
+      \field{title}{7 challenges in web application design and development}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{web_dev_3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4deab47d629720a1326de0d9b6770f93}{%
+           family={marutitechlabs},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{4deab47d629720a1326de0d9b6770f93}
+      \strng{fullhash}{4deab47d629720a1326de0d9b6770f93}
+      \strng{bibnamehash}{4deab47d629720a1326de0d9b6770f93}
+      \strng{authorbibnamehash}{4deab47d629720a1326de0d9b6770f93}
+      \strng{authornamehash}{4deab47d629720a1326de0d9b6770f93}
+      \strng{authorfullhash}{4deab47d629720a1326de0d9b6770f93}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-07]. Dostupné na internete: <https://tillerdigital.com/blog/7-challenges-in-web-application-development>}
+      \field{title}{5 Challenges in Web Application Development}
+    \endentry
+    \entry{nodejs_1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=671a0da0ba061c98de801409dbc57d7e}{%
+           family={nodejs},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{fullhash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{bibnamehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{authorbibnamehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{authornamehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{authorfullhash}{671a0da0ba061c98de801409dbc57d7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-09]. Dostupné na internete: <https://nodejs.org/>}
+      \field{title}{Node.js}
+    \endentry
+    \entry{nodejs_2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=671a0da0ba061c98de801409dbc57d7e}{%
+           family={nodejs},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{fullhash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{bibnamehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{authorbibnamehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{authornamehash}{671a0da0ba061c98de801409dbc57d7e}
+      \strng{authorfullhash}{671a0da0ba061c98de801409dbc57d7e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-09]. Dostupné na internete: <https://nodejs.org/uk/docs/guides/event-loop-timers-and-nexttick/>}
+      \field{title}{The Node.js Event Loop, Timers, and process.nextTick()}
+    \endentry
+    \entry{nodejs_3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d4aa237477ec8fe6252b5afb06f9604}{%
+           family={Bibile},
+           familyi={B\bibinitperiod},
+           given={Udara},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d4aa237477ec8fe6252b5afb06f9604}
+      \strng{fullhash}{5d4aa237477ec8fe6252b5afb06f9604}
+      \strng{bibnamehash}{5d4aa237477ec8fe6252b5afb06f9604}
+      \strng{authorbibnamehash}{5d4aa237477ec8fe6252b5afb06f9604}
+      \strng{authornamehash}{5d4aa237477ec8fe6252b5afb06f9604}
+      \strng{authorfullhash}{5d4aa237477ec8fe6252b5afb06f9604}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{1}
+      \field{note}{[online]. [cit: 2020-04-11]. Dostupné na internete: <https://medium.com/chathuranga94/nodejs-architecture-concurrency-model-f71da5f53d1d>}
+      \field{title}{NodeJS Architecture and Concurrency Model}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{nodejs_4}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dda6aeba7e2b64d374651410aad70616}{%
+           family={skills},
+           familyi={s\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{dda6aeba7e2b64d374651410aad70616}
+      \strng{fullhash}{dda6aeba7e2b64d374651410aad70616}
+      \strng{bibnamehash}{dda6aeba7e2b64d374651410aad70616}
+      \strng{authorbibnamehash}{dda6aeba7e2b64d374651410aad70616}
+      \strng{authornamehash}{dda6aeba7e2b64d374651410aad70616}
+      \strng{authorfullhash}{dda6aeba7e2b64d374651410aad70616}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-11]. Dostupné na internete: <https://www.vskills.in/certification/tutorial/web-development/node-js/>}
+      \field{title}{Node.JS Architecture}
+    \endentry
+    \entry{npm}{book}{}
+      \name{author}{1}{}{%
+        {{hash=619da079b73180cbed34aab6a245e5de}{%
+           family={W3schools},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{fullhash}{619da079b73180cbed34aab6a245e5de}
+      \strng{bibnamehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{authorbibnamehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{authornamehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{authorfullhash}{619da079b73180cbed34aab6a245e5de}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-11]. Dostupné na internete: <https://www.w3schools.com/whatis/whatisnpm.asp>}
+      \field{title}{What is npm?}
+    \endentry
+    \entry{npm_node}{book}{}
+      \name{author}{1}{}{%
+        {{hash=619da079b73180cbed34aab6a245e5de}{%
+           family={W3schools},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{fullhash}{619da079b73180cbed34aab6a245e5de}
+      \strng{bibnamehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{authorbibnamehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{authornamehash}{619da079b73180cbed34aab6a245e5de}
+      \strng{authorfullhash}{619da079b73180cbed34aab6a245e5de}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-11]. Dostupné na internete: <https://www.w3schools.com/nodejs/nodejsnpm.asp>}
+      \field{title}{Node.js and NPM}
+    \endentry
+    \entry{ionic}{book}{}
+      \name{author}{1}{}{%
+        {{hash=00f7d95840c99ab653021b4cb9893095}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{00f7d95840c99ab653021b4cb9893095}
+      \strng{fullhash}{00f7d95840c99ab653021b4cb9893095}
+      \strng{bibnamehash}{00f7d95840c99ab653021b4cb9893095}
+      \strng{authorbibnamehash}{00f7d95840c99ab653021b4cb9893095}
+      \strng{authornamehash}{00f7d95840c99ab653021b4cb9893095}
+      \strng{authorfullhash}{00f7d95840c99ab653021b4cb9893095}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-12]. Dostupné na internete: <https://ionicframework.com/resources/articles/capacitor-vs-cordova-modern-hybrid-app-development>}
+      \field{title}{Cordova vs Capacitor}
+    \endentry
+    \entry{angular_1}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f2c314a3746ee77b7ff0391093af0ff0}{%
+           family={Altexsoft},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{fullhash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{bibnamehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{authorbibnamehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{authornamehash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \strng{authorfullhash}{f2c314a3746ee77b7ff0391093af0ff0}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{month}{3}
+      \field{note}{[online]. [cit: 2020-04-15]. Dostupné na internete: <https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-angular-development/>}
+      \field{title}{The Good and the Bad of Angular Development}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{angular_2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a42db99bf066ce650b539a097ffbf574}{%
+           family={Fain},
+           familyi={F\bibinitperiod},
+           given={Yakov},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a42db99bf066ce650b539a097ffbf574}
+      \strng{fullhash}{a42db99bf066ce650b539a097ffbf574}
+      \strng{bibnamehash}{a42db99bf066ce650b539a097ffbf574}
+      \strng{authorbibnamehash}{a42db99bf066ce650b539a097ffbf574}
+      \strng{authornamehash}{a42db99bf066ce650b539a097ffbf574}
+      \strng{authorfullhash}{a42db99bf066ce650b539a097ffbf574}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{4}
+      \field{note}{[online]. [cit: 2020-04-15]. Dostupné na internete: <https://www.infoq.com/articles/Angular2-TypeScript-High-Level-Overview/>}
+      \field{title}{Angular 2 and TypeScript - A High Level Overview}
+      \field{year}{2016}
+      \field{dateera}{ce}
+    \endentry
+    \entry{angular_3}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-15]. Dostupné na internete: <https://angular.io/guide/architecture>}
+      \field{title}{Introduction to Angular concepts}
+    \endentry
+    \entry{electron}{book}{}
+      \name{author}{1}{}{%
+        {{hash=62d03d2d7ed9e3c6b73b557ba61f55ae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{62d03d2d7ed9e3c6b73b557ba61f55ae}
+      \strng{fullhash}{62d03d2d7ed9e3c6b73b557ba61f55ae}
+      \strng{bibnamehash}{62d03d2d7ed9e3c6b73b557ba61f55ae}
+      \strng{authorbibnamehash}{62d03d2d7ed9e3c6b73b557ba61f55ae}
+      \strng{authornamehash}{62d03d2d7ed9e3c6b73b557ba61f55ae}
+      \strng{authorfullhash}{62d03d2d7ed9e3c6b73b557ba61f55ae}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[online]. [cit: 2020-04-12]. Dostupné na internete: <https://alligator.io/angular/electron/>}
+      \field{title}{Getting Started with Angular and Electron}
+    \endentry
+    \entry{coucdb}{book}{}
+      \name{author}{1}{}{%
+        {{hash=82d0aa372f568480c3b01af8b9974200}{%
+           family={Education},
+           familyi={E\bibinitperiod},
+           given={IBM\bibnamedelima Cloud},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{82d0aa372f568480c3b01af8b9974200}
+      \strng{fullhash}{82d0aa372f568480c3b01af8b9974200}
+      \strng{bibnamehash}{82d0aa372f568480c3b01af8b9974200}
+      \strng{authorbibnamehash}{82d0aa372f568480c3b01af8b9974200}
+      \strng{authornamehash}{82d0aa372f568480c3b01af8b9974200}
+      \strng{authorfullhash}{82d0aa372f568480c3b01af8b9974200}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{8}
+      \field{note}{[online]. [cit: 2020-04-13]. Dostupné na internete: <https://www.ibm.com/cloud/learn/couchdb>}
+      \field{title}{Apache CouchDB}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{poucdb}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ea894f39ef82a5526509475137a448a0}{%
+           family={Bodnar},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea894f39ef82a5526509475137a448a0}
+      \strng{fullhash}{ea894f39ef82a5526509475137a448a0}
+      \strng{bibnamehash}{ea894f39ef82a5526509475137a448a0}
+      \strng{authorbibnamehash}{ea894f39ef82a5526509475137a448a0}
+      \strng{authornamehash}{ea894f39ef82a5526509475137a448a0}
+      \strng{authorfullhash}{ea894f39ef82a5526509475137a448a0}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{8}
+      \field{note}{[online]. [cit: 2020-04-13]. Dostupné na internete: <http://zetcode.com/javascript/pouchdb/>}
+      \field{title}{PouchDB tutorial}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
