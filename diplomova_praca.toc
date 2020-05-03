@@ -127,7 +127,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2}Str\IeC {\'a}nka prihl\IeC {\'a}sen\IeC {\'e}ho pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}a}{49}{subsection.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Str\IeC {\'a}nka vybren\IeC {\'e}ho t\IeC {\'\i }mu}{51}{subsection.108}
+\contentsline {subsection}{\numberline {6.3}Str\IeC {\'a}nka vybran\IeC {\'e}ho t\IeC {\'\i }mu}{51}{subsection.108}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4}Chat}{53}{subsection.110}
 \defcounter {refsection}{0}\relax 
