@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  3 MAY 2020 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  3 MAY 2020 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2027,13 +2027,13 @@ Package logreq Info: Writing requests to 'diplomova_praca.run.xml'.
 Here is how much of TeX's memory you used:
  29393 strings out of 492982
  482670 string characters out of 6134896
- 962607 words of memory out of 5000000
+ 962609 words of memory out of 5000000
  32225 multiletter control sequences out of 15000+600000
  63663 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,8n,79p,2144b,1877s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,8n,79p,2149b,1877s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on diplomova_praca.pdf (80 pages, 6637381 bytes).
+Output written on diplomova_praca.pdf (80 pages, 6637505 bytes).
 PDF statistics:
  1080 PDF objects out of 1200 (max. 8388607)
  873 compressed objects within 9 object streams
