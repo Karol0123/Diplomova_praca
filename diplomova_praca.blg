@@ -1,16 +1,16 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[0] Config.pm:305> INFO - Logfile is 'diplomova_praca.blg'
-[86] biber:313> INFO - === Sat May  2, 2020, 18:27:56
-[145] Biber.pm:371> INFO - Reading 'diplomova_praca.bcf'
-[441] Biber.pm:854> INFO - Using all citekeys in bib section 0
-[470] Biber.pm:3981> INFO - Processing section 0
-[517] Biber.pm:4154> INFO - Looking for bibtex format file 'includes/bibliography.bib' for section 0
-[524] bibtex.pm:1468> INFO - LaTeX decoding ...
-[672] bibtex.pm:1294> INFO - Found BibTeX data source 'includes/bibliography.bib'
-[776] Utils.pm:169> WARN - ISBN 'FEI-5382-79995' in entry 'bakalarska_praca' is invalid - run biber with '--validate_datamodel' for details.
-[1708] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1709] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1709] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sk-SK'
-[1813] bbl.pm:617> INFO - Writing 'diplomova_praca.bbl' with encoding 'UTF-8'
-[1875] bbl.pm:720> INFO - Output to diplomova_praca.bbl
-[1876] Biber.pm:110> INFO - WARNINGS: 1
+[2] Config.pm:302> INFO - This is Biber 2.9
+[2] Config.pm:305> INFO - Logfile is 'diplomova_praca.blg'
+[69] biber:313> INFO - === Sun May  3, 2020, 11:34:23
+[113] Biber.pm:371> INFO - Reading 'diplomova_praca.bcf'
+[266] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[300] Biber.pm:3981> INFO - Processing section 0
+[328] Biber.pm:4154> INFO - Looking for bibtex format file 'includes/bibliography.bib' for section 0
+[332] bibtex.pm:1468> INFO - LaTeX decoding ...
+[402] bibtex.pm:1294> INFO - Found BibTeX data source 'includes/bibliography.bib'
+[570] Utils.pm:169> WARN - ISBN 'FEI-5382-79995' in entry 'bakalarska_praca' is invalid - run biber with '--validate_datamodel' for details.
+[806] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[806] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[806] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sk-SK'
+[852] bbl.pm:617> INFO - Writing 'diplomova_praca.bbl' with encoding 'UTF-8'
+[889] bbl.pm:720> INFO - Output to diplomova_praca.bbl
+[890] Biber.pm:110> INFO - WARNINGS: 1

@@ -71,9 +71,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {34}{\ignorespaces Vytvorenie jwt tokenu\relax }}{47}{figure.caption.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {35}{\ignorespaces Prihl\IeC {\'a}senia a registr\IeC {\'a}cia na strane front-endu\relax }}{48}{figure.caption.101}
+\contentsline {figure}{\numberline {35}{\ignorespaces Prihl\IeC {\'a}senie a registr\IeC {\'a}cia na strane front-endu\relax }}{48}{figure.caption.101}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {36}{\ignorespaces Overenie platbosti jwt tokenu\relax }}{48}{figure.caption.102}
+\contentsline {figure}{\numberline {36}{\ignorespaces Overenie platnosti jwt tokenu\relax }}{48}{figure.caption.102}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {37}{\ignorespaces Nastavenie na live po\IeC {\v c}\IeC {\'u}vanie zmien datab\IeC {\'a}zy\relax }}{49}{figure.caption.104}
 \defcounter {refsection}{0}\relax 
