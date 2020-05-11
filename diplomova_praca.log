@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  4 MAY 2020 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  11 MAY 2020 10:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1497,19 +1497,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--34
 
 
 ] (./includes/core.tex
-<img/ybase.jpg, id=574, 1084.05pt x 653.44125pt>
+<img/ybase.jpg, id=607, 1084.05pt x 653.44125pt>
 File: img/ybase.jpg Graphic file (type jpg)
 <use img/ybase.jpg>
 Package pdftex.def Info: img/ybase.jpg  used on input line 6.
 (pdftex.def)             Requested size: 433.61232pt x 261.37187pt.
  [2 <./img/ybase.jpg>]
-<img/coworking_space.jpg, id=579, 712.6625pt x 485.815pt>
+<img/coworking_space.jpg, id=621, 712.6625pt x 485.815pt>
 File: img/coworking_space.jpg Graphic file (type jpg)
 <use img/coworking_space.jpg>
 Package pdftex.def Info: img/coworking_space.jpg  used on input line 18.
 (pdftex.def)             Requested size: 356.33038pt x 242.9069pt.
  [3 <./img/coworking_space.jpg>] [4]
-<img/obr1.png, id=589, 447.17062pt x 374.90062pt>
+<img/obr1.png, id=636, 447.17062pt x 374.90062pt>
 File: img/obr1.png Graphic file (type png)
 <use img/obr1.png>
 Package pdftex.def Info: img/obr1.png  used on input line 47.
@@ -1519,13 +1519,13 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 66.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [6]
-<img/obr-fb-workplace.jpg, id=604, 1806.75pt x 1028.84375pt>
+<img/obr-fb-workplace.jpg, id=656, 1806.75pt x 1028.84375pt>
 File: img/obr-fb-workplace.jpg Graphic file (type jpg)
 <use img/obr-fb-workplace.jpg>
 Package pdftex.def Info: img/obr-fb-workplace.jpg  used on input line 90.
 (pdftex.def)             Requested size: 451.6864pt x 257.21031pt.
  [7 <./img/obr-fb-workplace.jpg>] [8]
-<img/obr-ms-teams.jpg, id=613, 579.66562pt x 325.96782pt>
+<img/obr-ms-teams.jpg, id=674, 579.66562pt x 325.96782pt>
 File: img/obr-ms-teams.jpg Graphic file (type jpg)
 <use img/obr-ms-teams.jpg>
 Package pdftex.def Info: img/obr-ms-teams.jpg  used on input line 125.
@@ -1536,78 +1536,78 @@ Overfull \hbox (2.52646pt too wide) in paragraph at lines 134--135
  []
 
 [10 <./img/obr-ms-teams.jpg>] [11]
-<img/obr4.png, id=627, 1445.4pt x 1084.05pt>
+<img/obr4.png, id=696, 1445.4pt x 1084.05pt>
 File: img/obr4.png Graphic file (type png)
 <use img/obr4.png>
 Package pdftex.def Info: img/obr4.png  used on input line 153.
 (pdftex.def)             Requested size: 361.34912pt x 271.01184pt.
  [12 <./img/obr4.png>]
-<img/obr-trello.jpg, id=635, 652.4375pt x 367.3725pt>
+<img/obr-trello.jpg, id=706, 652.4375pt x 367.3725pt>
 File: img/obr-trello.jpg Graphic file (type jpg)
 <use img/obr-trello.jpg>
 Package pdftex.def Info: img/obr-trello.jpg  used on input line 169.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
-<img/obr-trello-profil.jpg, id=636, 652.4375pt x 367.3725pt>
+<img/obr-trello-profil.jpg, id=710, 652.4375pt x 367.3725pt>
 File: img/obr-trello-profil.jpg Graphic file (type jpg)
 <use img/obr-trello-profil.jpg>
 Package pdftex.def Info: img/obr-trello-profil.jpg  used on input line 180.
 (pdftex.def)             Requested size: 424.07935pt x 238.78928pt.
  [13 <./img/obr-trello.jpg>] [14 <./img/obr-trello-profil.jpg>] [15] [16] [17] [18]
-<img/node_hello.png, id=663, 733.74126pt x 350.30875pt>
+<img/node_hello.png, id=741, 733.74126pt x 350.30875pt>
 File: img/node_hello.png Graphic file (type png)
 <use img/node_hello.png>
 Package pdftex.def Info: img/node_hello.png  used on input line 240.
 (pdftex.def)             Requested size: 403.55894pt x 192.6704pt.
  [19 <./img/node_hello.png>]
-<img/node_architecture.png, id=670, 1355.0625pt x 501.875pt>
+<img/node_architecture.png, id=751, 1355.0625pt x 501.875pt>
 File: img/node_architecture.png Graphic file (type png)
 <use img/node_architecture.png>
 Package pdftex.def Info: img/node_architecture.png  used on input line 267.
 (pdftex.def)             Requested size: 406.5219pt x 150.56366pt.
  [20] [21 <./img/node_architecture.png>]
-<img/evet_loop.jpg, id=681, 803.0pt x 317.185pt>
+<img/evet_loop.jpg, id=768, 803.0pt x 317.185pt>
 File: img/evet_loop.jpg Graphic file (type jpg)
 <use img/evet_loop.jpg>
 Package pdftex.def Info: img/evet_loop.jpg  used on input line 289.
 (pdftex.def)             Requested size: 441.65137pt x 174.45227pt.
  [22 <./img/evet_loop.jpg>]
-<img/package.png, id=687, 552.0625pt x 250.9375pt>
+<img/package.png, id=779, 552.0625pt x 250.9375pt>
 File: img/package.png Graphic file (type png)
 <use img/package.png>
 Package pdftex.def Info: img/package.png  used on input line 313.
 (pdftex.def)             Requested size: 303.6353pt x 138.01604pt.
  [23 <./img/package.png>] [24]
-<img/ionic_studio.png, id=700, 3597.44pt x 2158.0625pt>
+<img/ionic_studio.png, id=798, 3597.44pt x 2158.0625pt>
 File: img/ionic_studio.png Graphic file (type png)
 <use img/ionic_studio.png>
 Package pdftex.def Info: img/ionic_studio.png  used on input line 338.
 (pdftex.def)             Requested size: 431.67418pt x 258.95633pt.
  [25 <./img/ionic_studio.png>] [26]
-<img/angular_architecture.png, id=710, 702.625pt x 357.335pt>
+<img/angular_architecture.png, id=817, 702.625pt x 357.335pt>
 File: img/angular_architecture.png Graphic file (type png)
 <use img/angular_architecture.png>
 Package pdftex.def Info: img/angular_architecture.png  used on input line 367.
 (pdftex.def)             Requested size: 351.31163pt x 178.66705pt.
  [27 <./img/angular_architecture.png>] [28]
-<img/electron_aps.png, id=720, 1003.75pt x 401.5pt>
+<img/electron_aps.png, id=835, 1003.75pt x 401.5pt>
 File: img/electron_aps.png Graphic file (type png)
 <use img/electron_aps.png>
 Package pdftex.def Info: img/electron_aps.png  used on input line 400.
 (pdftex.def)             Requested size: 351.31776pt x 140.5271pt.
  [29 <./img/electron_aps.png>]
-<img/coucdb.png, id=727, 1113.15875pt x 934.49126pt>
+<img/coucdb.png, id=846, 1113.15875pt x 934.49126pt>
 File: img/coucdb.png Graphic file (type png)
 <use img/coucdb.png>
 Package pdftex.def Info: img/coucdb.png  used on input line 417.
 (pdftex.def)             Requested size: 278.289pt x 233.62224pt.
  [30 <./img/coucdb.png (PNG copy)>] [31]
-<img/pouchdb.png, id=737, 448.67625pt x 182.93344pt>
+<img/pouchdb.png, id=863, 448.67625pt x 182.93344pt>
 File: img/pouchdb.png Graphic file (type png)
 <use img/pouchdb.png>
 Package pdftex.def Info: img/pouchdb.png  used on input line 448.
 (pdftex.def)             Requested size: 358.94148pt x 146.34694pt.
  [32 <./img/pouchdb.png>]
-<img/diagram.png, id=742, 614.295pt x 609.27625pt>
+<img/diagram.png, id=870, 614.295pt x 609.27625pt>
 File: img/diagram.png Graphic file (type png)
 <use img/diagram.png>
 Package pdftex.def Info: img/diagram.png  used on input line 458.
@@ -1618,18 +1618,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 494--495
  []
 
 [35]
-<img/DP_use_case_pouzivatel.png, id=758, 425.03793pt x 381.67593pt>
+<img/DP_use_case_pouzivatel.png, id=887, 425.03793pt x 381.67593pt>
 File: img/DP_use_case_pouzivatel.png Graphic file (type png)
 <use img/DP_use_case_pouzivatel.png>
 Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 517.
 (pdftex.def)             Requested size: 212.51843pt x 190.8375pt.
-<img/DP_use_case_administrator.png, id=760, 494.14612pt x 584.93532pt>
+<img/DP_use_case_administrator.png, id=889, 494.14612pt x 584.93532pt>
 File: img/DP_use_case_administrator.png Graphic file (type png)
 <use img/DP_use_case_administrator.png>
 Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 526.
 (pdftex.def)             Requested size: 222.3637pt x 263.21846pt.
  [36 <./img/DP_use_case_pouzivatel.png>]
-<img/DP_use_case_clen_timu.png, id=766, 1595.9625pt x 1117.17375pt>
+<img/DP_use_case_clen_timu.png, id=895, 1595.9625pt x 1117.17375pt>
 File: img/DP_use_case_clen_timu.png Graphic file (type png)
 <use img/DP_use_case_clen_timu.png>
 Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 535.
@@ -1640,115 +1640,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 541--546
  []
 
 [37 <./img/DP_use_case_administrator.png> <./img/DP_use_case_clen_timu.png>]
-<img/Seq_login_register.png, id=773, 866.33662pt x 523.9575pt>
+<img/Seq_login_register.png, id=902, 866.33662pt x 523.9575pt>
 File: img/Seq_login_register.png Graphic file (type png)
 <use img/Seq_login_register.png>
 Package pdftex.def Info: img/Seq_login_register.png  used on input line 549.
 (pdftex.def)             Requested size: 433.16725pt x 261.9781pt.
  [38 <./img/Seq_login_register.png>]
-<img/seq_tim.png, id=779, 866.33662pt x 442.65375pt>
+<img/seq_tim.png, id=908, 866.33662pt x 442.65375pt>
 File: img/seq_tim.png Graphic file (type png)
 <use img/seq_tim.png>
 Package pdftex.def Info: img/seq_tim.png  used on input line 560.
 (pdftex.def)             Requested size: 433.16725pt x 221.32632pt.
  [39 <./img/seq_tim.png>]
-<img/imp/db_user.png, id=784, 602.25pt x 552.0625pt>
+<img/imp/db_user.png, id=913, 602.25pt x 552.0625pt>
 File: img/imp/db_user.png Graphic file (type png)
 <use img/imp/db_user.png>
 Package pdftex.def Info: img/imp/db_user.png  used on input line 581.
 (pdftex.def)             Requested size: 301.12425pt x 276.03056pt.
  [40 <./img/imp/db_user.png>]
-<img/imp/db_event.png, id=790, 602.25pt x 250.9375pt>
+<img/imp/db_event.png, id=919, 602.25pt x 250.9375pt>
 File: img/imp/db_event.png Graphic file (type png)
 <use img/imp/db_event.png>
 Package pdftex.def Info: img/imp/db_event.png  used on input line 597.
 (pdftex.def)             Requested size: 301.12425pt x 125.46843pt.
-<img/imp/db_team.png, id=791, 602.25pt x 401.5pt>
+<img/imp/db_team.png, id=920, 602.25pt x 401.5pt>
 File: img/imp/db_team.png Graphic file (type png)
 <use img/imp/db_team.png>
 Package pdftex.def Info: img/imp/db_team.png  used on input line 614.
 (pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
  [41 <./img/imp/db_event.png>]
-<img/imp/db_room.png, id=798, 602.25pt x 175.65625pt>
+<img/imp/db_room.png, id=927, 602.25pt x 175.65625pt>
 File: img/imp/db_room.png Graphic file (type png)
 <use img/imp/db_room.png>
 Package pdftex.def Info: img/imp/db_room.png  used on input line 628.
 (pdftex.def)             Requested size: 301.12425pt x 87.8279pt.
-<img/imp/db_feed.png, id=799, 602.25pt x 175.65625pt>
+<img/imp/db_feed.png, id=928, 602.25pt x 175.65625pt>
 File: img/imp/db_feed.png Graphic file (type png)
 <use img/imp/db_feed.png>
 Package pdftex.def Info: img/imp/db_feed.png  used on input line 643.
 (pdftex.def)             Requested size: 301.12425pt x 87.8279pt.
  [42 <./img/imp/db_team.png> <./img/imp/db_room.png>]
-<img/imp/db_message.png, id=806, 602.25pt x 301.125pt>
+<img/imp/db_message.png, id=935, 602.25pt x 301.125pt>
 File: img/imp/db_message.png Graphic file (type png)
 <use img/imp/db_message.png>
 Package pdftex.def Info: img/imp/db_message.png  used on input line 658.
 (pdftex.def)             Requested size: 301.12425pt x 150.56212pt.
-<img/imp/db_task.png, id=807, 602.25pt x 401.5pt>
+<img/imp/db_task.png, id=936, 602.25pt x 401.5pt>
 File: img/imp/db_task.png Graphic file (type png)
 <use img/imp/db_task.png>
 Package pdftex.def Info: img/imp/db_task.png  used on input line 676.
 (pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
  [43 <./img/imp/db_feed.png> <./img/imp/db_message.png>]
-<img/imp/db_comment.png, id=814, 602.25pt x 175.65625pt>
+<img/imp/db_comment.png, id=943, 602.25pt x 175.65625pt>
 File: img/imp/db_comment.png Graphic file (type png)
 <use img/imp/db_comment.png>
 Package pdftex.def Info: img/imp/db_comment.png  used on input line 691.
 (pdftex.def)             Requested size: 301.12425pt x 87.8279pt.
  [44 <./img/imp/db_task.png> <./img/imp/db_comment.png>]
-<img/imp/register_back.png, id=822, 1003.75pt x 602.25pt>
+<img/imp/register_back.png, id=951, 1003.75pt x 602.25pt>
 File: img/imp/register_back.png Graphic file (type png)
 <use img/imp/register_back.png>
 Package pdftex.def Info: img/imp/register_back.png  used on input line 705.
 (pdftex.def)             Requested size: 451.68333pt x 271.01pt.
  [45]
-<img/imp/login_back.png, id=828, 1104.125pt x 627.34375pt>
+<img/imp/login_back.png, id=957, 1104.125pt x 627.34375pt>
 File: img/imp/login_back.png Graphic file (type png)
 <use img/imp/login_back.png>
 Package pdftex.def Info: img/imp/login_back.png  used on input line 714.
 (pdftex.def)             Requested size: 441.64218pt x 250.93304pt.
  [46 <./img/imp/register_back.png>]
-<img/imp/jwt.png, id=835, 997.7275pt x 120.45pt>
+<img/imp/jwt.png, id=964, 997.7275pt x 120.45pt>
 File: img/imp/jwt.png Graphic file (type png)
 <use img/imp/jwt.png>
 Package pdftex.def Info: img/imp/jwt.png  used on input line 723.
 (pdftex.def)             Requested size: 419.0427pt x 50.58864pt.
-<img/imp/login_front.png, id=837, 1104.125pt x 627.34375pt>
+<img/imp/login_front.png, id=966, 1104.125pt x 627.34375pt>
 File: img/imp/login_front.png Graphic file (type png)
 <use img/imp/login_front.png>
 Package pdftex.def Info: img/imp/login_front.png  used on input line 732.
 (pdftex.def)             Requested size: 441.64218pt x 250.93304pt.
  [47 <./img/imp/login_back.png> <./img/imp/jwt.png>]
-<img/imp/checkjwt.png, id=846, 702.625pt x 351.3125pt>
+<img/imp/checkjwt.png, id=975, 702.625pt x 351.3125pt>
 File: img/imp/checkjwt.png Graphic file (type png)
 <use img/imp/checkjwt.png>
 Package pdftex.def Info: img/imp/checkjwt.png  used on input line 741.
 (pdftex.def)             Requested size: 351.31163pt x 175.6558pt.
  [48 <./img/imp/login_front.png> <./img/imp/checkjwt.png>]
-<img/imp/db_change.png, id=854, 1003.75pt x 351.3125pt>
+<img/imp/db_change.png, id=983, 1003.75pt x 351.3125pt>
 File: img/imp/db_change.png Graphic file (type png)
 <use img/imp/db_change.png>
 Package pdftex.def Info: img/imp/db_change.png  used on input line 751.
 (pdftex.def)             Requested size: 451.68333pt x 158.08916pt.
-<img/imp/loged_user_back.png, id=856, 1184.425pt x 602.25pt>
+<img/imp/loged_user_back.png, id=985, 1184.425pt x 602.25pt>
 File: img/imp/loged_user_back.png Graphic file (type png)
 <use img/imp/loged_user_back.png>
 Package pdftex.def Info: img/imp/loged_user_back.png  used on input line 760.
 (pdftex.def)             Requested size: 450.08618pt x 228.85738pt.
  [49 <./img/imp/db_change.png>]
-<img/imp/teams.png, id=864, 1003.75pt x 301.125pt>
+<img/imp/teams.png, id=992, 1003.75pt x 301.125pt>
 File: img/imp/teams.png Graphic file (type png)
 <use img/imp/teams.png>
 Package pdftex.def Info: img/imp/teams.png  used on input line 769.
 (pdftex.def)             Requested size: 451.68333pt x 135.50499pt.
  [50 <./img/imp/loged_user_back.png> <./img/imp/teams.png>]
-<img/imp/calendar_user.png, id=872, 1003.75pt x 301.125pt>
+<img/imp/calendar_user.png, id=1000, 1003.75pt x 301.125pt>
 File: img/imp/calendar_user.png Graphic file (type png)
 <use img/imp/calendar_user.png>
 Package pdftex.def Info: img/imp/calendar_user.png  used on input line 778.
 (pdftex.def)             Requested size: 451.68333pt x 135.50499pt.
-<img/imp/add_user_alert.png, id=874, 1003.75pt x 602.25pt>
+<img/imp/add_user_alert.png, id=1002, 1003.75pt x 602.25pt>
 File: img/imp/add_user_alert.png Graphic file (type png)
 <use img/imp/add_user_alert.png>
 Package pdftex.def Info: img/imp/add_user_alert.png  used on input line 790.
@@ -1757,22 +1757,6 @@ Package pdftex.def Info: img/imp/add_user_alert.png  used on input line 790.
 
 
 ]
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
 
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
@@ -1808,6 +1792,10 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
 Overfull \hbox (17.67401pt too wide) in paragraph at lines 49--49
 \T1/lmr/m/n/12 2019-12-24]. Do-stupné na in-ter-nete: <https://hiverhq.com/blog/facebook-workplace/>. 
  []
@@ -1817,9 +1805,26 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
 Overfull \hbox (14.14763pt too wide) in paragraph at lines 49--49
 \T1/lmr/m/n/12 2019-12-24]. Do-stupné na in-ter-nete: <https://www.techrepublic.com/article/microsoft-
  []
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Overfull \hbox (13.84532pt too wide) in paragraph at lines 49--49
+\T1/lmr/m/n/12 na-pozici-jednicky-mezi-firemnimi-komunikacnimi-nastroji-v-poctu-uzivatelu-prekonal-
+ []
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
 
 
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
@@ -1838,25 +1843,17 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
 Overfull \hbox (36.51413pt too wide) in paragraph at lines 49--49
 []\T1/lmr/m/n/12 NODEJS. \T1/lmr/m/it/12 Node.js\T1/lmr/m/n/12 . [on-line]. [cit: 2020-04-09]. Do-stupné na in-ter-nete: <https://nodejs.org/>. 
  []
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
 
 
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
@@ -1880,17 +1877,13 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
 Overfull \hbox (3.99017pt too wide) in paragraph at lines 49--49
 \T1/lmr/m/n/12 nete: <https://ionicframework.com/resources/articles/capacitor-vs-cordova-modern-
  []
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
 
 
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
@@ -1901,7 +1894,6 @@ Overfull \hbox (18.06482pt too wide) in paragraph at lines 49--49
 \T1/lmr/m/n/12 2020-04-15]. Do-stupné na in-ter-nete: <https://www.altexsoft.com/blog/engineering/the-
  []
 
-[57]
 
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
@@ -1910,6 +1902,27 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 Overfull \hbox (43.1927pt too wide) in paragraph at lines 49--49
 \T1/lmr/m/n/12 2020-04-15]. Do-stupné na in-ter-nete: <https://www.infoq.com/articles/Angular2-TypeScript-
  []
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[57]
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
 
 
 Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
@@ -1937,17 +1950,17 @@ Package biblatex Warning: '\mkdaterangeedtf' is deprecated.
 
 
 ] (./includes/attachmentA.tex
-<img/design/intro.png, id=948, 1204.5pt x 727.71875pt>
+<img/design/intro.png, id=1052, 1204.5pt x 727.71875pt>
 File: img/design/intro.png Graphic file (type png)
 <use img/design/intro.png>
 Package pdftex.def Info: img/design/intro.png  used on input line 3.
 (pdftex.def)             Requested size: 421.58131pt x 254.70537pt.
-<img/design/login.png, id=949, 1204.5pt x 727.71875pt>
+<img/design/login.png, id=1053, 1204.5pt x 727.71875pt>
 File: img/design/login.png Graphic file (type png)
 <use img/design/login.png>
 Package pdftex.def Info: img/design/login.png  used on input line 10.
 (pdftex.def)             Requested size: 421.58131pt x 254.70537pt.
-<img/design/profile.png, id=950, 1450.41875pt x 853.1875pt>
+<img/design/profile.png, id=1054, 1450.41875pt x 853.1875pt>
 File: img/design/profile.png Graphic file (type png)
 <use img/design/profile.png>
 Package pdftex.def Info: img/design/profile.png  used on input line 17.
@@ -1956,56 +1969,56 @@ Package pdftex.def Info: img/design/profile.png  used on input line 17.
 
 
  <./img/design/intro.png> <./img/design/login.png>]
-<img/design/mycal.png, id=958, 1450.41875pt x 853.1875pt>
+<img/design/mycal.png, id=1062, 1450.41875pt x 853.1875pt>
 File: img/design/mycal.png Graphic file (type png)
 <use img/design/mycal.png>
 Package pdftex.def Info: img/design/mycal.png  used on input line 24.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
-<img/design/teams.png, id=959, 1450.41875pt x 853.1875pt>
+<img/design/teams.png, id=1063, 1450.41875pt x 853.1875pt>
 File: img/design/teams.png Graphic file (type png)
 <use img/design/teams.png>
 Package pdftex.def Info: img/design/teams.png  used on input line 31.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
  [3 <./img/design/profile.png> <./img/design/mycal.png>]
-<img/design/mytask.png, id=966, 1450.41875pt x 853.1875pt>
+<img/design/mytask.png, id=1070, 1450.41875pt x 853.1875pt>
 File: img/design/mytask.png Graphic file (type png)
 <use img/design/mytask.png>
 Package pdftex.def Info: img/design/mytask.png  used on input line 38.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
-<img/design/contacts.png, id=967, 1450.41875pt x 853.1875pt>
+<img/design/contacts.png, id=1071, 1450.41875pt x 853.1875pt>
 File: img/design/contacts.png Graphic file (type png)
 <use img/design/contacts.png>
 Package pdftex.def Info: img/design/contacts.png  used on input line 45.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
  [4 <./img/design/teams.png> <./img/design/mytask.png>]
-<img/design/chat.png, id=974, 1450.41875pt x 853.1875pt>
+<img/design/chat.png, id=1078, 1450.41875pt x 853.1875pt>
 File: img/design/chat.png Graphic file (type png)
 <use img/design/chat.png>
 Package pdftex.def Info: img/design/chat.png  used on input line 52.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
-<img/design/members.png, id=975, 1450.41875pt x 853.1875pt>
+<img/design/members.png, id=1079, 1450.41875pt x 853.1875pt>
 File: img/design/members.png Graphic file (type png)
 <use img/design/members.png>
 Package pdftex.def Info: img/design/members.png  used on input line 59.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
  [5 <./img/design/contacts.png> <./img/design/chat.png>]
-<img/design/room.png, id=983, 1450.41875pt x 853.1875pt>
+<img/design/room.png, id=1086, 1450.41875pt x 853.1875pt>
 File: img/design/room.png Graphic file (type png)
 <use img/design/room.png>
 Package pdftex.def Info: img/design/room.png  used on input line 66.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
-<img/design/team_cal.png, id=984, 1450.41875pt x 853.1875pt>
+<img/design/team_cal.png, id=1087, 1450.41875pt x 853.1875pt>
 File: img/design/team_cal.png Graphic file (type png)
 <use img/design/team_cal.png>
 Package pdftex.def Info: img/design/team_cal.png  used on input line 73.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
  [6 <./img/design/members.png> <./img/design/room.png>]
-<img/design/task1.png, id=991, 1450.41875pt x 853.1875pt>
+<img/design/task1.png, id=1094, 1450.41875pt x 853.1875pt>
 File: img/design/task1.png Graphic file (type png)
 <use img/design/task1.png>
 Package pdftex.def Info: img/design/task1.png  used on input line 80.
 (pdftex.def)             Requested size: 435.12898pt x 255.95822pt.
-<img/design/edit_task.png, id=992, 1450.41875pt x 853.1875pt>
+<img/design/edit_task.png, id=1095, 1450.41875pt x 853.1875pt>
 File: img/design/edit_task.png Graphic file (type png)
 <use img/design/edit_task.png>
 Package pdftex.def Info: img/design/edit_task.png  used on input line 87.
@@ -2024,18 +2037,18 @@ Package logreq Info: Writing requests to 'diplomova_praca.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29393 strings out of 492982
- 482670 string characters out of 6134896
- 962610 words of memory out of 5000000
- 32225 multiletter control sequences out of 15000+600000
+ 29399 strings out of 492982
+ 482906 string characters out of 6134896
+ 964007 words of memory out of 5000000
+ 32229 multiletter control sequences out of 15000+600000
  63663 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,8n,79p,2149b,1877s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,8n,79p,2149b,2980s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on diplomova_praca.pdf (80 pages, 6637456 bytes).
+Output written on diplomova_praca.pdf (80 pages, 6642106 bytes).
 PDF statistics:
- 1080 PDF objects out of 1200 (max. 8388607)
- 873 compressed objects within 9 object streams
- 242 named destinations out of 1000 (max. 500000)
+ 1184 PDF objects out of 1200 (max. 8388607)
+ 961 compressed objects within 10 object streams
+ 244 named destinations out of 1000 (max. 500000)
  841 words of extra memory for PDF output out of 10000 (max. 10000000)
 
