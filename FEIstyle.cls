@@ -192,19 +192,19 @@
 \def\FEIstudyFieldNumber#1{\def\@cisloStudijnehoOdboru{#1}}
 \newcommand{\printCisloStudijnehoOdboru}{\@cisloStudijnehoOdboru}
 
-\def\@nazovStudijnehoOdboru{9.2.9 Aplikovan\a'a informatika}
+\def\@nazovStudijnehoOdboru{Informatika}
 \def\FEIstudyField#1{\def\@nazovStudijnehoOdboru{#1}}
 \newcommand{\printNazovStudijnehoOdboru}{\@nazovStudijnehoOdboru}
 
-\def\@nazovStudijnehoOdboruEn{9.2.9 Applied Informatics}
+\def\@nazovStudijnehoOdboruEn{Informatics}
 \def\FEIstudyFieldEn#1{\def\@nazovStudijnehoOdboruEn{#1}}
 \newcommand{\printNazovStudijnehoOdboruEn}{\@nazovStudijnehoOdboruEn}
 
-\def\@skoliacePracovisko{\a'Ustav automobilovej mechatroniky}
+\def\@skoliacePracovisko{\a'Ustav informatiky a matematiky}
 \def\FEItrainingWorkplace#1{\def\@skoliacePracovisko{#1}}
 \newcommand{\printSkoliacePracovisko}{\@skoliacePracovisko}
 
-\def\@skoliacePracoviskoEn{Institute of Automotive Mechatronics}
+\def\@skoliacePracoviskoEn{Institute of Computer Science and Mathematics}
 \def\FEItrainingWorkplaceEn#1{\def\@skoliacePracoviskoEn{#1}}
 \newcommand{\printSkoliacePracoviskoEn}{\@skoliacePracoviskoEn}
 
