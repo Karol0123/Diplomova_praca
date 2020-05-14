@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  14 MAY 2020 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.19)  14 MAY 2020 21:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1580,40 +1580,40 @@ Package pdftex.def Info: img/package.png  used on input line 312.
 <img/ionic_studio.png, id=798, 3597.44pt x 2158.0625pt>
 File: img/ionic_studio.png Graphic file (type png)
 <use img/ionic_studio.png>
-Package pdftex.def Info: img/ionic_studio.png  used on input line 337.
+Package pdftex.def Info: img/ionic_studio.png  used on input line 338.
 (pdftex.def)             Requested size: 431.67418pt x 258.95633pt.
  [25 <./img/ionic_studio.png>] [26]
 <img/angular_architecture.png, id=817, 702.625pt x 357.335pt>
 File: img/angular_architecture.png Graphic file (type png)
 <use img/angular_architecture.png>
-Package pdftex.def Info: img/angular_architecture.png  used on input line 366.
+Package pdftex.def Info: img/angular_architecture.png  used on input line 367.
 (pdftex.def)             Requested size: 351.31163pt x 178.66705pt.
  [27 <./img/angular_architecture.png>] [28]
 <img/electron_aps.png, id=835, 1003.75pt x 401.5pt>
 File: img/electron_aps.png Graphic file (type png)
 <use img/electron_aps.png>
-Package pdftex.def Info: img/electron_aps.png  used on input line 399.
+Package pdftex.def Info: img/electron_aps.png  used on input line 400.
 (pdftex.def)             Requested size: 351.31776pt x 140.5271pt.
  [29 <./img/electron_aps.png>]
 <img/coucdb.png, id=846, 1113.15875pt x 934.49126pt>
 File: img/coucdb.png Graphic file (type png)
 <use img/coucdb.png>
-Package pdftex.def Info: img/coucdb.png  used on input line 416.
+Package pdftex.def Info: img/coucdb.png  used on input line 417.
 (pdftex.def)             Requested size: 278.289pt x 233.62224pt.
  [30 <./img/coucdb.png (PNG copy)>] [31]
 <img/pouchdb.png, id=863, 448.67625pt x 182.93344pt>
 File: img/pouchdb.png Graphic file (type png)
 <use img/pouchdb.png>
-Package pdftex.def Info: img/pouchdb.png  used on input line 447.
+Package pdftex.def Info: img/pouchdb.png  used on input line 448.
 (pdftex.def)             Requested size: 358.94148pt x 146.34694pt.
  [32 <./img/pouchdb.png>]
 <img/diagram.png, id=870, 612.2875pt x 609.27625pt>
 File: img/diagram.png Graphic file (type png)
 <use img/diagram.png>
-Package pdftex.def Info: img/diagram.png  used on input line 457.
+Package pdftex.def Info: img/diagram.png  used on input line 458.
 (pdftex.def)             Requested size: 367.37534pt x 365.56856pt.
  [33 <./img/diagram.png>] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
@@ -1621,21 +1621,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 493--494
 <img/DP_use_case_pouzivatel.png, id=887, 425.03793pt x 381.67593pt>
 File: img/DP_use_case_pouzivatel.png Graphic file (type png)
 <use img/DP_use_case_pouzivatel.png>
-Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 516.
+Package pdftex.def Info: img/DP_use_case_pouzivatel.png  used on input line 517.
 (pdftex.def)             Requested size: 212.51843pt x 190.8375pt.
 <img/DP_use_case_administrator.png, id=889, 494.14612pt x 584.93532pt>
 File: img/DP_use_case_administrator.png Graphic file (type png)
 <use img/DP_use_case_administrator.png>
-Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 525.
+Package pdftex.def Info: img/DP_use_case_administrator.png  used on input line 526.
 (pdftex.def)             Requested size: 222.3637pt x 263.21846pt.
  [36 <./img/DP_use_case_pouzivatel.png>]
 <img/DP_use_case_clen_timu.png, id=895, 1595.9625pt x 1117.17375pt>
 File: img/DP_use_case_clen_timu.png Graphic file (type png)
 <use img/DP_use_case_clen_timu.png>
-Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 534.
+Package pdftex.def Info: img/DP_use_case_clen_timu.png  used on input line 535.
 (pdftex.def)             Requested size: 319.18684pt x 223.43079pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--545
+Underfull \hbox (badness 10000) in paragraph at lines 541--546
 
  []
 
@@ -1643,115 +1643,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 540--545
 <img/Seq_login_register.png, id=902, 866.33662pt x 523.9575pt>
 File: img/Seq_login_register.png Graphic file (type png)
 <use img/Seq_login_register.png>
-Package pdftex.def Info: img/Seq_login_register.png  used on input line 548.
+Package pdftex.def Info: img/Seq_login_register.png  used on input line 549.
 (pdftex.def)             Requested size: 433.16725pt x 261.9781pt.
  [38 <./img/Seq_login_register.png>]
 <img/seq_tim.png, id=908, 866.33662pt x 442.65375pt>
 File: img/seq_tim.png Graphic file (type png)
 <use img/seq_tim.png>
-Package pdftex.def Info: img/seq_tim.png  used on input line 559.
+Package pdftex.def Info: img/seq_tim.png  used on input line 560.
 (pdftex.def)             Requested size: 433.16725pt x 221.32632pt.
  [39 <./img/seq_tim.png>]
 <img/imp/db_user.png, id=913, 602.25pt x 552.0625pt>
 File: img/imp/db_user.png Graphic file (type png)
 <use img/imp/db_user.png>
-Package pdftex.def Info: img/imp/db_user.png  used on input line 580.
+Package pdftex.def Info: img/imp/db_user.png  used on input line 581.
 (pdftex.def)             Requested size: 301.12425pt x 276.03056pt.
  [40 <./img/imp/db_user.png>]
 <img/imp/db_event.png, id=919, 602.25pt x 250.9375pt>
 File: img/imp/db_event.png Graphic file (type png)
 <use img/imp/db_event.png>
-Package pdftex.def Info: img/imp/db_event.png  used on input line 596.
+Package pdftex.def Info: img/imp/db_event.png  used on input line 597.
 (pdftex.def)             Requested size: 301.12425pt x 125.46843pt.
 <img/imp/db_team.png, id=920, 602.25pt x 401.5pt>
 File: img/imp/db_team.png Graphic file (type png)
 <use img/imp/db_team.png>
-Package pdftex.def Info: img/imp/db_team.png  used on input line 613.
+Package pdftex.def Info: img/imp/db_team.png  used on input line 614.
 (pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
  [41 <./img/imp/db_event.png>]
 <img/imp/db_room.png, id=927, 602.25pt x 175.65625pt>
 File: img/imp/db_room.png Graphic file (type png)
 <use img/imp/db_room.png>
-Package pdftex.def Info: img/imp/db_room.png  used on input line 627.
+Package pdftex.def Info: img/imp/db_room.png  used on input line 628.
 (pdftex.def)             Requested size: 301.12425pt x 87.8279pt.
 <img/imp/db_feed.png, id=928, 602.25pt x 175.65625pt>
 File: img/imp/db_feed.png Graphic file (type png)
 <use img/imp/db_feed.png>
-Package pdftex.def Info: img/imp/db_feed.png  used on input line 642.
+Package pdftex.def Info: img/imp/db_feed.png  used on input line 643.
 (pdftex.def)             Requested size: 301.12425pt x 87.8279pt.
  [42 <./img/imp/db_team.png> <./img/imp/db_room.png>]
 <img/imp/db_message.png, id=935, 602.25pt x 301.125pt>
 File: img/imp/db_message.png Graphic file (type png)
 <use img/imp/db_message.png>
-Package pdftex.def Info: img/imp/db_message.png  used on input line 657.
+Package pdftex.def Info: img/imp/db_message.png  used on input line 658.
 (pdftex.def)             Requested size: 301.12425pt x 150.56212pt.
 <img/imp/db_task.png, id=936, 602.25pt x 401.5pt>
 File: img/imp/db_task.png Graphic file (type png)
 <use img/imp/db_task.png>
-Package pdftex.def Info: img/imp/db_task.png  used on input line 675.
+Package pdftex.def Info: img/imp/db_task.png  used on input line 676.
 (pdftex.def)             Requested size: 301.12425pt x 200.7495pt.
  [43 <./img/imp/db_feed.png> <./img/imp/db_message.png>]
 <img/imp/db_comment.png, id=943, 602.25pt x 175.65625pt>
 File: img/imp/db_comment.png Graphic file (type png)
 <use img/imp/db_comment.png>
-Package pdftex.def Info: img/imp/db_comment.png  used on input line 690.
+Package pdftex.def Info: img/imp/db_comment.png  used on input line 691.
 (pdftex.def)             Requested size: 301.12425pt x 87.8279pt.
  [44 <./img/imp/db_task.png> <./img/imp/db_comment.png>]
 <img/imp/register_back.png, id=951, 1003.75pt x 602.25pt>
 File: img/imp/register_back.png Graphic file (type png)
 <use img/imp/register_back.png>
-Package pdftex.def Info: img/imp/register_back.png  used on input line 704.
+Package pdftex.def Info: img/imp/register_back.png  used on input line 705.
 (pdftex.def)             Requested size: 451.68333pt x 271.01pt.
  [45]
 <img/imp/login_back.png, id=957, 1104.125pt x 627.34375pt>
 File: img/imp/login_back.png Graphic file (type png)
 <use img/imp/login_back.png>
-Package pdftex.def Info: img/imp/login_back.png  used on input line 713.
+Package pdftex.def Info: img/imp/login_back.png  used on input line 714.
 (pdftex.def)             Requested size: 441.64218pt x 250.93304pt.
  [46 <./img/imp/register_back.png>]
 <img/imp/jwt.png, id=964, 997.7275pt x 120.45pt>
 File: img/imp/jwt.png Graphic file (type png)
 <use img/imp/jwt.png>
-Package pdftex.def Info: img/imp/jwt.png  used on input line 722.
+Package pdftex.def Info: img/imp/jwt.png  used on input line 723.
 (pdftex.def)             Requested size: 419.0427pt x 50.58864pt.
 <img/imp/login_front.png, id=966, 1104.125pt x 627.34375pt>
 File: img/imp/login_front.png Graphic file (type png)
 <use img/imp/login_front.png>
-Package pdftex.def Info: img/imp/login_front.png  used on input line 731.
+Package pdftex.def Info: img/imp/login_front.png  used on input line 732.
 (pdftex.def)             Requested size: 441.64218pt x 250.93304pt.
  [47 <./img/imp/login_back.png> <./img/imp/jwt.png>]
 <img/imp/checkjwt.png, id=975, 702.625pt x 351.3125pt>
 File: img/imp/checkjwt.png Graphic file (type png)
 <use img/imp/checkjwt.png>
-Package pdftex.def Info: img/imp/checkjwt.png  used on input line 740.
+Package pdftex.def Info: img/imp/checkjwt.png  used on input line 741.
 (pdftex.def)             Requested size: 351.31163pt x 175.6558pt.
  [48 <./img/imp/login_front.png> <./img/imp/checkjwt.png>]
 <img/imp/db_change.png, id=983, 1003.75pt x 351.3125pt>
 File: img/imp/db_change.png Graphic file (type png)
 <use img/imp/db_change.png>
-Package pdftex.def Info: img/imp/db_change.png  used on input line 750.
+Package pdftex.def Info: img/imp/db_change.png  used on input line 751.
 (pdftex.def)             Requested size: 451.68333pt x 158.08916pt.
 <img/imp/loged_user_back.png, id=985, 1184.425pt x 602.25pt>
 File: img/imp/loged_user_back.png Graphic file (type png)
 <use img/imp/loged_user_back.png>
-Package pdftex.def Info: img/imp/loged_user_back.png  used on input line 759.
+Package pdftex.def Info: img/imp/loged_user_back.png  used on input line 760.
 (pdftex.def)             Requested size: 450.08618pt x 228.85738pt.
  [49 <./img/imp/db_change.png>]
 <img/imp/teams.png, id=992, 1003.75pt x 301.125pt>
 File: img/imp/teams.png Graphic file (type png)
 <use img/imp/teams.png>
-Package pdftex.def Info: img/imp/teams.png  used on input line 768.
+Package pdftex.def Info: img/imp/teams.png  used on input line 769.
 (pdftex.def)             Requested size: 451.68333pt x 135.50499pt.
  [50 <./img/imp/loged_user_back.png> <./img/imp/teams.png>]
 <img/imp/calendar_user.png, id=1000, 1003.75pt x 301.125pt>
 File: img/imp/calendar_user.png Graphic file (type png)
 <use img/imp/calendar_user.png>
-Package pdftex.def Info: img/imp/calendar_user.png  used on input line 777.
+Package pdftex.def Info: img/imp/calendar_user.png  used on input line 778.
 (pdftex.def)             Requested size: 451.68333pt x 135.50499pt.
 <img/imp/add_user_alert.png, id=1002, 1003.75pt x 602.25pt>
 File: img/imp/add_user_alert.png Graphic file (type png)
 <use img/imp/add_user_alert.png>
-Package pdftex.def Info: img/imp/add_user_alert.png  used on input line 789.
+Package pdftex.def Info: img/imp/add_user_alert.png  used on input line 790.
 (pdftex.def)             Requested size: 451.68333pt x 271.01pt.
  [51 <./img/imp/calendar_user.png>] [52 <./img/imp/add_user_alert.png>] [53]) [54] (./includes/conclusion.tex) [55
 
@@ -2045,7 +2045,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  63i,8n,79p,2149b,2980s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on diplomova_praca.pdf (80 pages, 6646538 bytes).
+Output written on diplomova_praca.pdf (80 pages, 6646543 bytes).
 PDF statistics:
  1184 PDF objects out of 1200 (max. 8388607)
  961 compressed objects within 10 object streams
